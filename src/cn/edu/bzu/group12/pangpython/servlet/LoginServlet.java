@@ -61,13 +61,9 @@ public class LoginServlet extends HttpServlet {
 			try {
 				 baseDao = new BaseDao();
 				 log.debug(sql);
-				 if(baseDao.Query(baseDao.getConn(), baseDao.getStat(), 
-						 sql).next()){
+				 if(baseDao.Query(sql).next()){
 					 flag = true;
 				 }
-			} catch (ClassNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

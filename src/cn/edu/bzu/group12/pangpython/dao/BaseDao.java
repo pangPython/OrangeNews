@@ -17,9 +17,17 @@ public class BaseDao {
 	private Statement stat = null;
 	
 	
-	public BaseDao() throws ClassNotFoundException, SQLException {
-		this.setConn(getConnection());
-		this.setStat(conn.createStatement());
+	public BaseDao(){
+		try {
+			this.setConn(getConnection());
+			this.setStat(conn.createStatement());
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	//获取数据库连接
@@ -40,9 +48,8 @@ public class BaseDao {
 	}
 
 	//查询 
-	public ResultSet Query(Connection conn,Statement state,String sql) throws SQLException{
-		Statement stat = conn.createStatement();
-		return stat.executeQuery(sql);
+	public ResultSet Query(String sql) throws SQLException{
+		return this.stat.executeQuery(sql);
 	}
 	//增 insert into table values()
 	public boolean Insert(String sql){

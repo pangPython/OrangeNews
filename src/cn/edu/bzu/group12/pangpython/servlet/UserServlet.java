@@ -16,45 +16,30 @@ import javax.servlet.http.HttpServletResponse;
 
 import cn.edu.bzu.group12.pangpython.bean.User;
 import cn.edu.bzu.group12.pangpython.dao.BaseDao;
+import cn.edu.bzu.group12.pangpython.service.UserService;
 
 public class UserServlet extends HttpServlet {
 
 	/**
+	 * User¿ØÖÆ²ã
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-
+	
+	UserService us = new UserService();
+	
 	@Override
 	public void service(ServletRequest req, ServletResponse rsp)
 			throws ServletException, IOException {
-		List<User> list = new ArrayList<User>();
+			try {
 			
-		try {
-			BaseDao baseDao = new BaseDao();
-			
-			ResultSet rs = baseDao.Query(baseDao.getConn(), baseDao.getStat(), "select * from user");
-			
-			
-			while (rs.next()) {
-				User user = new User();
-				user.setUser_id(rs.getInt("user_id"));
-				user.setUser_name(rs.getString("user_name"));
-				user.setUser_sex(rs.getInt("user_sex"));
-				user.setTel(rs.getString("tel"));
-				user.setEmail(rs.getString("email"));
-				list.add(user);
+				List<User> list = us.getAllUser();
+				req.setAttribute("users", list);
+				req.getRequestDispatcher("/users.jsp").forward(req, rsp);
+
+			} catch (SQLException e) {
+				e.printStackTrace();
 			}
-			
-			
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-			req.setAttribute("users", list);
-			req.getRequestDispatcher("/users.jsp").forward(req, rsp);
 	}
 	
 

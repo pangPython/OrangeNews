@@ -19,7 +19,7 @@ public class BaseDaoTest {
 		BaseDao baseDao = new BaseDao();
 		conn = baseDao.getConn();
 		stat = conn.createStatement();
-		ResultSet rs = baseDao.Query(conn, stat,"select * from user");
+		ResultSet rs = baseDao.Query("select * from user");
 		while (rs.next()) {
 			System.out.println(rs.getInt("user_id")+" "+rs.getString("user_name"));
 			

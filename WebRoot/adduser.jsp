@@ -33,10 +33,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</td>
 		</tr>
 		<tr>
+			<td>密码</td>
+			<td>
+				<input type="password" name="pwd">
+			</td>
+		</tr>
+		<tr>
 			<td>性别</td>
 			<td>
-				男<input type="radio" name="user_sex" value="1">
-				女<input type="radio" name="user_sex" value="0">
+				<select name="sex">
+					<option value="1">男</option>
+					<option value="0">女</option>
+				</select>
 			</td>
 		</tr>
 		<tr>

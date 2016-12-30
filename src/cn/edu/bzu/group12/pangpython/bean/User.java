@@ -8,9 +8,25 @@ package cn.edu.bzu.group12.pangpython.bean;
 public class User {
 	private int user_id;
 	private  String user_name;
-	private int user_sex;
-	private String tel;
+	private String pwd;
+	private String pic;
 	private String email;
+	private String tel;
+	private int user_sex;
+	
+	public String getPic() {
+		return pic;
+	}
+	public void setPic(String pic) {
+		this.pic = pic;
+	}
+	public String getPwd() {
+		return pwd;
+	}
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+
 	public int getUser_id() {
 		return user_id;
 	}

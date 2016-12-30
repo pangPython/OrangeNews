@@ -18,7 +18,7 @@ public class TestUserBean {
 
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		baseDao = new BaseDao();
-		ResultSet rs =  baseDao.Query(baseDao.getConn(), baseDao.getConn().createStatement(), "select * from user");
+		ResultSet rs =  baseDao.Query("select * from user");
 		List<User> list = new ArrayList<User>();
 		while (rs.next()) {
 			User user = new User();
