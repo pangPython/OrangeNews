@@ -1,5 +1,6 @@
-# »ù´¡javaWeb
+# JavaWebåŸºç¡€
 ****
 - jsp
 - servlet
-- jdbcÔ­Éú
+- jdbcåŸç”Ÿ
+- å°šå­¦å ‚åŸ¹è®­
