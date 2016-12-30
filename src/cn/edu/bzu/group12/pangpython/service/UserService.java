@@ -25,6 +25,7 @@ public class UserService {
 		List<User> list = new ArrayList<User>();
 		while (rs.next()) {
 			User user = new User();
+			user.setUser_id(rs.getInt("user_id"));
 			user.setUser_name(rs.getString("user_name"));
 			Logger.getLogger(UserService.class).debug(user.getUser_name());
 			user.setUser_sex(rs.getInt("user_sex"));
@@ -37,11 +38,16 @@ public class UserService {
 		return list;
 	}
 	
+	//插入用户
 	public boolean insert(User user){
 		if(userDao.add(user)>0){
 			return true;
 		}
 		return false;
+	}
+	//根据id查询用户
+	public User getUserById(int user_id) throws SQLException{
+		return userDao.get(user_id);
 	}
 	
 }

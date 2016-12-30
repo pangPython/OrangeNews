@@ -42,12 +42,13 @@ CREATE TABLE `user` (
   `user_sex` int(10) NOT NULL,
   `tel` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
+  `pic` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 /*Data for the table `user` */
 
-insert  into `user`(`user_id`,`pwd`,`user_name`,`user_sex`,`tel`,`email`) values (1,'123456','pangPython',1,'15762180000','pangpython@qq.com'),(2,'admin','chengrui',0,'15762185555','cr@ali.com'),(3,'123','xuhuancai',0,'15762182121','xhc@tencent.com'),(4,'4321','dupeng',1,'15762185555','dp@baidu.com');
+insert  into `user`(`user_id`,`pwd`,`user_name`,`user_sex`,`tel`,`email`,`pic`) values (1,'123456','pangPython',1,'15762180000','pangpython@qq.com','static/img/1.jpg'),(2,'admin','chengrui',0,'15762185555','cr@ali.com','static/img/2.jpg'),(3,'123','xuhuancai',0,'15762182121','xhc@tencent.com','static/img/3.jpg'),(4,'4321','杜鹏',1,'15762185555','dp@baidu.com','static/img/4.jpg'),(5,'111','admin',1,'121212','1121212',NULL),(6,'111121211','admin11212',1,'121212','1121212',NULL);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
