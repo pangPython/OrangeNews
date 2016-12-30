@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ShiXun">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/res"/>
+        <property name="context-root" value="/ShiXun"/>
+        <property name="java-output-path" value="/ShiXun/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
