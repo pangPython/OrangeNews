@@ -41,13 +41,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 				<tr>
-					<td>验证码</td>
-					<td>
-						<img src="">
-						<input class="input" type="text">
-					</td>
-				</tr>
-				<tr>
 					<td colspan="2" class="text-center">
 						<button type="button" class="btn btn-success" onclick="login()">登录</button>
 					</td>

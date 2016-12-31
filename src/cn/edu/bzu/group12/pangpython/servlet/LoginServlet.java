@@ -43,6 +43,7 @@ public class LoginServlet extends HttpServlet {
 			user = userService.login(uname, pwd);
 			if(user.getUser_id()>0){
 				//µÇÂ¼³É¹¦
+				//ÉèÖÃcookie session
 				req.setAttribute("user", user);
 				req.getRequestDispatcher("/usercenter").forward(req, rsp);
 			}else{

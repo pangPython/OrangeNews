@@ -29,7 +29,7 @@ public class UserEditServlet extends HttpServlet {
 			User user = us.getUserById(user_id);
 			//∑µªÿjsp“≥√Ê
 			req.setAttribute("user", user);
-			req.getRequestDispatcher("/user.jsp").forward(req, res);
+			req.getRequestDispatcher("/edituser.jsp").forward(req, res);
 		} catch (SQLException e) {
 
 			e.printStackTrace();
