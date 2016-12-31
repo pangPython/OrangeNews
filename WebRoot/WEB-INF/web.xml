@@ -25,13 +25,20 @@
     <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserServlet</servlet-class>
   </servlet>
   <servlet>
-    <servlet-name>UserAdd</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserAddServlet</servlet-class>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.RegisterServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>UserEditServlet</servlet-name>
     <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserEditServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserCenterServlet</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserCenterServlet</servlet-class>
+  </servlet>
+
 
 
 
@@ -54,12 +61,16 @@
     <url-pattern>/users</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-    <servlet-name>UserAdd</servlet-name>
-    <url-pattern>/useradd</url-pattern>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/register</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>UserEditServlet</servlet-name>
     <url-pattern>/edituser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserCenterServlet</servlet-name>
+    <url-pattern>/usercenter</url-pattern>
   </servlet-mapping>	
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>

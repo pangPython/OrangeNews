@@ -4,13 +4,17 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 
+import cn.edu.bzu.group12.pangpython.bean.User;
 import cn.edu.bzu.group12.pangpython.dao.BaseDao;
+import cn.edu.bzu.group12.pangpython.service.UserService;
 
 
 
@@ -19,79 +23,38 @@ import cn.edu.bzu.group12.pangpython.dao.BaseDao;
  *	登录servlet
  */
 public class LoginServlet extends HttpServlet {
-	static Logger log = Logger.getLogger(LoginServlet.class.getName());
-	private static final long serialVersionUID = 1L;
 
 	/**
-	 * Constructor of the object.
-	 */
-	public LoginServlet() {
-		super();
-	}
-
-	/**
-	 * Destruction of the servlet. <br>
-	 */
-	public void destroy() {
-		super.destroy(); // Just puts "destroy" string in log
-		// Put your code here
-	}
-
-	/**
-	 * The doGet method of the servlet. <br>
-	 *
-	 * This method is called when a form has its tag value method equals to get.
 	 * 
-	 * @param request the request send by the client to the server
-	 * @param response the response send by the server to the client
-	 * @throws ServletException if an error occurred
-	 * @throws IOException if an error occurred
 	 */
-	public void doGet(HttpServletRequest req, HttpServletResponse rep)
+	private static final long serialVersionUID = 1L;
+	UserService userService = new UserService();
+	@Override
+	public void service(ServletRequest req, ServletResponse rsp)
 			throws ServletException, IOException {
-			BaseDao baseDao = null;
-			boolean flag = false;
-			//获取用户名 密码
-			String uname = req.getParameter("uname");
-			String pwd = req.getParameter("pwd");
-			//编码
-			uname = new String(uname.getBytes("iso8859-1"),"utf-8");
-			pwd = new String(pwd.getBytes("iso8859-1"),"utf-8");
-			String sql = "select * from user where user_name = '"+uname+"' and pwd = '"+pwd+"'"; 
-			try {
-				 baseDao = new BaseDao();
-				 log.debug(sql);
-				 if(baseDao.Query(sql).next()){
-					 flag = true;
-				 }
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
-			//验证
-			if (flag) {
-				req.setAttribute("uname", uname);
-				req.getRequestDispatcher("/success.jsp").forward(req, rep);
+		//获取用户名 密码
+		String uname = req.getParameter("user_name");
+		String pwd = req.getParameter("user_pwd");
+		//编码
+		uname = new String(uname.getBytes("iso8859-1"),"utf-8");
+		pwd = new String(pwd.getBytes("iso8859-1"),"utf-8");
+		User user = new User();
+		try {
+			user = userService.login(uname, pwd);
+			if(user!=null){
+				//登录成功
+				req.setAttribute("user", user);
+				req.getRequestDispatcher("/usercenter").forward(req, rsp);
 			}else{
-				req.getRequestDispatcher("/error.jsp").forward(req, rep);
+				//登录失败
+				req.getRequestDispatcher("/loginerror.jsp").forward(req, rsp);
 			}
 			
+		} catch (SQLException e) {
+			e.printStackTrace();
+			req.getRequestDispatcher("/error.jsp").forward(req, rsp);
+		}
+		
 	}
-
-
-	public void doPost(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-			doGet(request, response);
-	}
-
-	/**
-	 * Initialization of the servlet. <br>
-	 *
-	 * @throws ServletException if an error occurs
-	 */
-	public void init() throws ServletException {
-		// Put your code here
-	}
-
+		
 }

@@ -50,4 +50,10 @@ public class UserService {
 		return userDao.get(user_id);
 	}
 	
+	//µÇÂ¼
+	public User login(String user_name,String user_pwd) throws SQLException{
+		return userDao.getUserByNameAndPwd(user_name, user_pwd);
+	}
+	
+	
 }

@@ -48,4 +48,21 @@ public class UserDao extends BaseDao{
 		return user;
 	}
 	
+	public User getUserByNameAndPwd(String user_name,String user_pwd) throws SQLException{
+		User user = new User();
+		String sql = "select * from user where user_name = '"+user_name+"' and pwd = '"+user_pwd+"'";
+		ResultSet rs = this.getStat().executeQuery(sql);
+		while (rs.next()) {
+			user.setUser_id(rs.getInt("user_id"));
+			user.setUser_name(user_name);
+			user.setPwd(user_pwd);
+			user.setEmail(rs.getString("email"));
+			user.setUser_sex(rs.getInt("user_sex"));
+			user.setTel(rs.getString("tel"));
+		}
+		return user;
+	}
+	
+	
+	
 }
