@@ -33,11 +33,19 @@
     <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserEditServlet</servlet-class>
   </servlet>
   <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UserCenterServlet</servlet-name>
     <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserCenterServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>UpdatePwdServlet</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UpdatePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MyCommentsServlet</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.MyCommentsServlet</servlet-class>
+  </servlet>
+
+
 
 
 
@@ -71,6 +79,14 @@
   <servlet-mapping>
     <servlet-name>UserCenterServlet</servlet-name>
     <url-pattern>/usercenter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePwdServlet</servlet-name>
+    <url-pattern>/updatepwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyCommentsServlet</servlet-name>
+    <url-pattern>/mycomments</url-pattern>
   </servlet-mapping>	
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>

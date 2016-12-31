@@ -23,6 +23,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    错误！
+  <%=request.getAttribute("error_info")%> 
+   <h1 style="font-size:100px">:(</h1>
+   <a href="javascript:history.back(-1)">点击返回上一页</a>
   </body>
 </html>

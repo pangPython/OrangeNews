@@ -64,4 +64,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
   	</div>
   </body>
+  <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
 </html>

@@ -41,17 +41,19 @@ public class LoginServlet extends HttpServlet {
 		User user = new User();
 		try {
 			user = userService.login(uname, pwd);
-			if(user!=null){
+			if(user.getUser_id()>0){
 				//登录成功
 				req.setAttribute("user", user);
 				req.getRequestDispatcher("/usercenter").forward(req, rsp);
 			}else{
 				//登录失败
-				req.getRequestDispatcher("/loginerror.jsp").forward(req, rsp);
+				req.setAttribute("error_info", "登录失败！");
+				req.getRequestDispatcher("/error.jsp").forward(req, rsp);
 			}
 			
 		} catch (SQLException e) {
 			e.printStackTrace();
+			req.setAttribute("error_info", "系统异常,请稍后再试！");
 			req.getRequestDispatcher("/error.jsp").forward(req, rsp);
 		}
 		
