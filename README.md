@@ -7,6 +7,6 @@
 ****
 
 ## 实现功能
-- addUser
-- editUser
-- allUser
+- login
+- register
+- 
