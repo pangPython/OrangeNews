@@ -1,57 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="2.5" 
-	xmlns="http://java.sun.com/xml/ns/javaee" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
-	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
   <display-name></display-name>
-  
-
   
   <servlet>
     <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.HelloServlet</servlet-class>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.HelloServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.LoginServlet</servlet-class>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.LoginServlet</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>news</servlet-name>
-  	<servlet-class>cn.edu.bzu.group12.pangpython.servlet.NewsServlet</servlet-class>
+    <servlet-name>news</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.NewsServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>UserServlet</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserServlet</servlet-class>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.UserServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Register</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.RegisterServlet</servlet-class>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.RegisterServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>UserEditServlet</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserEditServlet</servlet-class>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.UserEditServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>UserCenterServlet</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UserCenterServlet</servlet-class>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.UserCenterServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>UpdatePwdServlet</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.UpdatePwdServlet</servlet-class>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.UpdatePwdServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>MyCommentsServlet</servlet-name>
-    <servlet-class>cn.edu.bzu.group12.pangpython.servlet.MyCommentsServlet</servlet-class>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.MyCommentsServlet</servlet-class>
   </servlet>
-
-
-
-
-
-
-
-
+  <servlet>
+  	<servlet-name>ShowTypeServlet</servlet-name>
+  	<servlet-class>cn.edu.bzu.group12.orangenews.servlet.ShowTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowOneServlet</servlet-name>
+  	<servlet-class>cn.edu.bzu.group12.orangenews.servlet.ShowOneServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowHotServlet</servlet-name>
+  	<servlet-class>cn.edu.bzu.group12.orangenews.servlet.ShowHotServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowAllServlet</servlet-name>
+  	<servlet-class>cn.edu.bzu.group12.orangenews.servlet.ShowAllServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>ShowAllServlet</servlet-name>
+	<url-pattern>/ShowAllServlet</url-pattern>  
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowHotServlet</servlet-name>
+  	<url-pattern>/ShowHotServlet</url-pattern>
+  </servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowOneServlet</servlet-name>
+		<url-pattern>/ShowOneServlet</url-pattern>
+	</servlet-mapping>  
+  
+  <servlet-mapping>
+  	<servlet-name>ShowTypeServlet</servlet-name>
+  	<url-pattern>/ShowTypeServlet</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/hs</url-pattern>
@@ -61,8 +81,8 @@
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>news</servlet-name>
-  	<url-pattern>/news</url-pattern>
+    <servlet-name>news</servlet-name>
+    <url-pattern>/news</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>UserServlet</servlet-name>
@@ -87,7 +107,7 @@
   <servlet-mapping>
     <servlet-name>MyCommentsServlet</servlet-name>
     <url-pattern>/mycomments</url-pattern>
-  </servlet-mapping>	
+  </servlet-mapping>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>

@@ -6,54 +6,39 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
 <head>
-<title>Home</title>
-<link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<title>About</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
-<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
-<!-- js -->
-
- <script type="text/javascript" src="static/js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Konstructs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<script type="text/javascript">
-$(function(){
-	//alert("hello");
-	//window.location.href="/ShowAllServlet";
-	$.ajax({
-		cache:true,
-		type:'POST',
-		url:'/ShowAllServlet',
-	}); 
-});
-
-</script>
 </head>
 <body>
 	<!-- header-section-starts -->
 	<div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="ShowAllServlet"><h1>ORANGE</h1></a>
+				<a href="index.jsp"><h1>ORANGE</h1></a>
 			</div>
 			<div class="pages">
 				<ul>
-					<li><a class="active" href="ShowAllServlet">首页</a></li>
-					<li><a>板块</a></li>
+					<li><a class="active" href="index.jsp">首页</a></li>
+					<li><a href="3dprinting.jsp">3D Printers</a></li>
 					<li><a href="404.jsp">Tutorials</a></li>
 				</ul>
 			</div>
 			<div class="navigation">
 				<ul>
 					<li><a href="contact.jsp">Advertise</a></li>
-					<li><a href="about.jsp">About Us</a></li>
-					<li><a class="active" href="contact.jsp">Contact Us</a></li>
+					<li><a class="active" href="about.jsp">About Us</a></li>
+					<li><a href="contact.jsp">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -62,18 +47,17 @@ $(function(){
 	<div class="container">
 		<div class="header-bottom">
             <div class="type">
-				<h5>首页</h5>
+				<h5>Article Types</h5>
 			</div>
 			<span class="menu"></span>
 			<div class="list-nav">
 				<ul>                                                                 
-					<li><a href="ShowTypeServlet?num=1">军事</a></li>|
-					<li><a href="ShowTypeServlet?num=2">汽车</a></li>|
-					<li><a href="ShowTypeServlet?num=3">生活</a></li>|
-					<li><a href="ShowTypeServlet?num=4">美女</a></li>|
-					<li><a href="ShowTypeServlet?num=5">科技</a></li>|
-					<li><a href="ShowTypeServlet?num=6">游戏</a></li>|
-					<li><a href="ShowTypeServlet?num=7">其他</a></li>
+					<li><a href="3dprinting.jsp">3D Printing</a></li>|
+					<li><a href="materials.jsp">Materials</a></li>|
+					<li><a href="printing.jsp">Printing</a></li>|
+					<li><a href="filestoprint.jsp">Files to Print</a></li>|
+					<li><a href="404.jsp">Videos</a></li>|
+					<li><a class="active" href="about.jsp">About</a></li>
 				</ul>
 			</div>
 			<!-- script for menu -->
@@ -85,101 +69,35 @@ $(function(){
 				});
 			</script>
 			<!-- script for menu -->
-
 			<div class="clearfix"></div>
         </div>
 	</div>
-    
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
 	<div class="container">
 		<div class="content">
-			<!-- 最新新闻 -->
-			<div class="col-md-7 content-left">
-		
-				<div class="article">
-					<h5 class="head">最新</h5>
-					<c:forEach items="${list }" var="ll">
-					<input id="num" value="${ll.news_id }" type="hidden" />
-					<h6>${ll.create_date }</h6>
-					<a class="title" href="ShowOneServlet?id=${ll.news_id }">${ll.title }</a>
-					<a href="single.jsp"><img src="static/images/a1.jpg" alt="" /></a>
-					<p> ${ll.summary} </p>
-					<p><a href="ShowOneServlet?id=${ll.news_id }">详情查看>></a></p>
-				</c:forEach>
-				</div>
-			
-			</div>
-			
-			<!-- 最新新闻结束 -->
-			<!-- 右侧热点新闻 -->
-			<div class="col-md-5 content-right">
-			<div class="content-right-top">
-				<h5 class="head">热点</h5>	
-				
-				<a href="single.jsp">
-					<div class="editor text-center">
-						<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-						<p>A new cheap ass 3D Printer worth checking out</p>
-						<label>2 Days Ago</label>
-						<span></span>
-					</div>
-				</a>
-			
-				</div>
-				<!-- 右侧热点新闻结束 -->
-				<div class="editors-pic-grids">
-					<h5>Editors Pick</h5>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep1.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">MarkerBot Announces the ‘Replicator 2x’  For the Experimental</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep2.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">3D Printed Record – the next revolution?</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep3.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">MarkerBot Announces the ‘Replicator 2x’  For the Experimental</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep4.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">3D Printed Record – the next revolution?</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
+			<div class="about-content">
+				<!-- about -->
+			<h3>About Us</h3>			
+			<img src="images/abt_pic.jpg" alt=" " />
+			<p>Having hands on experience in creating innovative designs, I do offer design 
+				solutions which harness the new possibilities of web based communication, 
+				internet presence and current technology trends. 
+				<label>I do specialize in all aspects of website designing, theme development, 
+					designing custom home pages and landing pages At vero eos et accusamus 
+					et iusto odio dignissimos ducimus
+					qui blanditiis praesentium Nam libero tempore, cum soluta nobis est eligendi 
+			optio cumque nihil impedit quo minus id quod maxime placeat facere 
+			possimus, omnis voluptas assumenda est, omnis dolor repellendus. voluptatum...</label></p>
 			<div class="clearfix"></div>
-			<div class="features">
-				<h5>Featured news</h5>
-				<h2>Nokia offering customers printable STL phone cases for the Lumia 820</h2>
-			</div>
+		<p class="Nam">Nam libero tempore, cum soluta nobis est eligendi 
+			optio cumque nihil impedit quo minus id quod maxime placeat facere 
+			possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+			Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
+			saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+		<div class="more">
+			<a href="single.jsp">Learn More</a>
+		</div>
+	</div>
+<!-- //about -->
 		<div class="col-md-7 content-left">
 				<div class="article">
 					<h5 class="head">in recent news</h5>

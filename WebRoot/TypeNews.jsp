@@ -3,37 +3,24 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-
+<%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
+
 <head>
-<title>Home</title>
+
+<title>3D-Printing</title>
 <link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
-<!-- js -->
-
- <script type="text/javascript" src="static/js/jquery-1.11.1.min.js"></script>
+<script src="static/js/jquery-1.11.1.min.js"></script>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Konstructs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<script type="text/javascript">
-$(function(){
-	//alert("hello");
-	//window.location.href="/ShowAllServlet";
-	$.ajax({
-		cache:true,
-		type:'POST',
-		url:'/ShowAllServlet',
-	}); 
-});
-
-</script>
 </head>
 <body>
 	<!-- header-section-starts -->
@@ -44,8 +31,8 @@ $(function(){
 			</div>
 			<div class="pages">
 				<ul>
-					<li><a class="active" href="ShowAllServlet">首页</a></li>
-					<li><a>板块</a></li>
+					<li><a href="ShowAllServlet">首页</a></li>
+					<li><a class="active">板块</a></li>
 					<li><a href="404.jsp">Tutorials</a></li>
 				</ul>
 			</div>
@@ -53,7 +40,7 @@ $(function(){
 				<ul>
 					<li><a href="contact.jsp">Advertise</a></li>
 					<li><a href="about.jsp">About Us</a></li>
-					<li><a class="active" href="contact.jsp">Contact Us</a></li>
+					<li><a href="contact.jsp">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -62,7 +49,9 @@ $(function(){
 	<div class="container">
 		<div class="header-bottom">
             <div class="type">
-				<h5>首页</h5>
+           
+				<h5><%=request.getAttribute("ts") %>></h5>
+	
 			</div>
 			<span class="menu"></span>
 			<div class="list-nav">
@@ -85,37 +74,27 @@ $(function(){
 				});
 			</script>
 			<!-- script for menu -->
-
 			<div class="clearfix"></div>
         </div>
 	</div>
-    
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
 	<div class="container">
 		<div class="content">
-			<!-- 最新新闻 -->
-			<div class="col-md-7 content-left">
-		
-				<div class="article">
-					<h5 class="head">最新</h5>
-					<c:forEach items="${list }" var="ll">
-					<input id="num" value="${ll.news_id }" type="hidden" />
-					<h6>${ll.create_date }</h6>
-					<a class="title" href="ShowOneServlet?id=${ll.news_id }">${ll.title }</a>
-					<a href="single.jsp"><img src="static/images/a1.jpg" alt="" /></a>
-					<p> ${ll.summary} </p>
-					<p><a href="ShowOneServlet?id=${ll.news_id }">详情查看>></a></p>
+			<div class="col-md-7 printing-content">
+				<div class="print-main">
+				<c:forEach items="${tpnews }" var ="tp">
+					<h3>${ tp.title}</h3>
+					<a href="ShowOneServlet?id=${tp.news_id }">${tp.summary }</a>
+					<p class="sub_head">${tp.author } ${tp.create_date }</p>
+					<a href="ShowOneServlet?id=${tp.news_id }"><img src="static/images/print.jpg" class="img-responsive"  /></a>
+					<p  class="sub_head"><a href="ShowOneServlet?id=${tp.news_id }">查看详情>></a></p>
+					<!-- 内容 <p class="ptext">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like</p> -->
+				<hr/>
 				</c:forEach>
 				</div>
-			
 			</div>
-			
-			<!-- 最新新闻结束 -->
-			<!-- 右侧热点新闻 -->
 			<div class="col-md-5 content-right">
 			<div class="content-right-top">
-				<h5 class="head">热点</h5>	
-				
+				<h5 class="head">Popular</h5>	
 				<a href="single.jsp">
 					<div class="editor text-center">
 						<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
@@ -124,9 +103,31 @@ $(function(){
 						<span></span>
 					</div>
 				</a>
-			
+				<a class="active" href="single.jsp">
+					<div class="editor text-center">
+						<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
+						<p>3D Printing, 3D Software</p>
+						<label>3 Days Ago</label>
+						<span></span>
+					</div>
+				</a>
+				<a href="single.jsp">
+					<div class="editor text-center">
+						<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
+						<p>A new cheap ass 3D Printer worth checking out</p>
+						<label>2 Days Ago</label>
+						<span></span>
+					</div>
+				</a>
+				<a href="single.jsp">
+					<div class="editor text-center">
+						<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
+						<p>3D Printing, 3D Software</p>
+						<label>3 Days Ago</label>
+						<span></span>
+					</div>
+				</a>
 				</div>
-				<!-- 右侧热点新闻结束 -->
 				<div class="editors-pic-grids">
 					<h5>Editors Pick</h5>
 					<div class="editors-pic">
@@ -176,47 +177,7 @@ $(function(){
 				</div>
 			</div>
 			<div class="clearfix"></div>
-			<div class="features">
-				<h5>Featured news</h5>
-				<h2>Nokia offering customers printable STL phone cases for the Lumia 820</h2>
-			</div>
-		<div class="col-md-7 content-left">
-				<div class="article">
-					<h5 class="head">in recent news</h5>
-					<h6>Software </h6>
-					<a class="title" href="single.jsp">DeltaMaker – The new kid on the block An Elegant 3D Printer and a new wicked ass thing</a>
-					<a href="single.jsp"><img src="images/a1.jpg" alt="" /></a>
-					<p>Products were inspired by Behance's research of especially productive teams in the creative industry. Hundreds of individuals and teams were interviewed, and Behance chronicled the work habits and best practices of creative leaders. </p>
-					<p>The paper products were initially designed by and for the Behance team as a way to stay organized. In 2007, at the insistence of friends who wanted Action Pads of their own...</p>
-				</div>
-			</div>
-			<div class="col-md-5 content-right content-right-top">
-				<h5 class="head">Popular</h5>	
-				<a href="single.jsp">
-				<div class="editor text-center">
-					<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-					<p>A new cheap ass 3D Printer worth checking out</p>
-					<label>2 Days Ago</label>
-					<span></span>
-				</div>
-				</a>
-				<a href="single.jsp">
-				<div class="editor text-center">
-					<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-					<p>A new cheap ass 3D Printer worth checking out</p>
-					<label>2 Days Ago</label>
-					<span></span>
-				</div>
-				</a>
-				<a href="single.jsp">
-				<div class="editor text-center">
-					<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
-					<p>3D Printing, 3D Software</p>
-					<label>3 Days Ago</label>
-					<span></span>
-				</div>
-				</a>
-			</div>	
+			
 			<div class="clearfix"></div>			
 		</div>
 	</div>

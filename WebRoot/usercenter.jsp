@@ -1,4 +1,4 @@
-<%@page import="cn.edu.bzu.group12.pangpython.bean.User"%>
+<%@page import="cn.edu.bzu.group12.orangenews.bean.User"%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="ShiXun"
+  name="OrangeNews"
   id="myeclipse.1482906726374"
   context-root="/ShiXun"
   j2ee-spec="5.0"
-  archive="ShiXun.war">
+  archive="OrangeNews.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
   </attributes>
