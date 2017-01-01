@@ -8,7 +8,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
 <head>
-<title>Home</title>
+<title>首页</title>
 <link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />

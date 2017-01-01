@@ -14,11 +14,16 @@ import javax.servlet.http.HttpServlet;
  */
 public class UpdatePwdServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@Override
 	public void service(ServletRequest req, ServletResponse res)
 			throws ServletException, IOException {
-		int user_id = Integer.parseInt(req.getParameter("uid"));
-		
+		//int user_id = Integer.parseInt(req.getParameter("uid"));
+		req.getRequestDispatcher("/updatepwd.jsp").forward(req, res);
 		
 		
 	}
