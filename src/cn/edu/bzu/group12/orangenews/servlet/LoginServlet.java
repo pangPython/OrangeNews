@@ -3,12 +3,15 @@ package cn.edu.bzu.group12.orangenews.servlet;
 import java.io.IOException;
 import java.sql.SQLException;
 
+import javax.jms.Session;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 
@@ -24,6 +27,8 @@ import cn.edu.bzu.group12.orangenews.service.UserService;
  */
 public class LoginServlet extends HttpServlet {
 
+	Logger log = Logger.getLogger(LoginServlet.class);
+	
 	/**
 	 * 
 	 */
@@ -42,8 +47,20 @@ public class LoginServlet extends HttpServlet {
 		try {
 			user = userService.login(uname, pwd);
 			if(user.getUser_id()>0){
+				log.debug("登录成功");
 				//登录成功
-				//设置cookie session
+				//设置session 服务器端保存登录用户信息
+				HttpSession session = ((HttpServletRequest)req).getSession(false);
+				//新建cookie	客户浏览器端保存当前用户的id
+				//key-value格式 key-loginuser value-当前用户的id
+				Cookie cookie = new Cookie("loginuser", user.getUser_id()+"");
+				//session是key-value格式
+				//把user_id作为key,value是user对象
+				session.setAttribute(user.getUser_id()+"", user);
+				log.debug("创建session成功！");
+				//设置客户端cookie
+				((HttpServletResponse)rsp).addCookie(cookie);
+				log.debug("创建cookie成功！");
 				req.setAttribute("user", user);
 				req.getRequestDispatcher("/usercenter").forward(req, rsp);
 			}else{

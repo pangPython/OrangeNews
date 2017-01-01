@@ -1,12 +1,13 @@
+<%@page import="org.apache.log4j.Logger"%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!DOCTYPE>
+<html>
 <head>
 <title>首页</title>
 <link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -22,43 +23,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <meta name="keywords" content="Konstructs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<script type="text/javascript">
-$(function(){
-	//alert("hello");
-	//window.location.href="/ShowAllServlet";
-	$.ajax({
-		cache:true,
-		type:'POST',
-		url:'/ShowAllServlet',
-	}); 
-});
 
-</script>
 </head>
 <body>
-	<!-- header-section-starts -->
-	<div class="header">
-		<div class="container">
-			<div class="logo">
-				<a href="ShowAllServlet"><h1>ORANGE</h1></a>
-			</div>
-			<div class="pages">
-				<ul>
-					<li><a class="active" href="ShowAllServlet">首页</a></li>
-					<li><a>板块</a></li>
-					<li><a href="404.jsp">Tutorials</a></li>
-				</ul>
-			</div>
-			<div class="navigation">
-				<ul>
-					<li><a href="contact.jsp">Advertise</a></li>
-					<li><a href="about.jsp">About Us</a></li>
-					<li><a class="active" href="contact.jsp">Contact Us</a></li>
-				</ul>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+	<%@ include file="header.jsp" %>
 	<div class="container">
 		<div class="header-bottom">
             <div class="type">

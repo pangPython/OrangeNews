@@ -43,6 +43,7 @@ public class ShowAllServlet extends HttpServlet {
 		NewsService ns = new NewsService();
 		System.out.println("this is showallservlet");
 		try {
+			
 			List<News> list = new ArrayList<News>();
 			list = ns.getAllNews();
 			req.setAttribute("list", list);
