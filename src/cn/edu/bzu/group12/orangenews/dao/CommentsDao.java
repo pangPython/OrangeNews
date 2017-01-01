@@ -21,14 +21,32 @@ public class CommentsDao extends BaseDao{
 		ResultSet rs = this.getStat().executeQuery(sql);
 		
 		while (rs.next()) {
-			Comments comments = new Comments();
-			comments.setComments_id(rs.getInt("comments_id"));
-			comments.setNews_id(rs.getInt("news_id"));
-			comments.setUser_id(rs.getInt("user_id"));
-			comments.setContent(rs.getString("content"));
-			comments.setTime(rs.getTimestamp("time"));
-			list.add(comments);
+			list.add((Comments) RS2Obj(rs,new Comments()));
 		}
 		return list;
 	}
+	
+	public List<Comments> getCmtsByUId(int user_id) throws SQLException{
+		String sql = "select * from comments where user_id = "+user_id;
+		List<Comments> list = new ArrayList<Comments>();
+		ResultSet rs = this.getStat().executeQuery(sql);
+		while (rs.next()) {
+			list.add((Comments) RS2Obj(rs,new Comments()));
+		}
+		return list;
+	}
+
+	@Override
+	Object RS2Obj(ResultSet rs, Object obj) throws SQLException {
+		Comments comments = (Comments)obj;
+		comments.setComments_id(rs.getInt("comments_id"));
+		comments.setNews_id(rs.getInt("news_id"));
+		comments.setUser_id(rs.getInt("user_id"));
+		comments.setContent(rs.getString("content"));
+		comments.setTime(rs.getTimestamp("time"));
+		return comments;
+	}
+
+	
+	
 }

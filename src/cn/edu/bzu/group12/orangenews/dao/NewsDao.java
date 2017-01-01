@@ -96,5 +96,11 @@ public class NewsDao extends BaseDao{
 		}
 		return type_name;
 	}
+
+	@Override
+	Object RS2Obj(ResultSet rs, Object obj) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }

@@ -59,7 +59,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<table class="table table-bordered">
 				<tr>
 					<td><a href="edituser?uid=${user.user_id }" class="btn btn-success">修改信息</a></td>
-					<td><a href="updatepwd?uid=${user.user_id }" class="btn btn-success">修改密码</a></td>
+					<td><a href="updatepwd.jsp" class="btn btn-success">修改密码</a></td>
 					<td><a href="mycomments?uid=${user.user_id }" class="btn btn-success">我的评论</a></td>
 				</tr>				
 			</table>

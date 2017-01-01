@@ -11,7 +11,7 @@ import java.sql.Statement;
  * @author pangPython
  *	基础的数据库操作
  */
-public class BaseDao {
+public abstract class BaseDao {
 	
 	private Connection conn = null;
 	private Statement stat = null;
@@ -80,5 +80,7 @@ public class BaseDao {
 	public void setStat(Statement stat) {
 		this.stat = stat;
 	}
+	
+	abstract Object RS2Obj(ResultSet rs,Object obj) throws SQLException;
 
 }

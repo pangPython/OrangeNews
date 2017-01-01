@@ -18,15 +18,23 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="description" content="This is my page">
 	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
-
+	<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+  	<script type="text/javascript" src="static/js/jquery-1.11.1.min.js"></script>
+  	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+  
   </head>
   
   <body>
+   <%@ include file="header.jsp" %>
   	<div class="container">
+  		<br><br><br>
   		<div class="row">
-			<h1>注册</h1>
+			
 			<form action="register" method="post">
-				<table class="table" >
+				<table class="table table-bordered" >
+					<tr>
+						<td colspan="2"><h1>注册</h1></td>
+					</tr>
 					<tr>
 						<td>用户名</td>
 						<td><input type="text" name="user_name"></td>

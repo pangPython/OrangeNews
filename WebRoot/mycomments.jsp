@@ -35,11 +35,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   					<h1>我的新闻评论</h1>
   				</td>
   			</tr>
-	    <c:forEach items="${newslist }" var="news">
+	    <c:forEach items="${commentslist }" var="comments">
 			<tr>
-				
-				<td>内容：${news.content}</td>
-				<td>时间：${news.time}</td>
+				<%-- <td>新闻标题：${comments.title }</td> --%>
+				<td>内容：${comments.content}</td>
+				<td>时间：${comments.time}</td>
 			</tr>	    	
 	    </c:forEach>
   	</table>

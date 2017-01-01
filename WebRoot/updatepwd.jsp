@@ -28,7 +28,44 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      <%@ include file="header.jsp" %>
    	<div class="container">
    	<br><br><br>
-   	<h1>更新密码！</h1>
+   		<div class="row">
+   			<table class="table table-bordered">
+   				<tr>
+   					<td colspan="2">
+   						<h1>更新密码</h1>
+   					</td>
+   				</tr>
+   				<tr>
+   					<td>旧密码</td>
+   					<td>
+   						<input type="password" name="old_pwd" class="input">
+   					</td>
+   				</tr>
+   				<tr>
+   					<td>新密码</td>
+   					<td>
+   						<input type="password" name="new_pwd" class="input">
+   					</td>
+   				</tr>
+   				<tr>	
+   					<td>确认密码</td>
+   					<td>
+   						<input type="password" name="confirm_pwd" class="input">
+   					</td>
+   				</tr>
+   				<tr>
+   					<td>验证码</td>
+   					<td>
+   						<input type="password"  class="input">
+   					</td>
+   				</tr>
+   				<tr>
+   					<td colspan="2">
+   						<input class="btn btn-success" type="submit">
+   					</td>
+   				</tr>
+   			</table>
+   		</div>
    	</div>
   </body>
 </html>

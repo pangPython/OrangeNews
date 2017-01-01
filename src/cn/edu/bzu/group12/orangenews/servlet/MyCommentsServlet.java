@@ -8,9 +8,12 @@ import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
 
 import cn.edu.bzu.group12.orangenews.bean.Comments;
+import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
 
 /**
  * @author pangPython
@@ -30,9 +33,11 @@ public class MyCommentsServlet extends HttpServlet {
 			throws ServletException, IOException {
 		try {
 			//获取当前用户id
+			Cookie cookie = CookieUtils.getCookieFromCookies(((HttpServletRequest)req).getCookies(), "loginuser");
+			int user_id = Integer.parseInt(((HttpServletRequest)req).getSession().getAttribute(cookie.getValue()).toString());
 			//查询并返回评论列表
-			List<Comments> list = commentsService.allComments();
-			req.setAttribute("newslist", list);
+			List<Comments> list = commentsService.getAllCommentsByUserId(user_id);
+			req.setAttribute("commentslist", list);
 			req.getRequestDispatcher("/mycomments.jsp").forward(req, res);
 			
 		} catch (SQLException e) {

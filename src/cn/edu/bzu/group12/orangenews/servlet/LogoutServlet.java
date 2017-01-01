@@ -9,24 +9,30 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
 
 /**
  * @author pangPython
- *	用户修改密码
+ *	用户退出Servlet
+ *
  */
-public class UpdatePwdServlet extends HttpServlet {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+public class LogoutServlet extends HttpServlet {
 
 	@Override
 	public void service(ServletRequest req, ServletResponse res)
 			throws ServletException, IOException {
-		req.getRequestDispatcher("/updatepwd.jsp").forward(req, res);
+		//获取cookie
+		Cookie cookie = CookieUtils.getCookieFromCookies(((HttpServletRequest)req).getCookies(), "loginuser");
+		//获取session
+		HttpSession session = ((HttpServletRequest)req).getSession();
+		//移除session
+		session.removeAttribute(cookie.getValue());
+		//销毁cookie
+		cookie.setMaxAge(0);
+		//返回主页
+		req.getRequestDispatcher("/ShowAllServlet").forward(req, res);
 	}
 	
 }

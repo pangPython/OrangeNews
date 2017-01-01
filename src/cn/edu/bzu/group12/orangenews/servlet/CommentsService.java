@@ -20,5 +20,11 @@ public class CommentsService {
 		return  commentsDao.getAllComments();
 		
 	}
+	
+	//获取当前用户所有评论
+	public List<Comments> getAllCommentsByUserId(int user_id) throws SQLException{
+		return commentsDao.getCmtsByUId(user_id);
+	}
+	
 
 }

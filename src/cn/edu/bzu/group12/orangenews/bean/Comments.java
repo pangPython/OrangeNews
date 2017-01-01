@@ -15,7 +15,6 @@ public class Comments {
 	private String content;
 	private Timestamp time;
 	
-	
 	public int getComments_id() {
 		return comments_id;
 	}

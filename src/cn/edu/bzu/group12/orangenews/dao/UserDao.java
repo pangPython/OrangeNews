@@ -62,6 +62,12 @@ public class UserDao extends BaseDao{
 		}
 		return user;
 	}
+
+	@Override
+	Object RS2Obj(ResultSet rs, Object obj) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 	
