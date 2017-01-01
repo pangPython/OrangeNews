@@ -18,29 +18,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
-	<!-- header-section-starts -->
-	<div class="header">
-		<div class="container">
-			<div class="logo">
-				<a href="ShowAllServlet"><h1>ORANGE</h1></a>
-			</div>
-			<div class="pages">
-				<ul>
-					<li><a href="ShowAllServlet">首页</a></li>
-					<li><a class="active">板块</a></li>
-					<li><a href="404.html">Tutorials</a></li>
-				</ul>
-			</div>
-			<div class="navigation">
-				<ul>
-					<li><a href="contact.html">Advertise</a></li>
-					<li><a class="active" href="about.html">About Us</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+	<%@ include file="header.jsp" %>
 	<div class="container">
 		<div class="header-bottom">
             <div class="type">

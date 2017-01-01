@@ -23,6 +23,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+    <%@ include file="header.jsp" %>
     <h1>插入用户成功！</h1>
   </body>
 </html>

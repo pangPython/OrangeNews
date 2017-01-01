@@ -6,8 +6,10 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
 
 import cn.edu.bzu.group12.orangenews.bean.User;
+import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
 
 
 /**
@@ -25,6 +27,8 @@ public class UserCenterServlet extends HttpServlet {
 	public void service(ServletRequest req, ServletResponse res)
 			throws ServletException, IOException {
 		//根据cookie储存的用户id获取session
+		CookieUtils.getCookieFromCookies(((HttpServletRequest)req).getCookies(), "loginuser");
+		
 		User user = (User) req.getAttribute("user");
 		
 		req.setAttribute("user", user);

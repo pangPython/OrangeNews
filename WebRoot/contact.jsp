@@ -8,11 +8,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
 <head>
 <title>Contact</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
-<script src="js/jquery.min.js"></script>
+<script src="static/js/jquery-1.11.1.min.js"></script>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,29 +21,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
-	<!-- header-section-starts -->
-	<div class="header">
-		<div class="container">
-			<div class="logo">
-				<a href="index.jsp"><h1>ORANGE</h1></a>
-			</div>
-			<div class="pages">
-				<ul>
-					<li><a class="active" href="index.jsp">首页</a></li>
-					<li><a href="3dprinting.jsp">3D Printers</a></li>
-					<li><a href="404.jsp">Tutorials</a></li>
-				</ul>
-			</div>
-			<div class="navigation">
-				<ul>
-					<li><a href="contact.jsp">Advertise</a></li>
-					<li><a href="about.jsp">About Us</a></li>
-					<li><a class="active" href="contact.jsp">Contact Us</a></li>
-				</ul>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+	  <%@ include file="header.jsp" %>
 	<div class="container">
 		<div class="header-bottom">
             <div class="type">
