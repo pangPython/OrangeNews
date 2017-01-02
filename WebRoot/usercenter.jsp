@@ -1,3 +1,4 @@
+<%@page import="cn.edu.bzu.group12.orangenews.utils.CookieUtils"%>
 <%@page import="cn.edu.bzu.group12.orangenews.bean.User"%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
@@ -32,7 +33,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	try{
   	
   	System.out.println("将要获取session的用户！");
-  	user = ((User)request.getAttribute("user"));
+  	user = (User)request.getSession().getAttribute(CookieUtils.getCookieFromCookies(request.getCookies(), "loginuser").getValue());  	
   	/* user = (User)session.getAttribute(user_id.getValue()); */
   	System.out.println("获取了session中的用户！"+user);
   	user_name = user.getUser_name();

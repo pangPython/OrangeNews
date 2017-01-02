@@ -1,7 +1,11 @@
+<%@page import="cn.edu.bzu.group12.orangenews.utils.CookieUtils"%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+//删除cookie
+CookieUtils.removeCookieByName("loginuser",request,response);
+
 %>
 
 <html>

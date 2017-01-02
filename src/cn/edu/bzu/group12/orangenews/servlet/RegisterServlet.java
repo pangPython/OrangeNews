@@ -49,31 +49,11 @@ public class RegisterServlet extends HttpServlet {
 		//插入数据库
 		UserService us = new UserService();
 		if(us.insert(user)){
-			try {
-				user_id = userService.getLastInsertId();
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			//设置session 服务器端保存登录用户信息
-			HttpSession session = ((HttpServletRequest)req).getSession(true);
-			//新建cookie	客户浏览器端保存当前用户的id
-			//key-value格式 key-loginuser value-当前用户的id
-			Cookie cookie = new Cookie("loginuser", user_id+"");
-			log.debug("!!!User_ID:!!!"+user_id+"");
-			//session是key-value格式
-			//把user_id作为key,value是user对象
-			session.setAttribute(user_id+"", user);
-			log.debug("创建session成功！");
-			//设置客户端cookie
-			((HttpServletResponse)res).addCookie(cookie);
-			log.debug("创建cookie成功！");
-			req.setAttribute("user", user);
-			log.debug("user 跳转参数设置成功！");
-			req.getRequestDispatcher("/usercenter.jsp").forward(req, res);
-			
+			//注册成功
+			req.setAttribute("info", "注册成功！请登录");
+			req.getRequestDispatcher("redirect.jsp").forward(req, res);
 		}else{
-			req.getRequestDispatcher("/error.jsp").forward(req, res);
+			req.getRequestDispatcher("error.jsp").forward(req, res);
 		}
 		
 		

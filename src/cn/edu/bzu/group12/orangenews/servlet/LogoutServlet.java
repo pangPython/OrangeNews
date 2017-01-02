@@ -9,6 +9,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
@@ -20,6 +21,11 @@ import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
  */
 public class LogoutServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@Override
 	public void service(ServletRequest req, ServletResponse res)
 			throws ServletException, IOException {
@@ -30,7 +36,7 @@ public class LogoutServlet extends HttpServlet {
 		//ÒÆ³ýsession
 		session.removeAttribute(cookie.getValue());
 		//Ïú»Ùcookie
-		cookie.setMaxAge(0);
+		CookieUtils.removeCookieByName("loginuser", (HttpServletRequest)req, (HttpServletResponse)res);
 		//·µ»ØÖ÷Ò³
 		req.getRequestDispatcher("/ShowAllServlet").forward(req, res);
 	}
