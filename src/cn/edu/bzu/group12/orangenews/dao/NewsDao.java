@@ -19,16 +19,45 @@ public class NewsDao extends BaseDao{
 		ResultSet rs = this.getStat().executeQuery(sql);
 		News n= new News();
 		while (rs.next()) {
-			n.setNews_id(rs.getInt("news_id"));
-			n.setTitle(rs.getString("title"));
-			n.setContent(rs.getString("content"));
-			n.setAuthor(rs.getString("author"));
-			n.setType(rs.getInt("type"));
-			n.setSummary(rs.getString("summary"));
-			n.setCreate_date(rs.getDate("create_date"));
+			n = (News) RS2Obj(rs, new News());
 		}
 		return n;
 	}
+	
+	//根据id查类型名称
+
+		public String getNameById(int id) throws SQLException{
+			String type="";
+			if(id>=1&&id<=6){
+				String sql = "SELECT name FROM type WHERE type_id='"+id+"'";
+				ResultSet rs=this.getStat().executeQuery(sql);
+				rs.next();
+				type = rs.getString("name");
+			}
+			else
+			{
+				type="其他";
+			}
+			return type;
+		}
+	
+	//根据板块代码查询该板块页数（每页20条数据）
+		public int getPage(int type) throws Exception{
+			int p=0;
+			String sql="";
+			if(type>=1&&type<=6){
+				sql = "SELECT COUNT(*) as num FROM news WHERE TYPE='"+type+"'";
+			}
+			else{
+				sql="SELECT COUNT(*) as num FROM news WHERE TYPE !=1 AND TYPE!=2 AND TYPE!=3 AND TYPE!=4 AND TYPE !=5 AND TYPE!=6";
+			}
+		
+			ResultSet rs = this.getStat().executeQuery(sql);
+			rs.next();
+			int num = rs.getInt("num");
+			p=num%20==0?num/20:num/20+1;
+			return p;
+		}
 	
 	//获取某个类型的全部新闻
 	public List<News> OneTypeAllNews(int type_id) throws SQLException{
@@ -36,15 +65,7 @@ public class NewsDao extends BaseDao{
 		ResultSet rs = this.getStat().executeQuery(sql);
 		List<News> list = new ArrayList<News>();
 		while(rs.next()){
-			News n= new News();
-			n.setNews_id(rs.getInt("news_id"));
-			n.setTitle(rs.getString("title"));
-			n.setContent(rs.getString("content"));
-			n.setAuthor(rs.getString("author"));
-			n.setType(rs.getInt("type"));
-			n.setSummary(rs.getString("summary"));
-			n.setCreate_date(rs.getDate("create_date"));
-			list.add(n);
+			list.add((News) RS2Obj(rs, new News()));
 		}
 		return list;
 	}
@@ -55,15 +76,7 @@ public class NewsDao extends BaseDao{
 		ResultSet rs = this.getStat().executeQuery(sql);
 		List<News> list = new ArrayList<News>();
 		while(rs.next()){
-			News n= new News();
-			n.setNews_id(rs.getInt("news_id"));
-			n.setTitle(rs.getString("title"));
-			n.setContent(rs.getString("content"));
-			n.setAuthor(rs.getString("author"));
-			n.setType(rs.getInt("type"));
-			n.setSummary(rs.getString("summary"));
-			n.setCreate_date(rs.getDate("create_date"));
-			list.add(n);
+			list.add((News) RS2Obj(rs, new News()));
 		}
 		return list;
 	}
@@ -74,33 +87,53 @@ public class NewsDao extends BaseDao{
 		ResultSet rs = this.getStat().executeQuery(sql);
 		List<News> list = new ArrayList<News>();
 		while(rs.next()){
-			News n= new News();
-			n.setNews_id(rs.getInt("news_id"));
-			n.setTitle(rs.getString("title"));
-			n.setContent(rs.getString("content"));
-			n.setAuthor(rs.getString("author"));
-			n.setType(rs.getInt("type"));
-			n.setSummary(rs.getString("summary"));
-			n.setCreate_date(rs.getDate("create_date"));
-			list.add(n);
+			list.add((News) RS2Obj(rs, new News()));
 		}
 		return list;
 	}
-	//根据id查类型名称
-	public String getNameById(int type_id) throws SQLException{
-		String sql = "SELECT name FROM type WHERE type_id='"+type_id+"'";
-		ResultSet rs = this.getStat().executeQuery(sql);
-		String type_name = null;
-		while (rs.next()) {
-			type_name = rs.getString("name");
-		}
-		return type_name;
-	}
+
 
 	@Override
 	Object RS2Obj(ResultSet rs, Object obj) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		News n= (News) obj;
+		n.setNews_id(rs.getInt("news_id"));
+		n.setTitle(rs.getString("title"));
+		n.setContent(rs.getString("content"));
+		n.setAuthor(rs.getString("author"));
+		n.setType(rs.getInt("type"));
+		n.setSummary(rs.getString("summary"));
+		n.setCreate_date(rs.getDate("create_date"));
+		n.setHits(rs.getInt("hits"));
+		return n;
+	}
+	
+	//查询板块热点新闻前20条
+	public List<News> getTHotNews(int tp) throws SQLException {
+		String sql="";
+		if(tp>=1&&tp<=6){
+			sql = "SELECT * FROM news where type='"+tp+"' ORDER BY hits DESC LIMIT 20";
+		}
+		else
+		{
+			sql="SELECT * FROM news WHERE TYPE !=1 AND TYPE!=2 AND TYPE!=3 AND TYPE!=4 AND TYPE !=5 AND TYPE!=6 ORDER BY hits DESC LIMIT 20";
+		}
+		
+		ResultSet rs=this.getStat().executeQuery(sql);
+		List<News> list = new ArrayList<News>();
+		while(rs.next()){
+			list.add((News) RS2Obj(rs, new News()));
+		}
+		return list;
+	}
+
+	public List<News> getHotNews() throws SQLException {
+		String sql = "SELECT * FROM news ORDER BY hits DESC LIMIT 20";
+		ResultSet rs=this.getStat().executeQuery(sql);
+		List<News> list = new ArrayList<News>();
+		while(rs.next()){
+			list.add((News) RS2Obj(rs, new News()));
+		}
+		return list;
 	}
 	
 }

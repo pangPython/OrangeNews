@@ -5,55 +5,48 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
 
 import cn.edu.bzu.group12.orangenews.bean.News;
 import cn.edu.bzu.group12.orangenews.service.NewsService;
 
 /**
- * Servlet implementation class ShowAllServlet
+ * 首页Servlet
  */
 public class ShowAllServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ShowAllServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+       Logger log = Logger.getLogger(ShowAllServlet.class);
+	@Override
+	public void service(ServletRequest req, ServletResponse res)
+			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doPost(request, response);
-		
+				NewsService ns = new NewsService();
+				log.debug("show all news");
+				try {
+					
+					List<News> list = new ArrayList<News>();
+					List<News> list_hot_news = new ArrayList<News>();
+					list = ns.getAllNews();
+					log.debug("get all news");
+					list_hot_news =  ns.getHotNews();
+					log.debug("get hot news");
+					req.setAttribute("list", list);
+					log.debug("set attr all news list");
+					req.setAttribute("list_hot_news", list_hot_news);
+					log.debug("set hot news list");
+					req.getRequestDispatcher("/index.jsp").forward(req, res);
+					
+				} catch (Exception e) {
+					req.setAttribute("error_info", "获取新闻失败！");
+					req.getRequestDispatcher("/error.jsp").forward(req, res);
+					e.printStackTrace();
+				}
 	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest req, HttpServletResponse rep) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		NewsService ns = new NewsService();
-		System.out.println("this is showallservlet");
-		try {
-			
-			List<News> list = new ArrayList<News>();
-			list = ns.getAllNews();
-			req.setAttribute("list", list);
-			req.getRequestDispatcher("/index.jsp").forward(req, rep);
-			
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			req.getRequestDispatcher("/404.jsp").forward(req, rep);
-			e.printStackTrace();
-		}
-	}
-
+   
 }

@@ -17,10 +17,18 @@ public class News {
 	private Date update_date;
 	private int type;
 	private String summary;
+	private int hits;
 	
 	
 	
 	
+	
+	public int getHits() {
+		return hits;
+	}
+	public void setHits(int hits) {
+		this.hits = hits;
+	}
 	public String getSummary() {
 		return summary;
 	}
@@ -69,6 +77,7 @@ public class News {
 	public void setUpdate_date(Date update_date) {
 		this.update_date = update_date;
 	}
+	
 	
 	
 	

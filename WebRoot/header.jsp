@@ -17,7 +17,9 @@
 				<ul>
 						<%
 					System.out.println("右上角！！！");
+					
 					Cookie user_id = null;
+					try{
 					Cookie[] cookies = request.getCookies();
 					System.out.println("获取了Cookies！");
 					//获取cookie
@@ -29,10 +31,20 @@
 							}
 						}
 					}
+					}catch(Exception e) {
+					
+						System.out.println("没有获取到cookie");
+						request.setAttribute("error_info", "没有获取到cookie");
+						request.getRequestDispatcher("/error.jsp").forward(request, response);
+					
+					}
+					
+					try{
 					//判断服务器端session是否存在当前用户id
 					if(session.getAttribute(user_id.getValue())!=null){
-						%>
 					
+						%>
+						
 					<li><a href="usercenter">用户中心</a></li>
 					<li><a href="about.jsp">我的消息</a></li>
 					<li><a class="active" href="logout">退出</a></li>
@@ -43,7 +55,17 @@
 					<li><a href="register.jsp">注册</a></li>
 					<%
 					}
-				 %>
+					 
+					}catch(Exception e){
+					%>
+					<li><a href="login.jsp">登录</a></li>
+					<li><a href="register.jsp">注册</a></li>
+					<%
+					}
+					
+					
+						%>
+					
 				</ul>
 			</div>
 			<div class="clearfix"></div>

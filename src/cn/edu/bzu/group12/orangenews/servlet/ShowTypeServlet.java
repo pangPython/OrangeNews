@@ -40,19 +40,27 @@ public class ShowTypeServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest req, HttpServletResponse rep) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		int num = Integer.parseInt(req.getParameter("num"));
-		System.out.println("this is type"+num);
+		int pg = Integer.parseInt(req.getParameter("pg"));
+		System.out.println("this is type"+num+" and pg:"+pg);
 		NewsService ns = new NewsService();
-		List<News> list = new ArrayList<News>();
+		List<News> list1 = new ArrayList<News>();
+		List<News> list2 = new ArrayList<News>();
 		try {
-			list=ns.getTypeNews(num);
+			list1=ns.getTypeNews(num,pg);
+			list2=ns.getTHotNews(num);
 			String s = ns.SelectType(num);
-			req.setAttribute("ts", s);
-			req.setAttribute("tpnews", list);
+			int p = ns.getPage(num);
+			
+			req.setAttribute("ts", s);//板块名
+			req.setAttribute("tyn", num);//板块代码
+			req.setAttribute("page", p);//总页面
+			req.setAttribute("tpnews", list1);//板块全部新闻
+			req.setAttribute("thnews", list2);//板块热点新闻
+
 			req.getRequestDispatcher("/TypeNews.jsp").forward(req, rep);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+
 			req.getRequestDispatcher("/404.jsp").forward(req, rep);
 			e.printStackTrace();
 		}

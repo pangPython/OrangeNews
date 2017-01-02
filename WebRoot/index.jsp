@@ -66,6 +66,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 				<div class="article">
 					<h5 class="head">最新</h5>
+					<% 
+						System.out.println("最新新闻！！");
+					 %>
 					<c:forEach items="${list }" var="ll">
 					<input id="num" value="${ll.news_id }" type="hidden" />
 					<h6>${ll.create_date }</h6>
@@ -83,108 +86,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-5 content-right">
 			<div class="content-right-top">
 				<h5 class="head">热点</h5>	
-				
+				<% 
+						System.out.println("热点新闻！！");
+					 %>
 				<a href="single.jsp">
 					<div class="editor text-center">
-						<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-						<p>A new cheap ass 3D Printer worth checking out</p>
-						<label>2 Days Ago</label>
-						<span></span>
+						<c:forEach items="${list_hot_news }" var="hot">
+						<% 
+							System.out.println("热点热点新闻！！");
+					 	%>
+							<a href="ShowOneServlet?id=${hot.news_id }">
+								<h3>${hot.title }</h3>
+								<p>${hot.summary }</p>
+							</a>
+						<label>点击量：${hot.hits }</label>
+						<br/>
+						<label>${hot.create_date }</label>
+						<hr/>
+					</c:forEach>
 					</div>
 				</a>
 			
 				</div>
-				<!-- 右侧热点新闻结束 -->
-				<div class="editors-pic-grids">
-					<h5>Editors Pick</h5>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep1.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">MarkerBot Announces the ‘Replicator 2x’  For the Experimental</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep2.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">3D Printed Record – the next revolution?</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep3.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">MarkerBot Announces the ‘Replicator 2x’  For the Experimental</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep4.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">3D Printed Record – the next revolution?</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
+			
 			</div>
 			<div class="clearfix"></div>
-			<div class="features">
-				<h5>Featured news</h5>
-				<h2>Nokia offering customers printable STL phone cases for the Lumia 820</h2>
-			</div>
-		<div class="col-md-7 content-left">
-				<div class="article">
-					<h5 class="head">in recent news</h5>
-					<h6>Software </h6>
-					<a class="title" href="single.jsp">DeltaMaker – The new kid on the block An Elegant 3D Printer and a new wicked ass thing</a>
-					<a href="single.jsp"><img src="images/a1.jpg" alt="" /></a>
-					<p>Products were inspired by Behance's research of especially productive teams in the creative industry. Hundreds of individuals and teams were interviewed, and Behance chronicled the work habits and best practices of creative leaders. </p>
-					<p>The paper products were initially designed by and for the Behance team as a way to stay organized. In 2007, at the insistence of friends who wanted Action Pads of their own...</p>
-				</div>
-			</div>
-			<div class="col-md-5 content-right content-right-top">
-				<h5 class="head">Popular</h5>	
-				<a href="single.jsp">
-				<div class="editor text-center">
-					<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-					<p>A new cheap ass 3D Printer worth checking out</p>
-					<label>2 Days Ago</label>
-					<span></span>
-				</div>
-				</a>
-				<a href="single.jsp">
-				<div class="editor text-center">
-					<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-					<p>A new cheap ass 3D Printer worth checking out</p>
-					<label>2 Days Ago</label>
-					<span></span>
-				</div>
-				</a>
-				<a href="single.jsp">
-				<div class="editor text-center">
-					<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
-					<p>3D Printing, 3D Software</p>
-					<label>3 Days Ago</label>
-					<span></span>
-				</div>
-				</a>
-			</div>	
+		
 			<div class="clearfix"></div>			
 		</div>
 	</div>
