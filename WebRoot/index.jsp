@@ -11,54 +11,52 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <title>首页</title>
 <link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
 <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- Custom Theme files -->
-<!-- js -->
+<script type="text/javascript" src="static/js/jquery-1.11.1.min.js"></script>
 
- <script type="text/javascript" src="static/js/jquery-1.11.1.min.js"></script>
-<!-- Custom Theme files -->
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Konstructs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-
+<script src="static/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="static/css/bootstrap.min.css">
 </head>
 <body>
 	<%@ include file="header.jsp" %>
-	<div class="container">
-		<div class="header-bottom">
-            <div class="type">
-				<h5>首页</h5>
-			</div>
-			<span class="menu"></span>
-			<div class="list-nav">
-				<ul>                                                                 
-					<li><a href="ShowTypeServlet?num=1&pg=1">军事</a></li>|
-					<li><a href="ShowTypeServlet?num=2&pg=1">汽车</a></li>|
-					<li><a href="ShowTypeServlet?num=3&pg=1">生活</a></li>|
-					<li><a href="ShowTypeServlet?num=4&pg=1">美女</a></li>|
-					<li><a href="ShowTypeServlet?num=5&pg=1">科技</a></li>|
-					<li><a href="ShowTypeServlet?num=6&pg=1">游戏</a></li>|
-					<li><a href="ShowTypeServlet?num=7&pg=1">其他</a></li>
-				</ul>
-			</div>
-			<!-- script for menu -->
-				<script>
-				$( "span.menu" ).click(function() {
-				  $( ".list-nav" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-				});
-			</script>
-			<!-- script for menu -->
-
-			<div class="clearfix"></div>
-        </div>
-	</div>
+	<%@ include file="nav.jsp" %>
     
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+    <!-- 首页轮播 -->
+	<div class="container">
+	<div id="myCarousel" class="carousel slide">
+	<!-- 轮播（Carousel）指标 -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>   
+	<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="static/images/yan.jpg" alt="First slide" width="100%">
+		</div>
+		<div class="item">
+			<img src="static/images/yule.jpg" alt="Second slide" width="100%">
+		</div>
+		<div class="item">
+			<img src="static/images/yule3.jpg" alt="Third slide" width="100%">
+		</div>
+	</div>
+	<!-- 轮播（Carousel）导航 -->
+	<a class="carousel-control left" href="#myCarousel" 
+	   data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control right" href="#myCarousel" 
+	   data-slide="next">&rsaquo;</a>
+</div> 
+	</div>
+	<!-- 首页轮播结束 -->
+	<br/>
 	<div class="container">
 		<div class="content">
 			<!-- 最新新闻 -->

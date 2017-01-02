@@ -55,18 +55,22 @@
   	<servlet-class>cn.edu.bzu.group12.orangenews.servlet.ShowAllServlet</servlet-class>
   </servlet>
   <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>LogoutServlet</servlet-name>
     <servlet-class>cn.edu.bzu.group12.orangenews.servlet.LogoutServlet</servlet-class>
   </servlet>
   <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>CommentsAddServlet</servlet-name>
     <servlet-class>cn.edu.bzu.group12.orangenews.servlet.CommentsAddServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.SearchServlet</servlet-class>
+  </servlet>
 
+	<servlet-mapping>
+		<servlet-name>SearchServlet</servlet-name>
+		<url-pattern>/SearchServlet</url-pattern>
+	</servlet-mapping>
 
   
   <servlet-mapping>

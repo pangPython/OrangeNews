@@ -566,8 +566,8 @@ h3.c-head {
 	text-align: center;
 }
 .print-main a {
-	color: #000;
-	font-size: 1.5em;
+	color: #798184;
+	font-size: 1.15em;
 	font-weight: 400;
 	font-family: 'Georgia Italic';
 	margin-bottom: 0.5em;
@@ -580,13 +580,13 @@ p.sub_head {
 	margin:0.5em 0 1em 0;
 }
 p.ptext {
-	color: #798184;
+	color: #000;
 	font-size: 1.15em;
 	font-weight: 400;
 	line-height: 1.5em;
 	font-family: 'Times-Italic';
-	font-style: italic;
-	margin:1em 0;
+	font-style: normal;
+	margin:0.5em 0;
 }
 .print-img {
 	width:36%;
@@ -1455,4 +1455,13 @@ p.span a {
 	.cmnts-right a {
 		padding: 4px 10px;
 	}
+	
+	
+}
+.backtop{
+		
+		position:fixed;
+		bottom:10px;
+		right:40px;
+	
 }

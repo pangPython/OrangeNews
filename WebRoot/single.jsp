@@ -21,35 +21,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<%@ include file="header.jsp" %>
-	<div class="container">
-		<div class="header-bottom">
-            <div class="type">
-				<h5><%=request.getAttribute("ts") %>></h5>
-			</div>
-			<span class="menu"></span>
-			<div class="list-nav">
-				<ul>                                                                 
-					<li><a href="ShowTypeServlet?num=1&pg=1">军事</a></li>|
-					<li><a href="ShowTypeServlet?num=2&pg=1">汽车</a></li>|
-					<li><a href="ShowTypeServlet?num=3&pg=1">生活</a></li>|
-					<li><a href="ShowTypeServlet?num=4&pg=1">美女</a></li>|
-					<li><a href="ShowTypeServlet?num=5&pg=1">科技</a></li>|
-					<li><a href="ShowTypeServlet?num=6&pg=1">游戏</a></li>|
-					<li><a href="ShowTypeServlet?num=7&pg=1">其他</a></li>
-				</ul>
-			</div>
-			<!-- script for menu -->
-				<script>
-				$( "span.menu" ).click(function() {
-				  $( ".list-nav" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-				});
-			</script>
-			<!-- script for menu -->
-			<div class="clearfix"></div>
-        </div>
-	</div>
+	<%@ include file="nav.jsp" %>
 	<div class="container">
 		<div class="content">
 			<div class="single-page">

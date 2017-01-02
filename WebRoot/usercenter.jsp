@@ -30,11 +30,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	User user = null;
   	String user_name ="";
   	try{
+  	
   	System.out.println("将要获取session的用户！");
   	user = ((User)request.getAttribute("user"));
-  	
   	/* user = (User)session.getAttribute(user_id.getValue()); */
-  	
   	System.out.println("获取了session中的用户！"+user);
   	user_name = user.getUser_name();
   	System.out.println("获取了用户名！");

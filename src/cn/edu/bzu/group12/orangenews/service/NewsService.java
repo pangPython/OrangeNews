@@ -55,4 +55,12 @@ public class NewsService {
 		return newsDao.getPage(type_id);
 	}
 
+	public List<News> getSearchNews(String str, int pg) throws SQLException {
+		return newsDao.getSearchNews(str,pg);
+	}
+
+	public int getPage(String str) throws SQLException {
+		return newsDao.getPage(str);
+	}
+
 }

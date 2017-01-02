@@ -1,4 +1,4 @@
-#Mon Jan 02 11:24:06 CST 2017
+#Mon Jan 02 17:46:17 CST 2017
 eclipse.preferences.version=1
 encoding//WebRoot/addsuccess.jsp=UTF-8
 encoding//WebRoot/edituser.jsp=UTF-8
@@ -6,8 +6,10 @@ encoding//WebRoot/error.jsp=UTF-8
 encoding//WebRoot/header.jsp=UTF-8
 encoding//WebRoot/login.jsp=UTF-8
 encoding//WebRoot/mymessage.jsp=UTF-8
+encoding//WebRoot/nav.jsp=UTF-8
 encoding//WebRoot/register.jsp=UTF-8
 encoding//WebRoot/updatepwd.jsp=UTF-8
 encoding//WebRoot/user.jsp=UTF-8
 encoding//WebRoot/usercenter.jsp=UTF-8
+encoding//src/cn/edu/bzu/group12/orangenews/servlet/SearchServlet.java=UTF-8
 encoding/README.md=UTF-8

@@ -152,4 +152,25 @@ public class NewsDao extends BaseDao{
 		return list;
 	}
 	
+	//关键字查询（标题 内容 摘要）
+	public List<News> getSearchNews(String str, int pg) throws SQLException {
+
+		String sql="SELECT * FROM(SELECT * FROM(SELECT DISTINCT * FROM news WHERE title LIKE '%"+str+"%' OR content LIKE '%"+str+"%' OR summary LIKE '%"+str+"%' ORDER BY hits DESC LIMIT "+pg*20+") AS n ORDER BY hits ASC LIMIT 20) AS nn ORDER BY hits DESC";
+		ResultSet rs=this.getStat().executeQuery(sql);
+		List<News> list = new ArrayList<News>();
+		while(rs.next()){
+			list.add((News) RS2Obj(rs, new News()));
+		}
+		return list;
+	}
+	//根据关键字查询count（每页20条数据）
+	public int getPage(String str) throws SQLException {
+		String sql="SELECT DISTINCT count(*) as num FROM news WHERE title LIKE '%"+str+"%' OR content LIKE '%"+str+"%' OR summary LIKE '%"+str+"%'";
+		ResultSet rs = this.getStat().executeQuery(sql);
+		rs.next();
+		int num = rs.getInt("num");
+		
+		return num;
+	}
+	
 }
