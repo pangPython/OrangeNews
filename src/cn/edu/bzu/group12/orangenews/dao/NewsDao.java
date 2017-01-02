@@ -135,5 +135,21 @@ public class NewsDao extends BaseDao{
 		}
 		return list;
 	}
+	//
+	public List<News> OneTypeAllNews(int type_id, int pg) throws SQLException {
+		String sql="";
+		if(type_id>=1&&type_id<=6){
+			sql="SELECT * FROM(SELECT * FROM(SELECT * FROM news WHERE TYPE = '"+type_id+"' LIMIT "+20*pg+") AS n ORDER BY news_id DESC LIMIT 20) AS nn ORDER BY news_id ASC";
+		}
+		else{
+			sql="SELECT * FROM(SELECT * FROM(SELECT * FROM news WHERE TYPE !=1 AND TYPE!=2 AND TYPE!=3 AND TYPE!=4 AND TYPE !=5 AND TYPE!=6 LIMIT "+20*pg+") AS n ORDER BY news_id DESC LIMIT 20) AS nn ORDER BY news_id ASC";
+		}
+		ResultSet rs = this.getStat().executeQuery(sql);
+		List<News> list = new ArrayList<News>();
+		while(rs.next()){
+			list.add((News) RS2Obj(rs, new News()));
+		}
+		return list;
+	}
 	
 }

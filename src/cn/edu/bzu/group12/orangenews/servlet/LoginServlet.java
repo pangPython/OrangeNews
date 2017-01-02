@@ -69,7 +69,7 @@ public class LoginServlet extends HttpServlet {
 				req.getRequestDispatcher("/error.jsp").forward(req, rsp);
 			}
 			
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			req.setAttribute("error_info", "系统异常,请稍后再试！");
 			req.getRequestDispatcher("/error.jsp").forward(req, rsp);

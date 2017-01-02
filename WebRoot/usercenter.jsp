@@ -4,9 +4,8 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-<%@ taglib prefix="hello" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE>
 <html>
   <head>
     <base href="<%=basePath%>">
@@ -26,6 +25,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   <body>
   <%@ include file="header.jsp" %>
+  <%
+  	User user = null;
+  	
+  	try{
+  	
+  	user = (User)session.getAttribute(user_id.getValue());
+  	
+  	}catch(Exception e){
+  		
+  		response.sendRedirect("/login.jsp");
+  		
+  	}
+  	
+   %>
 	<div class="container">
 		<br><br><br>
 		<div class="row">
@@ -35,32 +48,42 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</tr>
 				<tr>
 					<td>姓名：</td>
-					<td>${user.user_name}</td>
+					<td>
+						<%=user.getUser_name() %>
+					</td>
 				</tr>
 				<tr>
 					<td>性别：</td>
-					<td>${user.user_sex }</td>
+					<td>
+						<%=user.getUser_sex() %>
+					</td>
 				</tr>
 				<tr>
 					<td>密码：</td>
-					<td>${user.pwd}</td>
+					<td>
+						<%=user.getPwd() %>
+					</td>
 				</tr>
 				<tr>
 					<td>手机：</td>
-					<td>${user.tel}</td>
+					<td>
+						<%=user.getTel() %>
+					</td>
 				</tr>
 				<tr>
 					<td>邮件：</td>
-					<td>${user.email}</td>
+					<td>
+						<%=user.getEmail() %>
+					</td>
 				</tr>
 			</table>
 		</div>
 		<div class="row">
 			<table class="table table-bordered">
 				<tr>
-					<td><a href="edituser?uid=${user.user_id }" class="btn btn-success">修改信息</a></td>
+					<td><a href="edituser?uid=<%=user.getUser_id() %>" class="btn btn-success">修改信息</a></td>
 					<td><a href="updatepwd.jsp" class="btn btn-success">修改密码</a></td>
-					<td><a href="mycomments?uid=${user.user_id }" class="btn btn-success">我的评论</a></td>
+					<td><a href="mycomments?uid=<%=user.getUser_id() %>" class="btn btn-success">我的评论</a></td>
 				</tr>				
 			</table>
 		</div>

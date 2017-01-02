@@ -4,7 +4,7 @@ String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE>
 <html>
 
 <head>
@@ -27,20 +27,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="header-bottom">
             <div class="type">
-           
 				<h5><%=request.getAttribute("ts") %>></h5>
 	
 			</div>
 			<span class="menu"></span>
 			<div class="list-nav">
 				<ul>                                                                 
-					<li><a href="ShowTypeServlet?num=1">军事</a></li>|
-					<li><a href="ShowTypeServlet?num=2">汽车</a></li>|
-					<li><a href="ShowTypeServlet?num=3">生活</a></li>|
-					<li><a href="ShowTypeServlet?num=4">美女</a></li>|
-					<li><a href="ShowTypeServlet?num=5">科技</a></li>|
-					<li><a href="ShowTypeServlet?num=6">游戏</a></li>|
-					<li><a href="ShowTypeServlet?num=7">其他</a></li>
+					<li><a href="ShowTypeServlet?num=1&pg=1">军事</a></li>|
+					<li><a href="ShowTypeServlet?num=2&pg=1">汽车</a></li>|
+					<li><a href="ShowTypeServlet?num=3&pg=1">生活</a></li>|
+					<li><a href="ShowTypeServlet?num=4&pg=1">美女</a></li>|
+					<li><a href="ShowTypeServlet?num=5&pg=1">科技</a></li>|
+					<li><a href="ShowTypeServlet?num=6&pg=1">游戏</a></li>|
+					<li><a href="ShowTypeServlet?num=7&pg=1">其他</a></li>
 				</ul>
 			</div>
 			<!-- script for menu -->
@@ -65,92 +64,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p class="sub_head">${tp.author } ${tp.create_date }</p>
 					<a href="ShowOneServlet?id=${tp.news_id }"><img src="static/images/print.jpg" class="img-responsive"  /></a>
 					<p  class="sub_head"><a href="ShowOneServlet?id=${tp.news_id }">查看详情>></a></p>
-					<!-- 内容 <p class="ptext">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like</p> -->
 				<hr/>
 				</c:forEach>
+				第
+				<%
+				//tp:板块代码,p:总页码
+				int tp = Integer.parseInt(request.getAttribute("tyn").toString()); 
+				int p = Integer.parseInt(request.getAttribute("page").toString());
+					for(int i=1;i<=p;i++){
+						//out.println(i+" ");%>	
+						<a href="ShowTypeServlet?num=<%=tp %>&pg=<%=i%>"><%out.println(i+" "); %></a>
+				<% 	}
+				%>
+				页
 				</div>
 			</div>
 			<div class="col-md-5 content-right">
 			<div class="content-right-top">
-				<h5 class="head">Popular</h5>	
-				<a href="single.jsp">
+				<h5 class="head">板块热点</h5>	
+				
 					<div class="editor text-center">
-						<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-						<p>A new cheap ass 3D Printer worth checking out</p>
-						<label>2 Days Ago</label>
-						<span></span>
-					</div>
-				</a>
-				<a class="active" href="single.jsp">
-					<div class="editor text-center">
-						<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
-						<p>3D Printing, 3D Software</p>
-						<label>3 Days Ago</label>
-						<span></span>
-					</div>
-				</a>
-				<a href="single.jsp">
-					<div class="editor text-center">
-						<h3>DeltaMaker – The new kid on the block An Elegant 3D Printer</h3>
-						<p>A new cheap ass 3D Printer worth checking out</p>
-						<label>2 Days Ago</label>
-						<span></span>
-					</div>
-				</a>
-				<a href="single.jsp">
-					<div class="editor text-center">
-						<h3>Software Review: Autodesk Inventor Fusion for Mac</h3>
-						<p>3D Printing, 3D Software</p>
-						<label>3 Days Ago</label>
-						<span></span>
-					</div>
-				</a>
-				</div>
-				<div class="editors-pic-grids">
-					<h5>Editors Pick</h5>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep1.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">MarkerBot Announces the ‘Replicator 2x’  For the Experimental</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep2.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">3D Printed Record – the next revolution?</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep3.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">MarkerBot Announces the ‘Replicator 2x’  For the Experimental</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="editors-pic">
-						<div class="e-pic">
-							<a href="single.jsp"><img src="static/images/ep4.jpg" alt="" /></a>
-						</div>
-						<div class="e-pic-info">
-							<a href="single.jsp">3D Printed Record – the next revolution?</a>
-							<span></span>
-							<label>2 Days Ago</label>
-						</div>
-						<div class="clearfix"></div>
+						<c:forEach items="${thnews }" var="hot">
+							<a href="ShowOneServlet?id=${hot.news_id }">
+							<h3>${hot.title }</h3>
+							<p>${hot.summary }</p>
+							</a>
+							<label>点击量：${hot.hits }</label>
+							<br/>
+							<label>${hot.create_date }</label>
+							<hr/>
+						</c:forEach>
 					</div>
 				</div>
 			</div>

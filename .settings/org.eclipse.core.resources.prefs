@@ -1,10 +1,11 @@
-#Sun Jan 01 14:24:36 CST 2017
+#Mon Jan 02 11:24:06 CST 2017
 eclipse.preferences.version=1
 encoding//WebRoot/addsuccess.jsp=UTF-8
 encoding//WebRoot/edituser.jsp=UTF-8
 encoding//WebRoot/error.jsp=UTF-8
 encoding//WebRoot/header.jsp=UTF-8
 encoding//WebRoot/login.jsp=UTF-8
+encoding//WebRoot/mymessage.jsp=UTF-8
 encoding//WebRoot/register.jsp=UTF-8
 encoding//WebRoot/updatepwd.jsp=UTF-8
 encoding//WebRoot/user.jsp=UTF-8

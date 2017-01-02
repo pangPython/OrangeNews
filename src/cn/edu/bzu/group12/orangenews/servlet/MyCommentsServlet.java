@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 
 import cn.edu.bzu.group12.orangenews.bean.Comments;
+import cn.edu.bzu.group12.orangenews.bean.User;
 import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
 
 /**
@@ -34,7 +35,7 @@ public class MyCommentsServlet extends HttpServlet {
 		try {
 			//获取当前用户id
 			Cookie cookie = CookieUtils.getCookieFromCookies(((HttpServletRequest)req).getCookies(), "loginuser");
-			int user_id = Integer.parseInt(((HttpServletRequest)req).getSession().getAttribute(cookie.getValue()).toString());
+			int user_id = Integer.parseInt(cookie.getValue());
 			//查询并返回评论列表
 			List<Comments> list = commentsService.getAllCommentsByUserId(user_id);
 			req.setAttribute("commentslist", list);

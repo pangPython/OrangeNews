@@ -46,7 +46,7 @@
 						%>
 						
 					<li><a href="usercenter">用户中心</a></li>
-					<li><a href="about.jsp">我的消息</a></li>
+					<li><a href="mymessage.jsp">我的消息</a></li>
 					<li><a class="active" href="logout">退出</a></li>
 						<%
 					}else{

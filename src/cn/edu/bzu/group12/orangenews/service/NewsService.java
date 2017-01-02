@@ -1,14 +1,9 @@
 package cn.edu.bzu.group12.orangenews.service;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
 import java.util.List;
 
 import cn.edu.bzu.group12.orangenews.bean.News;
-import cn.edu.bzu.group12.orangenews.dao.BaseDao;
 import cn.edu.bzu.group12.orangenews.dao.NewsDao;
 
 /**
@@ -52,14 +47,12 @@ public class NewsService {
 		return newsDao.getTHotNews(tp);
 	}
 
-	public List<News> getTypeNews(int num, int pg) {
-		// TODO Auto-generated method stub
-		return null;
+	public List<News> getTypeNews(int type_id, int pg) throws SQLException {
+		return newsDao.OneTypeAllNews(type_id,pg);
 	}
 
-	public int getPage(int num) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int getPage(int type_id) throws Exception {
+		return newsDao.getPage(type_id);
 	}
 
 }

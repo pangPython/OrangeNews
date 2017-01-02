@@ -27,13 +27,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<span class="menu"></span>
 			<div class="list-nav">
 				<ul>                                                                 
-					<li><a href="ShowTypeServlet?num=1">军事</a></li>|
-					<li><a href="ShowTypeServlet?num=2">汽车</a></li>|
-					<li><a href="ShowTypeServlet?num=3">生活</a></li>|
-					<li><a href="ShowTypeServlet?num=4">美女</a></li>|
-					<li><a href="ShowTypeServlet?num=5">科技</a></li>|
-					<li><a href="ShowTypeServlet?num=6">游戏</a></li>|
-					<li><a href="ShowTypeServlet?num=7">其他</a></li>
+					<li><a href="ShowTypeServlet?num=1&pg=1">军事</a></li>|
+					<li><a href="ShowTypeServlet?num=2&pg=1">汽车</a></li>|
+					<li><a href="ShowTypeServlet?num=3&pg=1">生活</a></li>|
+					<li><a href="ShowTypeServlet?num=4&pg=1">美女</a></li>|
+					<li><a href="ShowTypeServlet?num=5&pg=1">科技</a></li>|
+					<li><a href="ShowTypeServlet?num=6&pg=1">游戏</a></li>|
+					<li><a href="ShowTypeServlet?num=7&pg=1">其他</a></li>
 				</ul>
 			</div>
 			<!-- script for menu -->
