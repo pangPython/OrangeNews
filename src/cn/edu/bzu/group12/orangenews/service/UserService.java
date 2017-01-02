@@ -55,5 +55,9 @@ public class UserService {
 		return userDao.getUserByNameAndPwd(user_name, user_pwd);
 	}
 	
+	public int getLastInsertId() throws SQLException{
+		return userDao.getLastInsertId("user");
+	}
+	
 	
 }

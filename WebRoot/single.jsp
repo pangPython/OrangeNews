@@ -70,16 +70,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="single">
 				<div class="leave">
 				</div>
-				<form id="commentform">
-					 <p class="comment-form-comment">
-						<textarea></textarea>
-					 </p>
-					 <div class="clearfix"></div>
-					<p class="form-submit">
-			           <input name="submit" type="submit" id="submit" value="评论">
-					</p>
-					<div class="clearfix"></div>
-				   </form>
+					<form action="addcomments" method="POST">
+						<p class="comment-form-comment">
+							<textarea name="content"></textarea>
+						</p>
+						<div class="clearfix"></div>
+						<p class="form-submit">
+							<input name="submit" type="submit"  value="评论">
+						</p>
+						<div class="clearfix"></div>
+					</form>
 				   	<div class="comments1">
 								<h4>评论:</h4>
 								<c:forEach items="${commentsList}" var="comments">

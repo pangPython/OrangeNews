@@ -6,6 +6,7 @@ import java.util.Date;
 /**
  * @author pangPython
  *		新闻评论实体类
+ *
  */
 public class Comments {
 	

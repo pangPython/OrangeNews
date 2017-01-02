@@ -3,6 +3,8 @@ package cn.edu.bzu.group12.orangenews.dao;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import org.apache.log4j.Logger;
+
 import cn.edu.bzu.group12.orangenews.bean.User;
 
 
@@ -11,7 +13,7 @@ import cn.edu.bzu.group12.orangenews.bean.User;
  *	用户数据库操作
  */
 public class UserDao extends BaseDao{
-	
+	Logger log = Logger.getLogger(UserDao.class) ;
 
 	//插入User到数据库
 	public int add(User user) {
@@ -65,9 +67,24 @@ public class UserDao extends BaseDao{
 
 	@Override
 	Object RS2Obj(ResultSet rs, Object obj) throws SQLException {
-		// TODO Auto-generated method stub
 		return null;
 	}
+	
+		//	SELECT LAST_INSERT_ID();
+		public int getLastInsertId(String table_name) throws SQLException{
+			
+			String sql = "SELECT MAX(user_id) AS user_id FROM USER";
+			
+			ResultSet rs = this.getStat().executeQuery(sql);
+			while (rs.next()) {
+				log.debug("返回了数据库中的结果！");
+				return rs.getInt("user_id");
+				
+			}
+			log.debug("返回了0！");
+			return 0;
+			
+		}
 	
 	
 	

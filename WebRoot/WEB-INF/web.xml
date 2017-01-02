@@ -60,6 +60,13 @@
     <servlet-name>LogoutServlet</servlet-name>
     <servlet-class>cn.edu.bzu.group12.orangenews.servlet.LogoutServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentsAddServlet</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.CommentsAddServlet</servlet-class>
+  </servlet>
+
 
   
   <servlet-mapping>
@@ -118,6 +125,10 @@
   <servlet-mapping>
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentsAddServlet</servlet-name>
+    <url-pattern>/addcomments</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>ShowAllServlet</welcome-file>

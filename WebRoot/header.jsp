@@ -1,3 +1,4 @@
+<%@page import="org.apache.log4j.Logger"%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 
 <!-- header-section-starts -->
@@ -16,8 +17,6 @@
 			<div class="navigation">
 				<ul>
 						<%
-					System.out.println("右上角！！！");
-					
 					Cookie user_id = null;
 					try{
 					Cookie[] cookies = request.getCookies();
@@ -40,9 +39,10 @@
 					}
 					
 					try{
+						System.out.println("正在查看是否有此用户");
 					//判断服务器端session是否存在当前用户id
 					if(session.getAttribute(user_id.getValue())!=null){
-					
+						System.out.println("获取到了用户session");
 						%>
 						
 					<li><a href="usercenter">用户中心</a></li>
@@ -63,7 +63,7 @@
 					<%
 					}
 					
-					
+					System.out.println("离开header！");
 						%>
 					
 				</ul>

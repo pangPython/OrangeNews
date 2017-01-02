@@ -26,12 +26,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   <%@ include file="header.jsp" %>
   <%
+  	System.out.println("进入 usercenter！");
   	User user = null;
-  	
+  	String user_name ="";
   	try{
+  	System.out.println("将要获取session的用户！");
+  	user = ((User)request.getAttribute("user"));
   	
-  	user = (User)session.getAttribute(user_id.getValue());
+  	/* user = (User)session.getAttribute(user_id.getValue()); */
   	
+  	System.out.println("获取了session中的用户！"+user);
+  	user_name = user.getUser_name();
+  	System.out.println("获取了用户名！");
   	}catch(Exception e){
   		
   		response.sendRedirect("/login.jsp");
@@ -49,7 +55,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td>姓名：</td>
 					<td>
-						<%=user.getUser_name() %>
+						<%=user_name %>
 					</td>
 				</tr>
 				<tr>
