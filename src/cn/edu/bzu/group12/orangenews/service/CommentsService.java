@@ -26,9 +26,9 @@ public class CommentsService {
 		return commentsDao.getCmtsByUId(user_id);
 	}
 	
-	public List<Comments> getCmtsByNewsId(int news_id){
-		
-		return null;
+	//根据新闻id获取评论
+	public List<Comments> getCmtsByNewsId(int news_id) throws SQLException{
+		return commentsDao.getCmtsByNId(news_id);
 	}
 	
 

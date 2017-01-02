@@ -26,6 +26,7 @@ public class CommentsDao extends BaseDao{
 		return list;
 	}
 	
+	//根据用户id获取评论
 	public List<Comments> getCmtsByUId(int user_id) throws SQLException{
 		String sql = "select * from comments where user_id = "+user_id;
 		List<Comments> list = new ArrayList<Comments>();
@@ -45,6 +46,17 @@ public class CommentsDao extends BaseDao{
 		comments.setContent(rs.getString("content"));
 		comments.setTime(rs.getTimestamp("time"));
 		return comments;
+	}
+	
+	//根据新闻id获取评论
+	public List<Comments> getCmtsByNId(int news_id) throws SQLException {
+		String sql = "select * from comments where news_id = "+news_id;
+		List<Comments> list = new ArrayList<Comments>();
+		ResultSet rs = this.getStat().executeQuery(sql);
+		while (rs.next()) {
+			list.add((Comments) RS2Obj(rs, new Comments()));
+		}
+		return list;
 	}
 
 	

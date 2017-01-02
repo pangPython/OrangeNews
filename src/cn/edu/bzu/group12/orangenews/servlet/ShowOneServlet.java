@@ -58,10 +58,15 @@ public class ShowOneServlet extends HttpServlet {
 			list1.add(n);
 			list2=ns.get3TypeNews(n.getType());
 			String s = ns.SelectType(n.getType());
+			
+			commentsList = commentsService.getCmtsByNewsId(news_id);
+			
 			req.setAttribute("ts", s);
 			req.setAttribute("news", list1);
 			req.setAttribute("tnews", list2);
 			req.setAttribute("news_title", n.getTitle());
+			req.setAttribute("commentsList", commentsList);
+			
 			req.getRequestDispatcher("/single.jsp").forward(req, rep);
 			
 		} catch (Exception e) {
