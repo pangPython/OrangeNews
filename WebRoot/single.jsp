@@ -3,7 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Single</title>
+<title>
+	<%=request.getAttribute("news_title") %>
+</title>
 <link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
