@@ -50,7 +50,8 @@ public class RegisterServlet extends HttpServlet {
 		UserService us = new UserService();
 		if(us.insert(user)){
 			//注册成功
-			req.setAttribute("info", "注册成功！请登录");
+			req.setAttribute("info", "注册成功！正在跳转登录页面...");
+			req.setAttribute("target", "login.jsp");
 			req.getRequestDispatcher("redirect.jsp").forward(req, res);
 		}else{
 			req.getRequestDispatcher("error.jsp").forward(req, res);

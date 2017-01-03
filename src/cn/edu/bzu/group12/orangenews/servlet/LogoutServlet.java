@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
+
 import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
 
 /**
@@ -20,7 +22,8 @@ import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
  *
  */
 public class LogoutServlet extends HttpServlet {
-
+		
+	Logger log  = Logger.getLogger(LogoutServlet.class);
 	/**
 	 * 
 	 */
@@ -29,16 +32,17 @@ public class LogoutServlet extends HttpServlet {
 	@Override
 	public void service(ServletRequest req, ServletResponse res)
 			throws ServletException, IOException {
-		//获取cookie
+		
 		Cookie cookie = CookieUtils.getCookieFromCookies(((HttpServletRequest)req).getCookies(), "loginuser");
-		//获取session
+		log.debug("获取cookie");
 		HttpSession session = ((HttpServletRequest)req).getSession();
-		//移除session
+		log.debug("获取session");
 		session.removeAttribute(cookie.getValue());
-		//销毁cookie
+		log.debug("移除session");
 		CookieUtils.removeCookieByName("loginuser", (HttpServletRequest)req, (HttpServletResponse)res);
-		//返回主页
-		req.getRequestDispatcher("/ShowAllServlet").forward(req, res);
+		log.debug("销毁cookie");
+		((HttpServletResponse)res).sendRedirect("ShowAllServlet");
+		log.debug("返回主页");
 	}
 	
 }

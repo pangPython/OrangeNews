@@ -19,6 +19,7 @@ import cn.edu.bzu.group12.orangenews.dao.UserDao;
 public class UserService {
 	
 	UserDao userDao = new UserDao(); 
+	Logger log = Logger.getLogger(UserService.class);
 	
 	public List<User> getAllUser() throws SQLException, UnsupportedEncodingException{
 		ResultSet rs = userDao.Query("select * from user");
@@ -62,6 +63,11 @@ public class UserService {
 	//更新密码
 	public boolean updatepwd(int user_id,String new_pwd) throws SQLException{
 		return userDao.UpdatePwd(user_id,new_pwd);
+	}
+	//更新用户信息
+	public boolean update(User user) throws SQLException {
+			log.debug("UserService update");
+			return userDao.Update(user);
 	}
 	
 }

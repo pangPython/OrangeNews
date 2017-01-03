@@ -93,6 +93,16 @@ public class UserDao extends BaseDao{
 			}
 			return false;
 		}
+
+		//更新用户信息
+		public boolean Update(User user) throws SQLException {
+			String sql = "update user set user_name = '"+user.getUser_name()+"' , user_sex = "+user.getUser_sex()+" , email = '"+user.getEmail()+"' , tel = '"+user.getTel()+"' where user_id = "+user.getUser_id();
+			log.debug("打印sql信息："+sql);
+			if(this.getStat().executeUpdate(sql)>0){
+				return true;
+			}
+			return false;
+		}
 	
 	
 	

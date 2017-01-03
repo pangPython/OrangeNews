@@ -28,6 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    	<div class="container">
    	<br><br><br>
    		<div class="row">
+   		<form action="userupdate" method="POST">
    			<table class="table table-bordered">
    				<tr>
    					<td colspan="2"><h1>编辑信息</h1></td>
@@ -40,26 +41,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     		<tr>
     			<td>性别：</td>
     			<td>
-    				<select name="user_sex">
-    					<option value="${user.user_sex }">
-						 	<c:if test=" ${user.user_sex=='0' } ">
-						 	女
-						 	</c:if>
-						 	<c:if test=" ${user.user_sex=='1' }">
-						 	男
-						 	</c:if>
-    					</option>
-    					
-    					<option value="${1-user.user_sex }">
-						 	<c:if test=" ${user.user_sex=='1'}">
-						 		女
-						 	</c:if>
-						 	<c:if test=" ${user.user_sex=='0'}">
-						 		男
-						 	</c:if>
-    					</option>
-    				</select>
-    				<input type="text" value="${user.user_sex }" name="user_sex">
+    				男	
+    				<input type="radio" name="user_sex" value="0">
+    				女
+    				<input type="radio" name="user_sex" value="1">
     			</td>
     		</tr>
     	
@@ -77,6 +62,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	    			</td>
 	    		</tr>
 	   			</table>
+	   			</form>
    		</div>
    	</div>
   </body>

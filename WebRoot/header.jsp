@@ -1,3 +1,4 @@
+<%@page import="cn.edu.bzu.group12.orangenews.bean.User"%>
 <%@page import="org.apache.log4j.Logger"%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 
@@ -42,11 +43,11 @@
 					try{
 						System.out.println("正在查看是否有此用户");
 					//判断服务器端session是否存在当前用户id
-					if(session.getAttribute(user_id.getValue())!=null){
+					User current_user = (User)session.getAttribute(user_id.getValue());
+					if(current_user!=null){
 						System.out.println("获取到了用户session");
 						%>
-						
-					<li><a href="usercenter">用户中心</a></li>
+					<li><a href="usercenter"><%=current_user.getUser_name() %></a></li>
 					<li><a href="mymessage.jsp">我的消息</a></li>
 					<li><a class="active" href="logout">退出</a></li>
 						<%

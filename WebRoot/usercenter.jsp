@@ -62,7 +62,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td>性别：</td>
 					<td>
-						<%=user.getUser_sex() %>
+						<% 
+						if(user.getUser_sex()==0){
+						%>女<%
+						}else{
+						%>男<%
+						}
+						
+						%>
 					</td>
 				</tr>
 				<tr>
