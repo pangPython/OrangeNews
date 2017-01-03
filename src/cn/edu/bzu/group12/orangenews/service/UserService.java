@@ -59,5 +59,9 @@ public class UserService {
 		return userDao.getLastInsertId("user");
 	}
 	
+	//¸üĞÂÃÜÂë
+	public boolean updatepwd(int user_id,String new_pwd) throws SQLException{
+		return userDao.UpdatePwd(user_id,new_pwd);
+	}
 	
 }

@@ -84,6 +84,15 @@ public class UserDao extends BaseDao{
 			return 0;
 			
 		}
+		
+		//更新用户密码
+		public boolean UpdatePwd(int user_id, String new_pwd) throws SQLException {
+			String sql = "update user set pwd = '"+new_pwd+"' where user_id = "+user_id;
+			if(this.getStat().executeUpdate(sql)>0){
+				return true;
+			}
+			return false;
+		}
 	
 	
 	

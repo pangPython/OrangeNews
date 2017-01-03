@@ -29,6 +29,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    	<div class="container">
    	<br><br><br>
    		<div class="row">
+   			<form action="updatepwd" method="post">
    			<table class="table table-bordered">
    				<tr>
    					<td colspan="2">
@@ -53,18 +54,19 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    						<input type="password" name="confirm_pwd" class="input">
    					</td>
    				</tr>
-   				<tr>
+   				<!-- <tr>
    					<td>验证码</td>
    					<td>
    						<input type="password"  class="input">
    					</td>
-   				</tr>
+   				</tr> -->
    				<tr>
    					<td colspan="2">
    						<input class="btn btn-success" type="submit">
    					</td>
    				</tr>
    			</table>
+   			</form>
    		</div>
    	</div>
   </body>

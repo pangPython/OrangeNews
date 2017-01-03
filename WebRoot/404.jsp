@@ -4,7 +4,7 @@ String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE>
 <html>
 <head>
 <title>404</title>
@@ -16,40 +16,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Konstructs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
 	  <%@ include file="header.jsp" %>
-	<div class="container">
-		<div class="header-bottom">
-            <div class="type">
-				<h5>Article Types</h5>
-			</div>
-			<span class="menu"></span>
-			<div class="list-nav">
-				<ul>                                                                 
-					<li><a href="3dprinting.jsp">3D Printing</a></li>|
-					<li><a href="materials.jsp">Materials</a></li>|
-					<li><a href="printing.jsp">Printing</a></li>|
-					<li><a href="filestoprint.jsp">Files to Print</a></li>|
-					<li><a class="active" href="404.jsp">Videos</a></li>|
-					<li><a href="about.jsp">About</a></li>
-				</ul>
-			</div>
-			<!-- script for menu -->
-				<script>
-				$( "span.menu" ).click(function() {
-				  $( ".list-nav" ).slideToggle( "slow", function() {
-				    // Animation complete.
-				  });
-				});
-			</script>
-			<!-- script for menu -->
-			<div class="clearfix"></div>
-        </div>
-	</div>
+		<%@ include file="nav.jsp" %>
 	<div class="container">
 		<div class="content">
 			<!--404-->
