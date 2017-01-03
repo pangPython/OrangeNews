@@ -10,8 +10,8 @@
 			<div class="pages">
 				<ul>
 					<li><a class="active" href="ShowAllServlet">首页</a></li>
-					<li><a>板块</a></li>
-					<li><a href="404.jsp">Tutorials</a></li>
+					<li><a>版块</a></li>
+					<li><a href="404.jsp">论坛</a></li>
 				</ul>
 			</div>
 			<div class="navigation">

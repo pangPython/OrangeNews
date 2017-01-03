@@ -2,7 +2,21 @@
 <div class="container">
 		<div class="header-bottom">
             <div class="type">
-				<h5>首页</h5>
+				<h5>
+				<%
+				try{
+					String  tyn = request.getAttribute("tyn").toString();
+					%>
+					<a href="ShowTypeServlet?num=<%=request.getAttribute("tyn").toString() %>&pg=1"><%=request.getAttribute("ts") %>></a>
+				<%
+				}catch(Exception e){
+				%>
+				首页
+				<%
+				}
+				
+				 %>
+				</h5>
 			</div>
 			<span class="menu"></span>
 			<div class="list-nav">
