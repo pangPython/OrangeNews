@@ -32,22 +32,37 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    				<tr>
    					<td colspan="2"><h1>编辑信息</h1></td>
    				</tr>
-   				<tr>
-   				<td>id:</td>
-	    		<td><input type="text" value="${user.user_id}" name="user_id"></td>
-    		</tr>
+   			
     		<tr>
     			<td>姓名：</td>
     			<td><input type="text" value="${user.user_name}" name="user_name"></td>
     		</tr>
     		<tr>
     			<td>性别：</td>
-    			<td><input type="text" value="${user.user_sex }" name="user_sex"></td>
+    			<td>
+    				<select name="user_sex">
+    					<option value="${user.user_sex }">
+						 	<c:if test=" ${user.user_sex=='0' } ">
+						 	女
+						 	</c:if>
+						 	<c:if test=" ${user.user_sex=='1' }">
+						 	男
+						 	</c:if>
+    					</option>
+    					
+    					<option value="${1-user.user_sex }">
+						 	<c:if test=" ${user.user_sex=='1'}">
+						 		女
+						 	</c:if>
+						 	<c:if test=" ${user.user_sex=='0'}">
+						 		男
+						 	</c:if>
+    					</option>
+    				</select>
+    				<input type="text" value="${user.user_sex }" name="user_sex">
+    			</td>
     		</tr>
-    		<tr>
-    			<td>密码：</td>
-    			<td><input type="text" value="${user.pwd}" name="user_pwd"></td>
-    		</tr>
+    	
     		<tr>
     			<td>手机：</td>
     			<td><input type="text" value="${user.tel}" name="user_tel"></td>
