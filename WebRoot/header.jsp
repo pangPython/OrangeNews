@@ -33,9 +33,8 @@
 					}catch(Exception e) {
 					
 						System.out.println("没有获取到cookie");
-						request.setAttribute("error_info", "没有获取到cookie");
-						request.getRequestDispatcher("/error.jsp").forward(request, response);
-					
+						request.getRequestDispatcher("/").forward(request, response);
+						
 					}
 					
 					try{

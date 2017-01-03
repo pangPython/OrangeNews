@@ -19,9 +19,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Konstructs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
+	<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="static/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="static/css/bootstrap.min.css">
+
 </head>
 <body>
 	<%@ include file="header.jsp" %>
@@ -39,13 +42,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- 轮播（Carousel）项目 -->
 	<div class="carousel-inner">
 		<div class="item active">
-			<img src="static/images/yan.jpg" alt="First slide" width="100%">
+			<img src="static/images/banner1.png" alt="First slide" width="100%">
 		</div>
 		<div class="item">
-			<img src="static/images/yule.jpg" alt="Second slide" width="100%">
+			<img src="static/images/banner2.png" alt="Second slide" width="100%">
 		</div>
 		<div class="item">
-			<img src="static/images/yule3.jpg" alt="Third slide" width="100%">
+			<img src="static/images/banner3.png" alt="Third slide" width="100%">
 		</div>
 	</div>
 	<!-- 轮播（Carousel）导航 -->

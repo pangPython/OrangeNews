@@ -38,6 +38,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	System.out.println("获取了session中的用户！"+user);
   	user_name = user.getUser_name();
   	System.out.println("获取了用户名！");
+  	
   	}catch(Exception e){
   		
   		response.sendRedirect("/login.jsp");
