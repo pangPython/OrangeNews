@@ -80,7 +80,7 @@ public abstract class BaseDao {
 	public void setStat(Statement stat) {
 		this.stat = stat;
 	}
-	
+	//抽象方法 resultset 转换成 bean 对象类型
 	abstract Object RS2Obj(ResultSet rs,Object obj) throws SQLException;
 
 }

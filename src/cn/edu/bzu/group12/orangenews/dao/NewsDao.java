@@ -25,7 +25,6 @@ public class NewsDao extends BaseDao{
 	}
 	
 	//根据id查类型名称
-
 		public String getNameById(int id) throws SQLException{
 			String type="";
 			if(id>=1&&id<=6){
@@ -92,7 +91,9 @@ public class NewsDao extends BaseDao{
 		return list;
 	}
 
-
+	
+	//继承自BaseDao抽象方法
+	//把数据库查询的ResultSet转换成News对象
 	@Override
 	Object RS2Obj(ResultSet rs, Object obj) throws SQLException {
 		News n= (News) obj;

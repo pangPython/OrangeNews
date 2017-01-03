@@ -37,6 +37,8 @@ public class CommentsDao extends BaseDao{
 		return list;
 	}
 
+	//继承自BaseDao的抽象方法 
+	//把数据库查询的ResultSet转换成Comments对象
 	@Override
 	Object RS2Obj(ResultSet rs, Object obj) throws SQLException {
 		Comments comments = (Comments)obj;
