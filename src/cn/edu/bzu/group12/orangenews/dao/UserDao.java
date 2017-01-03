@@ -62,7 +62,7 @@ public class UserDao extends BaseDao{
 		User user_obj = (User)obj;
 		user_obj.setUser_id(rs.getInt("user_id"));
 		user_obj.setUser_name(rs.getString("user_name"));
-		user_obj.setPwd(rs.getString("user_pwd"));
+		user_obj.setPwd(rs.getString("pwd"));
 		user_obj.setEmail(rs.getString("email"));
 		user_obj.setUser_sex(rs.getInt("user_sex"));
 		user_obj.setTel(rs.getString("tel"));
