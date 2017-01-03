@@ -5,7 +5,9 @@
 	<div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="ShowAllServlet"><h1>ORANGE</h1></a>
+				<a href="ShowAllServlet">
+					<img alt="OrangeNews" src="static/images/logo.gif" height="40px">
+				</a>
 			</div>
 			<div class="pages">
 				<ul>
