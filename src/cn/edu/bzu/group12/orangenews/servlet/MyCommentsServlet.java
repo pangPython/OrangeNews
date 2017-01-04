@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 
 import cn.edu.bzu.group12.orangenews.bean.Comments;
-import cn.edu.bzu.group12.orangenews.bean.User;
 import cn.edu.bzu.group12.orangenews.service.CommentsService;
 import cn.edu.bzu.group12.orangenews.utils.CookieUtils;
 

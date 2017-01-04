@@ -32,7 +32,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<h1><%=request.getAttribute("info") %></h1>
 <%
 	String target = request.getAttribute("target").toString();
-	response.setHeader("Refresh","5;url="+target);
+	response.setHeader("Refresh","3;url="+target);
 %>
 			
 		</div>

@@ -31,5 +31,12 @@ public class CommentsService {
 		return commentsDao.getCmtsByNId(news_id);
 	}
 	
+	//Ìí¼ÓÆÀÂÛ
+	//@author Ðí»¸²Ê
+	public boolean addComment(int news_id,int user_id, String content) throws SQLException {
+		return commentsDao.addComments(news_id,user_id, content);
+	}
+
+	
 
 }

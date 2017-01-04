@@ -61,6 +61,21 @@ public class CommentsDao extends BaseDao{
 		return list;
 	}
 
+		//添加新闻评论
+		//@author 许桓彩
+		public boolean addComments(int news_id,int user_id,String content) throws SQLException
+		{
+			String sql = "insert into comments(news_id,user_id,content) values("+news_id+","+user_id+",'"+content+"')";
+			System.out.println(sql);
+			
+			if(this.getStat().executeUpdate(sql)>0){
+				
+				return true;
+				
+			}
+			return false;
+		}
+
 	
 	
 }

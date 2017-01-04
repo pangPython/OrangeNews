@@ -31,7 +31,7 @@ public class CookieUtils {
 				resp.addCookie(cookie);
 			}
 	}
-	
+	//¸ù¾ÝcookieÃû³ÆÒÆ³ýcookie
 	public static void removeCookieByName(String cookie_name,HttpServletRequest request,HttpServletResponse resp){
 		Cookie cookie = null;
 		   Cookie[] cookies = null;

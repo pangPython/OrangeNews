@@ -44,11 +44,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 					<form action="addcomments" method="POST">
 						<p class="comment-form-comment">
-							<textarea name="content"></textarea>
+							<textarea name="content" style="font-size: 20px;width:500px" class="comments1"></textarea>
 						</p>
+						<p><input type="hidden" name="news_id" value="${news_id}"/></p>
 						<div class="clearfix"></div>
 						<p class="form-submit">
-							<input name="submit" type="submit"  value="评论">
+							<input name="comment" class="btn btn-success" type="submit"  value="发表">
 						</p>
 						<div class="clearfix"></div>
 					</form>
@@ -57,10 +58,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<c:forEach items="${commentsList}" var="comments">
 					  				<div class="comments-main">
 											<div class="col-md-3 cmts-main-left">
-												<img src="images/avatar.jpg" alt="">
+												<img src="static/images/avatar.jpg" alt="">
 											</div>
 											<div class="col-md-9 cmts-main-right">
-												<h5>TOM BROWN</h5>
+												<h5>${comments.comments_id}楼 ${comments.user_name}</h5>
 												<p>${comments.content }</p>
 												<div class="cmts">
 													<div class="col-md-6 cmnts-left">

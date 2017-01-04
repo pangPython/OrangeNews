@@ -16,7 +16,7 @@ import cn.edu.bzu.group12.orangenews.service.NewsService;
 
 
 /**
- * @author ChengRui
+ * @author 程锐
  * 显示单个新闻
  *
  */
@@ -64,6 +64,7 @@ public class ShowOneServlet extends HttpServlet {
 			req.setAttribute("ts", s);
 			req.setAttribute("news", list1);
 			req.setAttribute("tnews", list2);
+			req.setAttribute("news_id", news_id);
 			req.setAttribute("news_title", n.getTitle());
 			req.setAttribute("commentsList", commentsList);
 			
