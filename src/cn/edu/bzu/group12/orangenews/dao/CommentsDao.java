@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.edu.bzu.group12.orangenews.bean.Comments;
+import cn.edu.bzu.group12.orangenews.bean.CommentsAndUser;
 
 
 /**
@@ -75,6 +76,8 @@ public class CommentsDao extends BaseDao{
 			}
 			return false;
 		}
+
+	
 
 	
 	

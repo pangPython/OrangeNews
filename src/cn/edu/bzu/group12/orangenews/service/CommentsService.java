@@ -4,6 +4,8 @@ import java.sql.SQLException;
 import java.util.List;
 
 import cn.edu.bzu.group12.orangenews.bean.Comments;
+import cn.edu.bzu.group12.orangenews.bean.CommentsAndUser;
+import cn.edu.bzu.group12.orangenews.dao.CommentsAndUserDao;
 import cn.edu.bzu.group12.orangenews.dao.CommentsDao;
 
 
@@ -14,7 +16,7 @@ import cn.edu.bzu.group12.orangenews.dao.CommentsDao;
 public class CommentsService {
 
 	CommentsDao commentsDao = new CommentsDao();
-	
+	CommentsAndUserDao commentsAndUserDao =  new CommentsAndUserDao();
 	//获取所有评论
 	public List<Comments> allComments() throws SQLException {
 		return  commentsDao.getAllComments();
@@ -30,6 +32,11 @@ public class CommentsService {
 	public List<Comments> getCmtsByNewsId(int news_id) throws SQLException{
 		return commentsDao.getCmtsByNId(news_id);
 	}
+	//根据新闻id获取评论和用户名
+	public List<CommentsAndUser> getCmtsAndUserNameByNewsId(int news_id) throws SQLException{
+			return commentsAndUserDao.getCmtsAndUserNameByNId(news_id);
+	}
+	
 	
 	//添加评论
 	//@author 许桓彩

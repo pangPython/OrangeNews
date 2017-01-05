@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import cn.edu.bzu.group12.orangenews.bean.Comments;
+import cn.edu.bzu.group12.orangenews.bean.CommentsAndUser;
 import cn.edu.bzu.group12.orangenews.bean.News;
 import cn.edu.bzu.group12.orangenews.service.CommentsService;
 import cn.edu.bzu.group12.orangenews.service.NewsService;
@@ -50,7 +51,7 @@ public class ShowOneServlet extends HttpServlet {
 		//相关新闻
 		List<News> list2 = new ArrayList<News>();
 		//评论
-		List<Comments> commentsList = new ArrayList<Comments>();
+		List<CommentsAndUser> commentsList = new ArrayList<CommentsAndUser>();
 		
 		try {
 			
@@ -59,7 +60,7 @@ public class ShowOneServlet extends HttpServlet {
 			list2=ns.get3TypeNews(n.getType());
 			String s = ns.SelectType(n.getType());
 			
-			commentsList = commentsService.getCmtsByNewsId(news_id);
+			commentsList = commentsService.getCmtsAndUserNameByNewsId(news_id);
 			
 			req.setAttribute("ts", s);
 			req.setAttribute("news", list1);
