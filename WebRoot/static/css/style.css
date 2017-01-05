@@ -1,4 +1,15 @@
-
+.wai{
+	width:100%;
+	
+}
+.container22 {
+	width: 75%;
+  margin:0 auto;
+}
+.row22{
+	margin: 0 auto;
+	width: 50%;
+}
 body{
 	padding:0;
 	margin:0;

@@ -29,12 +29,13 @@ CookieUtils.removeCookieByName("loginuser",request,response);
   
   <body>
   	<%@ include file="header.jsp"%>
-	<div class="container">
+  <div class="wai">
+	<div class="container22">
 		<br><br><br>
-		<div class="row">
+		<div class="row22">
 			<form action="login" id="form" method="post">
 			
-			<table class="table table-bordered text-center" style="width:60%">
+			<table class="table table-bordered text-center" >
 				<tr><td colspan="2"><h1 >登录</h1></td></tr>
 				<tr>
 					<td>用户名</td>
@@ -51,13 +52,14 @@ CookieUtils.removeCookieByName("loginuser",request,response);
 				<tr>
 					<td colspan="2" class="text-center">
 						<button type="button" class="btn btn-success" onclick="login()">登录</button>
-						<a href="register.jsp">点击注册</a>
+						<a class="btn btn-success" href="register.jsp">注册</a>
 					</td>
 				</tr>
 			</table>
 			</form>
 		</div>
 		
+	</div>
 	</div>
   </body>
   <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
