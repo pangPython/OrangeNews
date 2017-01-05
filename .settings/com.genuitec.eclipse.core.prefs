@@ -1,4 +1,4 @@
-#Sun Jan 01 09:59:17 CST 2017
+#Thu Jan 05 10:24:53 CST 2017
 eclipse.preferences.version=1
-validator.Checked=WebRoot/static/js/jquery-1.11.1.min.js
+validator.Checked=WebRoot/admin/assets/js,WebRoot/static/js/jquery-1.11.1.min.js
 validator.Unchecked=
