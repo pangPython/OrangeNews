@@ -14,13 +14,16 @@
 - 后台amaze UI
 
 ****
-
-![](http://7xrswa.com1.z0.glb.clouddn.com/1.png)
+![](http://7xrswa.com1.z0.glb.clouddn.com/x1.png)
+![](http://7xrswa.com1.z0.glb.clouddn.com/x2.png)
+![](http://7xrswa.com1.z0.glb.clouddn.com/x3.png)
+![](http://7xrswa.com1.z0.glb.clouddn.com/x4.png)
+![](http://7xrswa.com1.z0.glb.clouddn.com/x5.png)
+![](http://7xrswa.com1.z0.glb.clouddn.com/x6.png)
 ![](http://7xrswa.com1.z0.glb.clouddn.com/2.png)
 ![](http://7xrswa.com1.z0.glb.clouddn.com/3.png)
 ![](http://7xrswa.com1.z0.glb.clouddn.com/4.png)
-![](http://7xrswa.com1.z0.glb.clouddn.com/5.png)
-![](http://7xrswa.com1.z0.glb.clouddn.com/6.png)
+
 
 ****
 
