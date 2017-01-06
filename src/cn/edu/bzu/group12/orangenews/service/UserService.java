@@ -46,6 +46,11 @@ public class UserService {
 		}
 		return false;
 	}
+	
+	public int getLastInsertId() throws SQLException{
+		return userDao.getLastInsertId("user");
+	}
+	
 	//根据id查询用户
 	public User getUserById(int user_id) throws SQLException{
 		return userDao.get(user_id);
@@ -54,10 +59,6 @@ public class UserService {
 	//登录
 	public User login(String user_name,String user_pwd) throws SQLException{
 		return userDao.getUserByNameAndPwd(user_name, user_pwd);
-	}
-	
-	public int getLastInsertId() throws SQLException{
-		return userDao.getLastInsertId("user");
 	}
 	
 	//更新密码

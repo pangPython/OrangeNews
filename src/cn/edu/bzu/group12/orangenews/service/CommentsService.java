@@ -44,6 +44,13 @@ public class CommentsService {
 		return commentsDao.addComments(news_id,user_id, content);
 	}
 
+	//获取所有评论
+	public List<Comments> getAllComments() throws SQLException {
+		return commentsDao.getAllComments();
+	}
+
+
+
 	
 
 }

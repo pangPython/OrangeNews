@@ -11,6 +11,7 @@ import java.sql.Statement;
  * @author pangPython
  *	基础的数据库操作
  */
+
 public abstract class BaseDao {
 	
 	private Connection conn = null;
@@ -32,7 +33,7 @@ public abstract class BaseDao {
 
 	//获取数据库连接
 	private Connection getConnection() throws ClassNotFoundException, SQLException{
-		final String url = "jdbc:mysql://192.168.50.103:3306/group12";
+		final String url = "jdbc:mysql://localhost:3306/group12";
 		final String user = "group12";
 		final String password = "group12";
 		Class.forName("com.mysql.jdbc.Driver");

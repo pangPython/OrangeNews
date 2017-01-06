@@ -75,6 +75,21 @@
     <servlet-name>AdminLoginServlet</servlet-name>
     <servlet-class>cn.edu.bzu.group12.orangenews.servlet.admin.AdminLoginServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>AdminNewsListServlet</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.admin.AdminNewsListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminUserListServlet</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.admin.AdminUserListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminCommentsListServlet</servlet-name>
+    <servlet-class>cn.edu.bzu.group12.orangenews.servlet.admin.AdminCommentsListServlet</servlet-class>
+  </servlet>
+
+
+
 
 
 
@@ -154,6 +169,18 @@
   <servlet-mapping>
     <servlet-name>AdminLoginServlet</servlet-name>
     <url-pattern>/admin/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminNewsListServlet</servlet-name>
+    <url-pattern>/newslist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUserListServlet</servlet-name>
+    <url-pattern>/userlist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCommentsListServlet</servlet-name>
+    <url-pattern>/commentslist</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>ShowAllServlet</welcome-file>
