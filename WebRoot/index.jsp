@@ -27,6 +27,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 <body>
+<input class="top" type="hidden"/>
+<div class="backtop">
+<a href="#top"><img src="static/images/backtop.png"></a>
+</div>
 	<%@ include file="header.jsp" %>
 	<%@ include file="nav.jsp" %>
     

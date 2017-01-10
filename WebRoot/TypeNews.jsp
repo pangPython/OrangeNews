@@ -23,6 +23,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
+<input class="top" type="hidden"/>
+<div class="backtop">
+<a href="#top"><img src="static/images/backtop.png"></a>
+</div>
 	<%@ include file="header.jsp" %>
 	<%@ include file="nav.jsp" %>
 	<div class="container">
