@@ -34,8 +34,8 @@ public abstract class BaseDao {
 	//获取数据库连接
 	private Connection getConnection() throws ClassNotFoundException, SQLException{
 		final String url = "jdbc:mysql://localhost:3306/group12";
-		final String user = "group12";
-		final String password = "group12";
+		final String user = "root";
+		final String password = "root";
 		Class.forName("com.mysql.jdbc.Driver");
 		return DriverManager.getConnection(url,user,password);
 	} 

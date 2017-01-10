@@ -1,4 +1,3 @@
-#Fri Jan 06 19:16:46 CST 2017
 eclipse.preferences.version=1
 encoding//WebRoot/addsuccess.jsp=UTF-8
 encoding//WebRoot/admin/header.jsp=UTF-8
@@ -16,3 +15,4 @@ encoding//WebRoot/user.jsp=UTF-8
 encoding//WebRoot/usercenter.jsp=UTF-8
 encoding//src/cn/edu/bzu/group12/orangenews/servlet/SearchServlet.java=UTF-8
 encoding/README.md=UTF-8
+encoding/group12.sql=UTF-8

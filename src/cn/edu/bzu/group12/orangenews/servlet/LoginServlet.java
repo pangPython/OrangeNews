@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 import javax.jms.Session;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -12,6 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.xml.ws.Dispatch;
 
 import org.apache.log4j.Logger;
 
@@ -35,6 +38,9 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	public void service(ServletRequest req, ServletResponse rsp)
 			throws ServletException, IOException {
+		//获取上下文
+		ServletContext context = getServletContext();
+		RequestDispatcher reqDispatcher = context.getRequestDispatcher("/error.jsp");
 		// 获取用户名 密码
 		String uname = req.getParameter("user_name");
 		String pwd = req.getParameter("user_pwd");
@@ -66,7 +72,7 @@ public class LoginServlet extends HttpServlet {
 			} else {
 				// 登录失败
 				req.setAttribute("error_info", "登录失败！");
-				req.getRequestDispatcher("/error.jsp").forward(req, rsp);
+				reqDispatcher.forward(req, rsp);
 			}
 
 		} catch (Exception e) {
