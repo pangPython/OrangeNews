@@ -1,0 +1,2250 @@
+start depth 1
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+done: http://tech.qq.com/
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 1 finish: 
+	total urls:	1
+	total time:	2 seconds
+start depth 2
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=1
+done: http://tech.qq.com/a/20170111/002574.htm
+done: http://tech.qq.com/a/20170111/004784.htm
+done: http://tech.qq.com/a/20170111/004071.htm
+done: http://tech.qq.com/a/20170110/025362.htm
+done: http://tech.qq.com/a/20170111/036373.htm
+done: http://tech.qq.com/a/20170111/038253.htm
+done: http://tech.qq.com/a/20170112/000049.htm
+done: http://tech.qq.com/a/20170111/026229.htm
+done: http://tech.qq.com/a/20160307/012813.htm#p=1
+done: http://tech.qq.com/a/20170112/003774.htm
+done: http://tech.qq.com/a/20170112/003886.htm
+done: http://tech.qq.com/a/20170112/004013.htm
+done: http://tech.qq.com/a/20161115/003171.htm
+done: http://tech.qq.com/a/20170111/029021.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=15
+done: http://tech.qq.com/a/20170112/004252.htm
+done: http://tech.qq.com/a/20170111/005112.htm
+done: http://tech.qq.com/a/20160127/009499.htm#p=1
+done: http://tech.qq.com/a/20170111/026591.htm
+done: http://tech.qq.com/a/20170112/004309.htm
+done: http://tech.qq.com/a/20170112/004498.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=30
+done: http://tech.qq.com/a/20170110/023603.htm
+done: http://tech.qq.com/a/20170112/003508.htm
+done: http://tech.qq.com/a/20170111/036596.htm
+done: http://tech.qq.com/a/20170112/003783.htm
+done: http://tech.qq.com/a/20170112/004624.htm
+done: http://tech.qq.com/a/20170112/003641.htm
+done: http://tech.qq.com/#
+done: http://tech.qq.com/a/20170112/005802.htm
+done: http://tech.qq.com/a/20170112/006714.htm
+done: http://tech.qq.com/a/20170112/006058.htm
+done: http://tech.qq.com/a/20170112/000211.htm
+done: http://tech.qq.com/hzhbxx.htm
+done: http://tech.qq.com/a/20170112/005592.htm
+done: http://tech.qq.com/original/sw/i37.html
+done: http://tech.qq.com/a/20170111/028256.htm
+done: http://tech.qq.com/map.htm
+done: http://tech.qq.com/dzsw.htm
+done: http://tech.qq.com/a/20170112/005765.htm
+done: http://tech.qq.com/a/20170112/003523.htm
+done: http://tech.qq.com/a/20170111/003490.htm
+done: http://tech.qq.com/a/20170112/004117.htm
+done: http://tech.qq.com/a/20170111/015942.htm
+done: http://tech.qq.com/zt2012/xiaoxiao/index.htm
+done: http://tech.qq.com/zt2015/now_again/index.htm
+done: http://tech.qq.com/web/artificial.htm
+done: http://tech.qq.com/zt2016/2016_bj/index.htm
+done: http://tech.qq.com/a/20170111/036332.htm
+done: http://tech.qq.com/web/intelligent.htm
+done: http://tech.qq.com/zt2016/tencentPlus/index.htm
+done: http://tech.qq.com/a/20170112/000095.htm
+done: http://tech.qq.com/a/20170111/005469.htm
+done: http://tech.qq.com/p/topic/20161227029627/index.html
+done: http://tech.qq.com/a/20170111/033400.htm
+done: http://tech.qq.com/a/20170111/025172.htm
+done: http://tech.qq.com/a/20170111/023968.htm
+done: http://tech.qq.com/a/20170111/027582.htm
+done: http://tech.qq.com/a/20170111/029137.htm
+done: http://tech.qq.com/zthd.htm
+done: http://tech.qq.com/a/20170111/005933.htm
+done: http://tech.qq.com/a/20170110/016065.htm
+done: http://tech.qq.com/a/20170111/006632.htm
+done: http://tech.qq.com/a/20170111/003553.htm
+start depth 1
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 1 finish: 
+	total urls:	1
+	total time:	1 seconds
+start depth 2
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20160127/009499.htm#p=1
+done: http://tech.qq.com/a/20161115/003171.htm
+done: http://tech.qq.com/a/20170110/036051.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=1
+done: http://tech.qq.com/a/20170111/004361.htm
+done: http://tech.qq.com/a/20170110/023603.htm
+done: http://tech.qq.com/a/20161220/037485.htm
+done: http://tech.qq.com/a/20170111/004071.htm
+done: http://tech.qq.com/a/20170111/029137.htm
+done: http://tech.qq.com/a/20170112/003641.htm
+done: http://tech.qq.com/a/20170111/036358.htm
+done: http://tech.qq.com/a/20170111/033400.htm
+done: http://tech.qq.com/a/20160307/012813.htm#p=1
+done: http://tech.qq.com/a/20170112/003783.htm
+done: http://tech.qq.com/a/20170111/005933.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=15
+done: http://tech.qq.com/a/20170112/000049.htm
+done: http://tech.qq.com/a/20170111/025172.htm
+done: http://tech.qq.com/a/20170111/005469.htm
+done: http://tech.qq.com/a/20170111/028256.htm
+done: http://tech.qq.com/a/20170111/015942.htm
+done: http://tech.qq.com/#
+done: http://tech.qq.com/a/20170111/031937.htm
+done: http://tech.qq.com/a/20170112/004252.htm
+done: http://tech.qq.com/a/20170111/004784.htm
+done: http://tech.qq.com/a/20170112/004624.htm
+done: http://tech.qq.com/a/20170112/003508.htm
+done: http://tech.qq.com/a/20170112/000095.htm
+done: http://tech.qq.com/a/20170112/000211.htm
+done: http://tech.qq.com/a/20170111/026229.htm
+done: http://tech.qq.com/a/20170111/038253.htm
+done: http://tech.qq.com/a/20170111/027582.htm
+done: http://tech.qq.com/a/20170111/019983.htm
+done: http://tech.qq.com/a/20170111/018631.htm
+done: http://tech.qq.com/a/20170111/029021.htm
+done: http://tech.qq.com/a/20170111/005226.htm
+done: http://tech.qq.com/a/20170111/019226.htm
+done: http://tech.qq.com/a/20170111/004863.htm
+done: http://tech.qq.com/a/20170111/003490.htm
+done: http://tech.qq.com/a/20170112/005765.htm
+done: http://tech.qq.com/a/20170111/003553.htm
+done: http://tech.qq.com/a/20170112/005802.htm
+done: http://tech.qq.com/a/20170110/029044.htm
+done: http://tech.qq.com/original/shenwang/shenwang.htm
+done: http://tech.qq.com/a/20170111/023968.htm
+done: http://tech.qq.com/a/20170112/006714.htm
+done: http://tech.qq.com/a/20170112/006058.htm
+done: http://tech.qq.com/a/20170112/005592.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=18
+done: http://tech.qq.com/a/20170110/027850.htm
+done: http://tech.qq.com/a/20170110/025362.htm
+done: http://tech.qq.com/original/sw/i37.html
+done: http://tech.qq.com/a/20170111/002574.htm
+done: http://tech.qq.com/p/topic/20160918026376/index.html
+done: http://tech.qq.com/map.htm
+done: http://tech.qq.com/anotherway.htm
+done: http://tech.qq.com/dzsw.htm
+done: http://tech.qq.com/a/20170112/004804.htm
+done: http://tech.qq.com/hzhbxx.htm
+done: http://tech.qq.com/a/20170112/005200.htm
+done: http://tech.qq.com/a/20170112/004309.htm
+done: http://tech.qq.com/a/20170111/036813.htm
+done: http://tech.qq.com/a/20170112/004498.htm
+done: http://tech.qq.com/a/20170112/003774.htm
+done: http://tech.qq.com/a/20170112/004013.htm
+done: http://tech.qq.com/a/20170111/031250.htm
+done: http://tech.qq.com/a/20170110/000337.htm
+done: http://tech.qq.com/a/20170111/036309.htm
+done: http://tech.qq.com/a/20170112/003523.htm
+done: http://tech.qq.com/a/20170111/023726.htm
+done: http://tech.qq.com/p/topic/20161227029627/index.html
+done: http://tech.qq.com/a/20170111/033537.htm
+done: http://tech.qq.com/recode.htm
+done: http://tech.qq.com/a/20170111/005112.htm
+done: http://tech.qq.com/zt2012/xiaoxiao/index.htm
+done: http://tech.qq.com/zt2016/alphaGo/index.htm
+done: http://tech.qq.com/a/20170111/025893.htm
+done: http://tech.qq.com/zt2016/2016_bj/index.htm
+done: http://tech.qq.com/zt2016/2016we/index.htm
+done: http://tech.qq.com/a/20170111/036596.htm
+done: http://tech.qq.com/a/20170111/036332.htm
+done: http://tech.qq.com/a/20170110/016065.htm
+done: http://tech.qq.com/a/20170111/026591.htm
+done: http://tech.qq.com/a/20170111/027434.htm
+done: http://tech.qq.com/a/20170111/006632.htm
+done: http://tech.qq.com/a/20170112/004117.htm
+done: http://tech.qq.com/zt2016/2016itlx/index.htm
+done: http://tech.qq.com/a/20170112/003886.htm
+done: http://tech.qq.com/science.htm
+done: http://tech.qq.com/tnw.htm
+done: http://tech.qq.com/zt2015/now_again/index.htm
+done: http://tech.qq.com/zt2016/tencentPlus/index.htm
+done: http://tech.qq.com/zt2016/hatch/index.htm
+done: http://tech.qq.com/web/artificial.htm
+done: http://tech.qq.com/zthd.htm
+done: http://tech.qq.com/web/zmt.htm
+done: http://tech.qq.com/web/lCompany.htm
+done: http://tech.qq.com/web/newWy.htm
+-activeThreads=2, spinWaiting=0, fetchQueue.size=0
+done: http://tech.qq.com/web/intelligent.htm
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+done: http://tech.qq.com/a/20170111/036373.htm
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 2 finish: 
+	total urls:	99
+	total time:	4 seconds
+start depth 3
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20151029/009909.htm
+done: http://tech.qq.com/a/20151028/010696.htm
+done: http://tech.qq.com/a/20150401/011668.htm
+done: http://tech.qq.com/a/20150407/065563.htm
+done: http://tech.qq.com/a/20150402/071490.htm
+done: http://tech.qq.com/a/20150408/010129.htm
+done: http://tech.qq.com/a/20150402/064498.htm
+done: http://tech.qq.com/a/20150331/070508.htm
+done: http://tech.qq.com/a/20150408/038061.htm
+done: http://tech.qq.com/a/20150401/044669.htm
+done: http://tech.qq.com/a/20151027/057556.htm
+done: http://tech.qq.com/a/20150401/049658.htm
+done: http://tech.qq.com/a/20150410/022788.htm
+done: http://tech.qq.com/a/20151021/054434.htm
+done: http://tech.qq.com/a/20151030/011601.htm
+done: http://tech.qq.com/a/20150619/009596.htm
+done: http://tech.qq.com/a/20150403/030725.htm
+done: http://tech.qq.com/a/20150909/009339.htm
+done: http://tech.qq.com/a/20150401/064184.htm
+done: http://tech.qq.com/a/20150402/011118.htm
+done: http://tech.qq.com/a/20150331/070701.htm
+done: http://tech.qq.com/a/20151108/026082.htm
+done: http://tech.qq.com/a/20150401/008248.htm
+done: http://tech.qq.com/a/20151112/014706.htm
+done: http://tech.qq.com/a/20151114/023636.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=925
+done: http://tech.qq.com/a/20151118/010573.htm
+done: http://tech.qq.com/a/20150401/055727.htm
+done: http://tech.qq.com/a/20150402/032448.htm
+done: http://tech.qq.com/a/20150405/005789.htm
+done: http://tech.qq.com/a/20151108/025057.htm
+done: http://tech.qq.com/a/20150715/004582.htm
+done: http://tech.qq.com/a/20151119/032079.htm
+done: http://tech.qq.com/a/20151124/010290.htm
+done: http://tech.qq.com/a/20151118/043184.htm
+done: http://tech.qq.com/a/20151117/064468.htm
+done: http://tech.qq.com/a/20150403/056593.htm
+done: http://tech.qq.com/a/20150413/068332.htm
+done: http://tech.qq.com/a/20151027/057105.htm
+done: http://tech.qq.com/a/20151119/018955.htm
+done: http://tech.qq.com/a/20151110/061424.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=985
+done: http://tech.qq.com/a/20151116/009646.htm
+done: http://tech.qq.com/a/20151119/053068.htm
+done: http://tech.qq.com/a/20151118/046724.htm
+done: http://tech.qq.com/a/20151223/007003.htm
+done: http://tech.qq.com/a/20151224/012151.htm
+done: http://tech.qq.com/a/20151126/049473.htm
+done: http://tech.qq.com/a/20151113/011120.htm
+done: http://tech.qq.com/a/20151108/030837.htm
+done: http://tech.qq.com/a/20150402/033569.htm
+done: http://tech.qq.com/a/20150402/046363.htm
+done: http://tech.qq.com/a/20151118/029007.htm
+done: http://tech.qq.com/a/20160112/008968.htm
+done: http://tech.qq.com/a/20151112/056264.htm
+done: http://tech.qq.com/a/20160115/009075.htm
+done: http://tech.qq.com/a/20151224/053316.htm
+done: http://tech.qq.com/a/20150407/001486.htm
+done: http://tech.qq.com/a/20150402/069701.htm
+done: http://tech.qq.com/a/20151108/027554.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#
+done: http://tech.qq.com/a/20151225/008693.htm
+done: http://tech.qq.com/a/20151119/020732.htm
+done: http://tech.qq.com/a/20160106/011631.htm
+done: http://tech.qq.com/a/20160307/012813.htm#
+done: http://tech.qq.com/a/20150410/075287.htm
+done: http://tech.qq.com/a/20151111/013538.htm
+done: http://tech.qq.com/a/20150408/062759.htm
+done: http://tech.qq.com/a/20151221/062236.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=976
+done: http://tech.qq.com/a/20151108/029146.htm
+done: http://tech.qq.com/a/20151119/031786.htm
+done: http://tech.qq.com/a/20151211/029723.htm
+done: http://tech.qq.com/a/20151202/038320.htm
+done: http://tech.qq.com/a/20160110/008895.htm
+done: http://tech.qq.com/a/20160302/038542.htm
+done: http://tech.qq.com/a/20151120/039088.htm
+done: http://tech.qq.com/a/20160127/009499.htm#
+done: http://tech.qq.com/a/20151119/045331.htm
+failed: http://tech.qq.com/a/20151116/007990.htm
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at cn.edu.hfut.dmic.webcollector.net.HttpRequest.response(HttpRequest.java:112)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.getResponse(AutoParseCrawler.java:61)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:71)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+failed: http://tech.qq.com/a/20151118/003348.htm
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at cn.edu.hfut.dmic.webcollector.net.HttpRequest.response(HttpRequest.java:112)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.getResponse(AutoParseCrawler.java:61)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:71)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+failed: http://tech.qq.com/a/20151118/049472.htm
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at cn.edu.hfut.dmic.webcollector.net.HttpRequest.response(HttpRequest.java:112)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.getResponse(AutoParseCrawler.java:61)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:71)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+failed: http://tech.qq.com/a/20151119/018466.htm
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at cn.edu.hfut.dmic.webcollector.net.HttpRequest.response(HttpRequest.java:112)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.getResponse(AutoParseCrawler.java:61)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:71)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+done: http://tech.qq.com/a/20151119/033099.htm
+done: http://tech.qq.com/a/20151112/059466.htm
+done: http://tech.qq.com/a/20151108/023455.htm
+done: http://tech.qq.com/a/20151119/027319.htm
+done: http://tech.qq.com/a/20151108/024644.htm
+done: http://tech.qq.com/a/20160311/050647.htm
+done: http://tech.qq.com/a/20151119/025003.htm
+done: http://tech.qq.com/a/20160203/040571.htm
+done: http://tech.qq.com/a/20151222/054388.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=978
+done: http://tech.qq.com/a/20151126/049758.htm
+done: http://tech.qq.com/a/20160311/029160.htm
+done: http://tech.qq.com/a/20160315/044079.htm
+done: http://tech.qq.com/a/20160308/018666.htm
+done: http://tech.qq.com/a/20160309/041187.htm
+done: http://tech.qq.com/a/20160307/068965.htm
+done: http://tech.qq.com/a/20160302/015291.htm
+done: http://tech.qq.com/a/20151108/025758.htm
+done: http://tech.qq.com/a/20150405/005095.htm
+done: http://tech.qq.com/a/20160303/054748.htm
+done: http://tech.qq.com/a/20160311/051125.htm
+done: http://tech.qq.com/a/20160314/057745.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=988
+done: http://tech.qq.com/a/20160315/011037.htm
+done: http://tech.qq.com/a/20160311/054978.htm
+done: http://tech.qq.com/a/20150408/072558.htm
+done: http://tech.qq.com/a/20160312/016969.htm
+done: http://tech.qq.com/a/20151120/036595.htm
+done: http://tech.qq.com/a/20160311/051253.htm
+done: http://tech.qq.com/a/20160307/014846.htm
+done: http://tech.qq.com/a/20160315/055218.htm
+done: http://tech.qq.com/a/20160315/015355.htm
+done: http://tech.qq.com/a/20160317/054037.htm
+done: http://tech.qq.com/a/20160315/034975.htm
+done: http://tech.qq.com/a/20160307/012862.htm
+done: http://tech.qq.com/a/20160315/038031.htm
+done: http://tech.qq.com/a/20160326/022001.htm#p=1
+done: http://tech.qq.com/a/20151224/047425.htm
+done: http://tech.qq.com/a/20160313/011691.htm
+done: http://tech.qq.com/a/20160312/006571.htm
+done: http://tech.qq.com/a/20160315/014495.htm
+done: http://tech.qq.com/a/20160125/060798.htm
+done: http://tech.qq.com/a/20160314/071431.htm
+done: http://tech.qq.com/a/20160315/049899.htm
+start depth 1
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+done: http://tech.qq.com/
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 1 finish: 
+	total urls:	1
+	total time:	2 seconds
+start depth 2
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=15
+done: http://tech.qq.com/a/20161115/003171.htm
+done: http://tech.qq.com/a/20170110/025362.htm
+done: http://tech.qq.com/a/20160127/009499.htm#p=1
+done: http://tech.qq.com/a/20170111/036332.htm
+done: http://tech.qq.com/a/20170111/031937.htm
+done: http://tech.qq.com/#
+done: http://tech.qq.com/a/20170112/000211.htm
+done: http://tech.qq.com/a/20170111/033537.htm
+done: http://tech.qq.com/a/20170111/019983.htm
+done: http://tech.qq.com/a/20170111/026591.htm
+done: http://tech.qq.com/a/20170112/003508.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=1
+done: http://tech.qq.com/a/20170110/027850.htm
+done: http://tech.qq.com/a/20170111/015942.htm
+done: http://tech.qq.com/a/20160307/012813.htm#p=1
+done: http://tech.qq.com/a/20170111/025893.htm
+done: http://tech.qq.com/a/20170111/002574.htm
+done: http://tech.qq.com/a/20170111/036813.htm
+done: http://tech.qq.com/a/20170111/004361.htm
+done: http://tech.qq.com/a/20170110/036051.htm
+done: http://tech.qq.com/a/20170112/000095.htm
+done: http://tech.qq.com/a/20170110/029044.htm
+done: http://tech.qq.com/a/20170111/028256.htm
+done: http://tech.qq.com/a/20161220/037485.htm
+done: http://tech.qq.com/a/20170111/019226.htm
+done: http://tech.qq.com/a/20170111/023968.htm
+done: http://tech.qq.com/a/20170111/025172.htm
+done: http://tech.qq.com/a/20170111/036373.htm
+done: http://tech.qq.com/a/20170112/003523.htm
+done: http://tech.qq.com/a/20170111/004863.htm
+done: http://tech.qq.com/a/20170111/005933.htm
+done: http://tech.qq.com/a/20170112/003783.htm
+done: http://tech.qq.com/a/20170112/003886.htm
+done: http://tech.qq.com/a/20170112/004117.htm
+done: http://tech.qq.com/a/20170112/004309.htm
+done: http://tech.qq.com/a/20170111/038253.htm
+done: http://tech.qq.com/a/20170112/004624.htm
+done: http://tech.qq.com/a/20170112/003641.htm
+done: http://tech.qq.com/a/20170112/004252.htm
+done: http://tech.qq.com/hzhbxx.htm
+done: http://tech.qq.com/a/20170112/003774.htm
+done: http://tech.qq.com/a/20170112/005200.htm
+done: http://tech.qq.com/a/20170112/004013.htm
+done: http://tech.qq.com/original/shenwang/shenwang.htm
+done: http://tech.qq.com/tnw.htm
+done: http://tech.qq.com/web/intelligent.htm
+done: http://tech.qq.com/a/20170112/004804.htm
+done: http://tech.qq.com/original/sw/i37.html
+done: http://tech.qq.com/a/20170112/005802.htm
+done: http://tech.qq.com/web/artificial.htm
+done: http://tech.qq.com/a/20170112/005592.htm
+done: http://tech.qq.com/a/20170112/004498.htm
+done: http://tech.qq.com/a/20170112/005765.htm
+done: http://tech.qq.com/a/20170112/006714.htm
+done: http://tech.qq.com/zt2015/now_again/index.htm
+done: http://tech.qq.com/a/20170112/006058.htm
+done: http://tech.qq.com/zt2012/xiaoxiao/index.htm
+done: http://tech.qq.com/anotherway.htm
+done: http://tech.qq.com/dzsw.htm
+done: http://tech.qq.com/a/20170111/003553.htm
+done: http://tech.qq.com/science.htm
+done: http://tech.qq.com/a/20170111/031250.htm
+done: http://tech.qq.com/web/lCompany.htm
+done: http://tech.qq.com/p/topic/20161227029627/index.html
+done: http://tech.qq.com/zt2016/2016_bj/index.htm
+done: http://tech.qq.com/zt2016/tencentPlus/index.htm
+done: http://tech.qq.com/zt2016/hatch/index.htm
+done: http://tech.qq.com/zt2016/2016we/index.htm
+done: http://tech.qq.com/zt2016/2016itlx/index.htm
+done: http://tech.qq.com/a/20170111/004784.htm
+done: http://tech.qq.com/web/zmt.htm
+done: http://tech.qq.com/a/20170110/016065.htm
+done: http://tech.qq.com/web/newWy.htm
+done: http://tech.qq.com/zt2016/alphaGo/index.htm
+done: http://tech.qq.com/zthd.htm
+done: http://tech.qq.com/a/20170111/006632.htm
+done: http://tech.qq.com/a/20170111/003490.htm
+done: http://tech.qq.com/recode.htm
+done: http://tech.qq.com/a/20170110/023603.htm
+done: http://tech.qq.com/a/20170111/004071.htm
+done: http://tech.qq.com/a/20170111/027434.htm
+done: http://tech.qq.com/a/20170111/029021.htm
+done: http://tech.qq.com/a/20170111/027582.htm
+done: http://tech.qq.com/a/20170111/029137.htm
+done: http://tech.qq.com/a/20170111/005226.htm
+done: http://tech.qq.com/a/20170111/033400.htm
+done: http://tech.qq.com/a/20170111/026229.htm
+done: http://tech.qq.com/a/20170111/005469.htm
+done: http://tech.qq.com/a/20170110/000337.htm
+done: http://tech.qq.com/a/20170111/036596.htm
+done: http://tech.qq.com/a/20170112/000049.htm
+done: http://tech.qq.com/a/20170111/036358.htm
+done: http://tech.qq.com/a/20170111/023726.htm
+done: http://tech.qq.com/a/20170111/005112.htm
+done: http://tech.qq.com/a/20170111/036309.htm
+-activeThreads=30, spinWaiting=0, fetchQueue.size=0
+done: http://tech.qq.com/map.htm
+done: http://tech.qq.com/p/topic/20160918026376/index.html
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+failed: http://tech.qq.com/a/20170111/018631.htm
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at cn.edu.hfut.dmic.webcollector.net.HttpRequest.response(HttpRequest.java:112)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.getResponse(AutoParseCrawler.java:61)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:71)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 2 finish: 
+	total urls:	99
+	total time:	4 seconds
+start depth 3
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20150331/070701.htm
+done: http://tech.qq.com/a/20151029/009909.htm
+done: http://tech.qq.com/a/20150401/044669.htm
+done: http://tech.qq.com/a/20150403/056593.htm
+done: http://tech.qq.com/a/20150331/070508.htm
+done: http://tech.qq.com/a/20150413/068332.htm
+done: http://tech.qq.com/a/20150401/049658.htm
+done: http://tech.qq.com/a/20150403/030725.htm
+done: http://tech.qq.com/a/20150402/011118.htm
+done: http://tech.qq.com/a/20150401/011668.htm
+done: http://tech.qq.com/a/20150403/062636.htm
+done: http://tech.qq.com/a/20150408/062759.htm
+done: http://tech.qq.com/a/20151108/027554.htm
+done: http://tech.qq.com/a/20150405/005789.htm
+done: http://tech.qq.com/a/20151112/056264.htm
+done: http://tech.qq.com/a/20150410/075287.htm
+done: http://tech.qq.com/a/20150619/009596.htm
+done: http://tech.qq.com/a/20151114/023636.htm
+done: http://tech.qq.com/a/20151023/010371.htm
+done: http://tech.qq.com/a/20151030/011601.htm
+done: http://tech.qq.com/a/20150401/064184.htm
+done: http://tech.qq.com/a/20150402/064498.htm
+done: http://tech.qq.com/a/20150401/055727.htm
+done: http://tech.qq.com/a/20151116/007990.htm
+done: http://tech.qq.com/a/20151108/030837.htm
+done: http://tech.qq.com/a/20150405/005095.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=928
+done: http://tech.qq.com/a/20151021/054434.htm
+done: http://tech.qq.com/a/20150410/022788.htm
+done: http://tech.qq.com/a/20150408/010129.htm
+done: http://tech.qq.com/a/20151113/012900.htm
+done: http://tech.qq.com/a/20150408/072558.htm
+done: http://tech.qq.com/a/20151116/009646.htm
+done: http://tech.qq.com/a/20150909/009339.htm
+done: http://tech.qq.com/a/20151108/029146.htm
+done: http://tech.qq.com/a/20151126/049473.htm
+done: http://tech.qq.com/a/20151118/029007.htm
+done: http://tech.qq.com/a/20151108/025758.htm
+done: http://tech.qq.com/a/20151118/010573.htm
+done: http://tech.qq.com/a/20151118/046724.htm
+done: http://tech.qq.com/a/20150402/032448.htm
+done: http://tech.qq.com/a/20150403/040482.htm
+done: http://tech.qq.com/a/20151108/024644.htm
+done: http://tech.qq.com/a/20151223/007003.htm
+done: http://tech.qq.com/a/20150401/008248.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20151124/010290.htm
+done: http://tech.qq.com/a/20151119/018466.htm
+done: http://tech.qq.com/a/20151111/013538.htm
+done: http://tech.qq.com/a/20150402/033569.htm
+done: http://tech.qq.com/a/20151119/032079.htm
+done: http://tech.qq.com/a/20151118/043184.htm
+done: http://tech.qq.com/a/20151119/053068.htm
+done: http://tech.qq.com/a/20150407/001486.htm
+done: http://tech.qq.com/a/20160106/011631.htm
+done: http://tech.qq.com/a/20150408/038061.htm
+done: http://tech.qq.com/a/20151225/008693.htm
+done: http://tech.qq.com/a/20160112/008968.htm
+done: http://tech.qq.com/a/20160115/009075.htm
+done: http://tech.qq.com/a/20151108/029124.htm
+done: http://tech.qq.com/a/20151119/020732.htm
+done: http://tech.qq.com/a/20151027/057556.htm
+done: http://tech.qq.com/a/20151118/003348.htm
+done: http://tech.qq.com/a/20151027/057105.htm
+done: http://tech.qq.com/a/20160127/009499.htm#
+done: http://tech.qq.com/a/20151108/025057.htm
+done: http://tech.qq.com/a/20151119/045331.htm
+done: http://tech.qq.com/a/20151113/011120.htm
+done: http://tech.qq.com/a/20160307/012813.htm#
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#
+done: http://tech.qq.com/a/20151108/023455.htm
+done: http://tech.qq.com/a/20151117/064468.htm
+done: http://tech.qq.com/a/20151224/012151.htm
+done: http://tech.qq.com/a/20151202/038320.htm
+done: http://tech.qq.com/a/20151108/026082.htm
+done: http://tech.qq.com/a/20151119/027319.htm
+done: http://tech.qq.com/a/20151119/033099.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=969
+done: http://tech.qq.com/a/20160311/050647.htm
+done: http://tech.qq.com/a/20151126/049758.htm
+done: http://tech.qq.com/a/20151119/031786.htm
+done: http://tech.qq.com/a/20160302/038542.htm
+done: http://tech.qq.com/a/20151224/047425.htm
+done: http://tech.qq.com/a/20151120/039088.htm
+done: http://tech.qq.com/a/20151119/025003.htm
+done: http://tech.qq.com/a/20151119/018955.htm
+done: http://tech.qq.com/a/20160302/015291.htm
+done: http://tech.qq.com/a/20151222/063740.htm
+done: http://tech.qq.com/a/20160309/055228.htm
+done: http://tech.qq.com/a/20151222/054388.htm
+done: http://tech.qq.com/a/20160224/064478.htm
+done: http://tech.qq.com/a/20160110/008895.htm
+done: http://tech.qq.com/a/20151221/053776.htm
+done: http://tech.qq.com/a/20151120/036595.htm
+done: http://tech.qq.com/a/20160312/006571.htm
+done: http://tech.qq.com/a/20160309/053158.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=983
+done: http://tech.qq.com/a/20151221/062236.htm
+done: http://tech.qq.com/a/20151110/061424.htm
+done: http://tech.qq.com/a/20160311/051253.htm
+done: http://tech.qq.com/a/20151118/049472.htm
+done: http://tech.qq.com/a/20160315/044079.htm
+done: http://tech.qq.com/a/20150402/069701.htm
+done: http://tech.qq.com/a/20160311/050431.htm
+done: http://tech.qq.com/a/20160303/054748.htm
+done: http://tech.qq.com/a/20160311/029160.htm
+done: http://tech.qq.com/a/20160311/050050.htm
+done: http://tech.qq.com/a/20160312/016969.htm
+done: http://tech.qq.com/a/20160311/050990.htm
+done: http://tech.qq.com/a/20151224/053316.htm
+done: http://tech.qq.com/a/20151225/043930.htm
+done: http://tech.qq.com/a/20160312/009022.htm
+done: http://tech.qq.com/a/20151112/059466.htm
+done: http://tech.qq.com/a/20160311/054978.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=985
+done: http://tech.qq.com/a/20160107/018458.htm
+done: http://tech.qq.com/a/20160315/034975.htm
+done: http://tech.qq.com/a/20160309/041187.htm
+done: http://tech.qq.com/a/20160318/053279.htm
+done: http://tech.qq.com/a/20160318/054873.htm
+done: http://tech.qq.com/a/20160314/057745.htm
+done: http://tech.qq.com/a/20160307/014846.htm
+done: http://tech.qq.com/a/20160315/049899.htm
+done: http://tech.qq.com/a/20160301/024236.htm
+done: http://tech.qq.com/a/20160315/055218.htm
+done: http://tech.qq.com/a/20160307/068965.htm
+done: http://tech.qq.com/a/20160311/051125.htm
+done: http://tech.qq.com/a/20160312/021471.htm
+done: http://tech.qq.com/a/20160315/038031.htm
+done: http://tech.qq.com/a/20160317/054037.htm
+done: http://tech.qq.com/a/20160314/061052.htm
+done: http://tech.qq.com/a/20160315/015355.htm
+done: http://tech.qq.com/a/20160314/071431.htm
+done: http://tech.qq.com/a/20160327/010864.htm#p=1
+-activeThreads=50, spinWaiting=0, fetchQueue.size=981
+done: http://tech.qq.com/a/20151112/014706.htm
+done: http://tech.qq.com/a/20160315/012901.htm
+done: http://tech.qq.com/a/20160325/052434.htm
+done: http://tech.qq.com/a/20150715/004582.htm
+done: http://tech.qq.com/a/20160307/012862.htm
+done: http://tech.qq.com/a/20160317/055245.htm
+done: http://tech.qq.com/a/20160312/024743.htm
+done: http://tech.qq.com/a/20160316/005998.htm
+done: http://tech.qq.com/a/20160326/022001.htm#p=1
+done: http://tech.qq.com/a/20160315/014495.htm
+done: http://tech.qq.com/a/20160327/008877.htm#p=1
+done: http://tech.qq.com/a/20160320/006372.htm
+done: http://tech.qq.com/a/20160309/003313.htm
+done: http://tech.qq.com/a/20160326/030185.htm
+done: http://tech.qq.com/a/20160315/035589.htm
+done: http://tech.qq.com/a/20160321/007097.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=985
+done: http://tech.qq.com/a/20160326/024146.htm
+done: http://tech.qq.com/a/20160327/014785.htm
+done: http://tech.qq.com/a/20160316/005595.htm
+done: http://tech.qq.com/a/20160320/012339.htm
+done: http://tech.qq.com/a/20160318/055921.htm
+done: http://tech.qq.com/a/20160327/017728.htm
+done: http://tech.qq.com/a/20160315/011037.htm
+done: http://tech.qq.com/a/20160318/052908.htm
+done: http://tech.qq.com/a/20160326/024933.htm
+done: http://tech.qq.com/a/20160313/011691.htm
+done: http://tech.qq.com/a/20160327/018271.htm
+done: http://tech.qq.com/a/20160326/031491.htm
+done: http://tech.qq.com/a/20160327/013860.htm
+done: http://tech.qq.com/a/20160327/013391.htm
+done: http://tech.qq.com/a/20160317/009615.htm
+done: http://tech.qq.com/a/20160326/024481.htm
+done: http://tech.qq.com/a/20160408/008181.htm#p=1
+done: http://tech.qq.com/a/20160327/021020.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20160327/013450.htm
+done: http://tech.qq.com/a/20150402/046363.htm
+done: http://tech.qq.com/a/20160327/019248.htm
+done: http://tech.qq.com/a/20160327/018620.htm
+done: http://tech.qq.com/a/20160326/030993.htm
+done: http://tech.qq.com/a/20160320/005932.htm
+done: http://tech.qq.com/a/20160319/035634.htm
+done: http://tech.qq.com/a/20160327/025994.htm
+done: http://tech.qq.com/a/20160327/014753.htm
+done: http://tech.qq.com/a/20160328/007375.htm
+done: http://tech.qq.com/a/20160326/029945.htm
+done: http://tech.qq.com/a/20160326/029907.htm
+done: http://tech.qq.com/a/20160327/024952.htm
+done: http://tech.qq.com/a/20160414/054851.htm
+done: http://tech.qq.com/a/20160414/057507.htm
+done: http://tech.qq.com/a/20160327/019451.htm
+done: http://tech.qq.com/a/20160414/055334.htm
+done: http://tech.qq.com/a/20160327/024596.htm
+done: http://tech.qq.com/a/20160328/010069.htm
+done: http://tech.qq.com/a/20160326/032232.htm
+done: http://tech.qq.com/a/20160325/054913.htm
+done: http://tech.qq.com/a/20160415/034827.htm
+done: http://tech.qq.com/a/20160327/016610.htm
+done: http://tech.qq.com/a/20160401/010358.htm
+done: http://tech.qq.com/a/20160414/057135.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=975
+done: http://tech.qq.com/a/20150402/071490.htm
+done: http://tech.qq.com/a/20160327/014454.htm
+done: http://tech.qq.com/a/20160414/056344.htm
+done: http://tech.qq.com/a/20160409/025940.htm
+done: http://tech.qq.com/a/20160326/025022.htm
+done: http://tech.qq.com/a/20160414/055434.htm
+done: http://tech.qq.com/a/20160414/055511.htm
+done: http://tech.qq.com/a/20160409/005381.htm
+done: http://tech.qq.com/a/20160414/046622.htm
+done: http://tech.qq.com/a/20160327/014957.htm
+done: http://tech.qq.com/a/20160415/050404.htm
+done: http://tech.qq.com/a/20160329/012488.htm
+done: http://tech.qq.com/a/20160426/010624.htm
+done: http://tech.qq.com/a/20160420/055897.htm
+done: http://tech.qq.com/a/20160419/049428.htm
+done: http://tech.qq.com/a/20160418/007232.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=984
+done: http://tech.qq.com/a/20160327/014984.htm
+done: http://tech.qq.com/a/20160426/007994.htm
+done: http://tech.qq.com/a/20160421/013845.htm
+done: http://tech.qq.com/a/20160415/009083.htm
+done: http://tech.qq.com/a/20160415/008953.htm
+done: http://tech.qq.com/a/20160425/056810.htm
+done: http://tech.qq.com/a/20160426/008526.htm
+done: http://tech.qq.com/a/20160327/022841.htm
+done: http://tech.qq.com/a/20160327/021304.htm
+done: http://tech.qq.com/a/20160420/009348.htm
+done: http://tech.qq.com/a/20160422/010466.htm
+done: http://tech.qq.com/a/20160422/012041.htm
+done: http://tech.qq.com/a/20160429/011908.htm
+done: http://tech.qq.com/a/20160414/054700.htm
+done: http://tech.qq.com/a/20160420/014412.htm
+done: http://tech.qq.com/a/20150407/065563.htm
+done: http://tech.qq.com/a/20160415/058731.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=1000
+done: http://tech.qq.com/a/20160420/035354.htm
+done: http://tech.qq.com/a/20160413/064368.htm
+done: http://tech.qq.com/a/20160417/021283.htm
+done: http://tech.qq.com/a/20160417/006698.htm
+done: http://tech.qq.com/a/20160328/018546.htm
+done: http://tech.qq.com/a/20160418/010612.htm
+done: http://tech.qq.com/a/20160414/055975.htm
+done: http://tech.qq.com/a/20160420/017290.htm
+done: http://tech.qq.com/a/20160426/008032.htm
+done: http://tech.qq.com/a/20160308/018666.htm
+done: http://tech.qq.com/a/20160327/012583.htm
+done: http://tech.qq.com/a/20151211/029723.htm
+done: http://tech.qq.com/a/20160511/011874.htm
+done: http://tech.qq.com/a/20160513/018966.htm
+done: http://tech.qq.com/a/20160420/010590.htm
+done: http://tech.qq.com/a/20160506/014312.htm
+done: http://tech.qq.com/a/20160324/053032.htm
+done: http://tech.qq.com/a/20160327/019087.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=1000
+done: http://tech.qq.com/a/20160426/008587.htm
+done: http://tech.qq.com/a/20160425/034252.htm
+done: http://tech.qq.com/a/20160422/009683.htm
+done: http://tech.qq.com/a/20160508/006435.htm
+start depth 1
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+failed: http://tech.qq.com/
+java.lang.StringIndexOutOfBoundsException: String index out of range: 100
+	at java.lang.String.substring(String.java:1963)
+	at cn.edu.bzu.group12.orangenews.crawler.TencentTechNewsCrawler.visit(TencentTechNewsCrawler.java:40)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:73)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 1 finish: 
+	total urls:	1
+	total time:	1 seconds
+start depth 2
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+failed: http://tech.qq.com/
+java.lang.StringIndexOutOfBoundsException: String index out of range: 100
+	at java.lang.String.substring(String.java:1963)
+	at cn.edu.bzu.group12.orangenews.crawler.TencentTechNewsCrawler.visit(TencentTechNewsCrawler.java:40)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:73)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 2 finish: 
+	total urls:	1
+	total time:	1 seconds
+start depth 3
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+failed: http://tech.qq.com/
+java.lang.StringIndexOutOfBoundsException: String index out of range: 100
+	at java.lang.String.substring(String.java:1963)
+	at cn.edu.bzu.group12.orangenews.crawler.TencentTechNewsCrawler.visit(TencentTechNewsCrawler.java:40)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:73)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 3 finish: 
+	total urls:	1
+	total time:	1 seconds
+start depth 4
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+failed: http://tech.qq.com/
+java.lang.StringIndexOutOfBoundsException: String index out of range: 100
+	at java.lang.String.substring(String.java:1963)
+	at cn.edu.bzu.group12.orangenews.crawler.TencentTechNewsCrawler.visit(TencentTechNewsCrawler.java:40)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:73)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 4 finish: 
+	total urls:	1
+	total time:	1 seconds
+start depth 1
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 1 finish: 
+	total urls:	1
+	total time:	1 seconds
+start depth 2
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=1
+done: http://tech.qq.com/a/20160307/012813.htm#p=1
+done: http://tech.qq.com/a/20170111/004863.htm
+done: http://tech.qq.com/a/20170111/005112.htm
+done: http://tech.qq.com/a/20170111/027434.htm
+done: http://tech.qq.com/a/20161115/003171.htm
+done: http://tech.qq.com/a/20170111/031937.htm
+done: http://tech.qq.com/a/20170111/028256.htm
+done: http://tech.qq.com/a/20170111/027582.htm
+done: http://tech.qq.com/a/20170111/006632.htm
+done: http://tech.qq.com/a/20170111/025172.htm
+done: http://tech.qq.com/a/20170111/029137.htm
+done: http://tech.qq.com/a/20170112/003641.htm
+done: http://tech.qq.com/a/20170112/003508.htm
+done: http://tech.qq.com/a/20170112/004117.htm
+done: http://tech.qq.com/a/20170112/003523.htm
+done: http://tech.qq.com/a/20170111/023968.htm
+done: http://tech.qq.com/a/20170111/036358.htm
+done: http://tech.qq.com/a/20170111/018631.htm
+done: http://tech.qq.com/a/20170111/031250.htm
+done: http://tech.qq.com/a/20170112/003886.htm
+done: http://tech.qq.com/a/20170111/029021.htm
+done: http://tech.qq.com/a/20170112/000095.htm
+done: http://tech.qq.com/a/20170111/026591.htm
+done: http://tech.qq.com/a/20170112/004013.htm
+done: http://tech.qq.com/a/20170111/005226.htm
+done: http://tech.qq.com/a/20170112/003783.htm
+done: http://tech.qq.com/a/20170111/036332.htm
+done: http://tech.qq.com/a/20170110/036051.htm
+done: http://tech.qq.com/a/20170112/000049.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=36
+done: http://tech.qq.com/a/20170111/033400.htm
+done: http://tech.qq.com/a/20170111/033537.htm
+done: http://tech.qq.com/a/20170111/036373.htm
+done: http://tech.qq.com/a/20170111/005933.htm
+done: http://tech.qq.com/a/20170111/036813.htm
+done: http://tech.qq.com/a/20170112/003774.htm
+done: http://tech.qq.com/a/20170111/036309.htm
+done: http://tech.qq.com/a/20170111/036596.htm
+done: http://tech.qq.com/#
+done: http://tech.qq.com/a/20160127/009499.htm#p=1
+done: http://tech.qq.com/a/20170112/004252.htm
+done: http://tech.qq.com/a/20170112/000211.htm
+done: http://tech.qq.com/a/20170111/015942.htm
+done: http://tech.qq.com/a/20170111/038253.htm
+done: http://tech.qq.com/a/20170111/003553.htm
+done: http://tech.qq.com/a/20170112/004309.htm
+done: http://tech.qq.com/a/20170112/004498.htm
+done: http://tech.qq.com/a/20170110/027850.htm
+done: http://tech.qq.com/a/20170112/005200.htm
+done: http://tech.qq.com/a/20170111/005469.htm
+done: http://tech.qq.com/a/20170110/023603.htm
+done: http://tech.qq.com/a/20170112/004804.htm
+done: http://tech.qq.com/a/20170112/005765.htm
+done: http://tech.qq.com/a/20170112/005592.htm
+done: http://tech.qq.com/a/20170111/026229.htm
+done: http://tech.qq.com/a/20170112/004624.htm
+done: http://tech.qq.com/a/20161220/037485.htm
+done: http://tech.qq.com/a/20170111/002574.htm
+done: http://tech.qq.com/a/20170110/000337.htm
+done: http://tech.qq.com/a/20170110/025362.htm
+done: http://tech.qq.com/a/20170111/003490.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=15
+done: http://tech.qq.com/a/20170110/029044.htm
+done: http://tech.qq.com/a/20170111/019226.htm
+done: http://tech.qq.com/a/20170111/004361.htm
+done: http://tech.qq.com/a/20170111/004784.htm
+done: http://tech.qq.com/a/20170111/004071.htm
+done: http://tech.qq.com/a/20170111/023726.htm
+done: http://tech.qq.com/a/20170110/016065.htm
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 1920670206 -1_Thread-81_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184004977 endTime=1484184005554
+Owners: [<LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="1921264016 -1_Thread-99_ThreadLocker" type="WRITE"/>, <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>, <LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="974864678 -1_Thread-94_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+done: http://tech.qq.com/a/20170111/025893.htm
+done: http://tech.qq.com/a/20170112/006714.htm
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 1921264016 -1_Thread-99_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184005015 endTime=1484184005554
+Owners: [<LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>, <LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="974864678 -1_Thread-94_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+done: http://tech.qq.com/a/20170111/019983.htm
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 47142241 -1_Thread-95_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184005015 endTime=1484184005554
+Owners: [<LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="182923678 -1_Thread-103_ThreadLocker" type="WRITE"/>, <LockInfo locker="1920670206 -1_Thread-81_ThreadLocker" type="WRITE"/>, <LockInfo locker="1921264016 -1_Thread-99_ThreadLocker" type="WRITE"/>, <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>, <LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="974864678 -1_Thread-94_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="394206182 -1_Thread-78_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 1962946504 -1_Thread-100_ThreadLocker waits for  LockAddr:116441568 Owners:<LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/> Waiters:[<LockInfo locker="182923678 -1_Thread-103_ThreadLocker" type="WRITE"/>, <LockInfo locker="1920670206 -1_Thread-81_ThreadLocker" type="WRITE"/>, <LockInfo locker="1921264016 -1_Thread-99_ThreadLocker" type="WRITE"/>, <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>, <LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="974864678 -1_Thread-94_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="394206182 -1_Thread-78_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 1962946504 -1_Thread-100_ThreadLocker owns LockAddr:116441568 <LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/>
+Transaction 1962946504 -1_Thread-100_ThreadLocker waits for LockAddr:116441568
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+done: http://tech.qq.com/a/20170112/006058.htm
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 394206182 -1_Thread-78_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184005191 endTime=1484184005720
+Owners: [<LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="182923678 -1_Thread-103_ThreadLocker" type="WRITE"/>, <LockInfo locker="1920670206 -1_Thread-81_ThreadLocker" type="WRITE"/>, <LockInfo locker="1921264016 -1_Thread-99_ThreadLocker" type="WRITE"/>, <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>, <LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="974864678 -1_Thread-94_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 1962946504 -1_Thread-100_ThreadLocker waits for  LockAddr:116441568 Owners:<LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/> Waiters:[<LockInfo locker="182923678 -1_Thread-103_ThreadLocker" type="WRITE"/>, <LockInfo locker="1920670206 -1_Thread-81_ThreadLocker" type="WRITE"/>, <LockInfo locker="1921264016 -1_Thread-99_ThreadLocker" type="WRITE"/>, <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>, <LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="974864678 -1_Thread-94_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 1962946504 -1_Thread-100_ThreadLocker owns LockAddr:116441568 <LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/>
+Transaction 1962946504 -1_Thread-100_ThreadLocker waits for LockAddr:116441568
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 182923678 -1_Thread-103_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184004969 endTime=1484184005554
+Owners: [<LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="1920670206 -1_Thread-81_ThreadLocker" type="WRITE"/>, <LockInfo locker="1921264016 -1_Thread-99_ThreadLocker" type="WRITE"/>, <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>, <LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="974864678 -1_Thread-94_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 1962946504 -1_Thread-100_ThreadLocker waits for  LockAddr:116441568 Owners:<LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/> Waiters:[<LockInfo locker="1920670206 -1_Thread-81_ThreadLocker" type="WRITE"/>, <LockInfo locker="1921264016 -1_Thread-99_ThreadLocker" type="WRITE"/>, <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>, <LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="974864678 -1_Thread-94_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 1962946504 -1_Thread-100_ThreadLocker owns LockAddr:116441568 <LockInfo locker="1962946504 -1_Thread-100_ThreadLocker" type="WRITE"/>
+Transaction 1962946504 -1_Thread-100_ThreadLocker waits for LockAddr:116441568
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+done: http://tech.qq.com/a/20170112/005802.htm
+done: http://tech.qq.com/dzsw.htm
+done: http://tech.qq.com/map.htm
+done: http://tech.qq.com/original/shenwang/shenwang.htm
+done: http://tech.qq.com/web/newWy.htm
+done: http://tech.qq.com/p/topic/20160918026376/index.html
+done: http://tech.qq.com/web/zmt.htm
+done: http://tech.qq.com/hzhbxx.htm
+done: http://tech.qq.com/web/lCompany.htm
+done: http://tech.qq.com/original/sw/i37.html
+done: http://tech.qq.com/web/artificial.htm
+done: http://tech.qq.com/anotherway.htm
+done: http://tech.qq.com/zt2012/xiaoxiao/index.htm
+done: http://tech.qq.com/web/intelligent.htm
+done: http://tech.qq.com/science.htm
+done: http://tech.qq.com/p/topic/20161227029627/index.html
+done: http://tech.qq.com/recode.htm
+done: http://tech.qq.com/zt2015/now_again/index.htm
+done: http://tech.qq.com/zt2016/2016_bj/index.htm
+done: http://tech.qq.com/zt2016/alphaGo/index.htm
+done: http://tech.qq.com/zt2016/2016we/index.htm
+done: http://tech.qq.com/zt2016/2016itlx/index.htm
+done: http://tech.qq.com/zt2016/tencentPlus/index.htm
+done: http://tech.qq.com/zt2016/hatch/index.htm
+done: http://tech.qq.com/zthd.htm
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 974864678 -1_Thread-94_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184005081 endTime=1484184006812
+Owners: [<LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 601726997 -1_Thread-56_ThreadLocker waits for  LockAddr:116441568 Owners:<LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/> Waiters:[<LockInfo locker="268766769 -1_Thread-79_ThreadLocker" type="WRITE"/>, <LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 601726997 -1_Thread-56_ThreadLocker owns LockAddr:116441568 <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>
+Transaction 601726997 -1_Thread-56_ThreadLocker waits for LockAddr:116441568
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 268766769 -1_Thread-79_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184005080 endTime=1484184006812
+Owners: [<LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 601726997 -1_Thread-56_ThreadLocker waits for  LockAddr:116441568 Owners:<LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/> Waiters:[<LockInfo locker="1770006364 -1_Thread-102_ThreadLocker" type="WRITE"/>, <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>, <LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="2142075272 -1_Thread-93_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 601726997 -1_Thread-56_ThreadLocker owns LockAddr:116441568 <LockInfo locker="601726997 -1_Thread-56_ThreadLocker" type="WRITE"/>
+Transaction 601726997 -1_Thread-56_ThreadLocker waits for LockAddr:116441568
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 2142075272 -1_Thread-93_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184005110 endTime=1484184006843
+Owners: [<LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 664010609 -1_Thread-98_ThreadLocker waits for  LockAddr:116441568 Owners:<LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/> Waiters:[<LockInfo locker="526326068 -1_Thread-54_ThreadLocker" type="WRITE"/>, <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 664010609 -1_Thread-98_ThreadLocker owns LockAddr:116441568 <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>
+Transaction 664010609 -1_Thread-98_ThreadLocker waits for LockAddr:116441568
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 526326068 -1_Thread-54_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184005110 endTime=1484184006905
+Owners: [<LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 664010609 -1_Thread-98_ThreadLocker waits for  LockAddr:116441568 Owners:<LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/> Waiters:[<LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>, <LockInfo locker="1214131303 -1_Thread-90_ThreadLocker" type="WRITE"/>, <LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 664010609 -1_Thread-98_ThreadLocker owns LockAddr:116441568 <LockInfo locker="664010609 -1_Thread-98_ThreadLocker" type="WRITE"/>
+Transaction 664010609 -1_Thread-98_ThreadLocker waits for LockAddr:116441568
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+Exception when updating db
+com.sleepycat.je.LockTimeoutException: (JE 5.0.73) Lock expired. Locker 1214131303 -1_Thread-90_ThreadLocker: waited for lock on database=link LockAddr:116441568 LSN=0x0/0x2576b type=WRITE grant=WAIT_NEW timeoutMillis=500 startTime=1484184005205 endTime=1484184006937
+Owners: [<LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>]
+Waiters: [<LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 791614991 -1_Thread-59_ThreadLocker waits for  LockAddr:116441568 Owners:<LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/> Waiters:[<LockInfo locker="1554742749 -1_Thread-80_ThreadLocker" type="WRITE"/>, <LockInfo locker="862252421 -1_Thread-58_ThreadLocker" type="WRITE"/>]
+Transaction 791614991 -1_Thread-59_ThreadLocker owns LockAddr:116441568 <LockInfo locker="791614991 -1_Thread-59_ThreadLocker" type="WRITE"/>
+Transaction 791614991 -1_Thread-59_ThreadLocker waits for LockAddr:116441568
+
+	at com.sleepycat.je.txn.LockManager.newLockTimeoutException(LockManager.java:664)
+	at com.sleepycat.je.txn.LockManager.makeTimeoutMsgInternal(LockManager.java:623)
+	at com.sleepycat.je.txn.SyncedLockManager.makeTimeoutMsg(SyncedLockManager.java:97)
+	at com.sleepycat.je.txn.LockManager.lockInternal(LockManager.java:390)
+	at com.sleepycat.je.txn.LockManager.lock(LockManager.java:276)
+	at com.sleepycat.je.txn.BasicLocker.lockInternal(BasicLocker.java:118)
+	at com.sleepycat.je.txn.Locker.lock(Locker.java:443)
+	at com.sleepycat.je.dbi.CursorImpl.lockLN(CursorImpl.java:2621)
+	at com.sleepycat.je.dbi.CursorImpl.getSlotReuseInfo(CursorImpl.java:1091)
+	at com.sleepycat.je.dbi.CursorImpl.putInternal(CursorImpl.java:880)
+	at com.sleepycat.je.dbi.CursorImpl.put(CursorImpl.java:811)
+	at com.sleepycat.je.Cursor.putAllowPhantoms(Cursor.java:2243)
+	at com.sleepycat.je.Cursor.putNoNotify(Cursor.java:2200)
+	at com.sleepycat.je.Cursor.putNotify(Cursor.java:2117)
+	at com.sleepycat.je.Cursor.putNoDups(Cursor.java:2052)
+	at com.sleepycat.je.Cursor.putInternal(Cursor.java:2020)
+	at com.sleepycat.je.Database.putInternal(Database.java:1302)
+	at com.sleepycat.je.Database.put(Database.java:1172)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.put(BerkeleyDBUtils.java:52)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBUtils.writeDatum(BerkeleyDBUtils.java:48)
+	at cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager.writeParseSegment(BerkeleyDBManager.java:153)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:241)
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+failed: http://tech.qq.com/tnw.htm
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at cn.edu.hfut.dmic.webcollector.net.HttpRequest.response(HttpRequest.java:112)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.getResponse(AutoParseCrawler.java:61)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:71)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 2 finish: 
+	total urls:	99
+	total time:	6 seconds
+start depth 3
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20151028/010696.htm
+done: http://tech.qq.com/a/20151029/009909.htm
+done: http://tech.qq.com/a/20151108/025758.htm
+done: http://tech.qq.com/a/20150413/068332.htm
+done: http://tech.qq.com/a/20151027/057105.htm
+done: http://tech.qq.com/a/20151021/054434.htm
+done: http://tech.qq.com/a/20150410/075287.htm
+done: http://tech.qq.com/a/20150402/071490.htm
+done: http://tech.qq.com/a/20150619/009596.htm
+done: http://tech.qq.com/a/20150401/044669.htm
+done: http://tech.qq.com/a/20150403/030725.htm
+done: http://tech.qq.com/a/20150715/004582.htm
+done: http://tech.qq.com/a/20150401/008248.htm
+done: http://tech.qq.com/a/20150405/005789.htm
+done: http://tech.qq.com/a/20151023/010371.htm
+done: http://tech.qq.com/a/20150402/032448.htm
+done: http://tech.qq.com/a/20151114/023636.htm
+done: http://tech.qq.com/a/20151108/025057.htm
+done: http://tech.qq.com/a/20150401/064184.htm
+done: http://tech.qq.com/a/20150402/064498.htm
+done: http://tech.qq.com/a/20151116/007990.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=929
+done: http://tech.qq.com/a/20151118/010573.htm
+done: http://tech.qq.com/a/20150407/001486.htm
+done: http://tech.qq.com/a/20151113/012900.htm
+done: http://tech.qq.com/a/20150408/062759.htm
+done: http://tech.qq.com/a/20151108/026082.htm
+done: http://tech.qq.com/a/20150402/033569.htm
+done: http://tech.qq.com/a/20151108/027554.htm
+done: http://tech.qq.com/a/20151027/057556.htm
+done: http://tech.qq.com/a/20150402/046363.htm
+done: http://tech.qq.com/a/20151117/064468.htm
+done: http://tech.qq.com/a/20151119/020732.htm
+done: http://tech.qq.com/a/20151119/025003.htm
+done: http://tech.qq.com/a/20151124/010290.htm
+done: http://tech.qq.com/a/20150403/056593.htm
+done: http://tech.qq.com/a/20151118/003348.htm
+done: http://tech.qq.com/a/20150331/070508.htm
+done: http://tech.qq.com/a/20150401/011668.htm
+done: http://tech.qq.com/a/20150403/062636.htm
+done: http://tech.qq.com/a/20151108/029124.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20150401/055727.htm
+done: http://tech.qq.com/a/20151108/024644.htm
+done: http://tech.qq.com/a/20150403/040482.htm
+done: http://tech.qq.com/a/20151118/029007.htm
+done: http://tech.qq.com/a/20151119/018466.htm
+done: http://tech.qq.com/a/20151120/036595.htm
+done: http://tech.qq.com/a/20150331/070701.htm
+done: http://tech.qq.com/a/20151224/012151.htm
+done: http://tech.qq.com/a/20151113/011120.htm
+done: http://tech.qq.com/a/20151223/007003.htm
+done: http://tech.qq.com/a/20160106/011631.htm
+done: http://tech.qq.com/a/20151112/056264.htm
+done: http://tech.qq.com/a/20160112/008968.htm
+done: http://tech.qq.com/a/20150407/065563.htm
+done: http://tech.qq.com/a/20151120/039088.htm
+done: http://tech.qq.com/a/20151119/031786.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#
+done: http://tech.qq.com/a/20150410/022788.htm
+done: http://tech.qq.com/a/20160302/038542.htm
+done: http://tech.qq.com/a/20151225/008693.htm
+done: http://tech.qq.com/a/20151116/009646.htm
+done: http://tech.qq.com/a/20151126/049473.htm
+done: http://tech.qq.com/a/20151110/061424.htm
+done: http://tech.qq.com/a/20151119/032079.htm
+done: http://tech.qq.com/a/20151119/018955.htm
+done: http://tech.qq.com/a/20150401/049658.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=974
+done: http://tech.qq.com/a/20160127/009499.htm#
+done: http://tech.qq.com/a/20151119/033099.htm
+done: http://tech.qq.com/a/20150408/010129.htm
+done: http://tech.qq.com/a/20160307/012813.htm#
+done: http://tech.qq.com/a/20160115/009075.htm
+done: http://tech.qq.com/a/20151118/049472.htm
+done: http://tech.qq.com/a/20160203/040571.htm
+done: http://tech.qq.com/a/20150402/069701.htm
+done: http://tech.qq.com/a/20151222/063740.htm
+done: http://tech.qq.com/a/20151119/027319.htm
+done: http://tech.qq.com/a/20150408/038061.htm
+done: http://tech.qq.com/a/20150405/005095.htm
+done: http://tech.qq.com/a/20151119/053068.htm
+done: http://tech.qq.com/a/20160311/050647.htm
+done: http://tech.qq.com/a/20151112/059466.htm
+done: http://tech.qq.com/a/20160125/060798.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=986
+done: http://tech.qq.com/a/20160110/008895.htm
+done: http://tech.qq.com/a/20151202/038320.htm
+done: http://tech.qq.com/a/20151126/049758.htm
+done: http://tech.qq.com/a/20151221/062236.htm
+done: http://tech.qq.com/a/20151211/029723.htm
+done: http://tech.qq.com/a/20160308/018666.htm
+done: http://tech.qq.com/a/20151030/011601.htm
+done: http://tech.qq.com/a/20160307/068965.htm
+done: http://tech.qq.com/a/20151221/053776.htm
+done: http://tech.qq.com/a/20151224/053316.htm
+done: http://tech.qq.com/a/20160315/044079.htm
+done: http://tech.qq.com/a/20160309/053158.htm
+done: http://tech.qq.com/a/20151108/030837.htm
+done: http://tech.qq.com/a/20151119/045331.htm
+done: http://tech.qq.com/a/20160311/050990.htm
+done: http://tech.qq.com/a/20160301/024236.htm
+done: http://tech.qq.com/a/20151118/043184.htm
+done: http://tech.qq.com/a/20160311/050050.htm
+done: http://tech.qq.com/a/20150408/072558.htm
+done: http://tech.qq.com/a/20160311/029160.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=983
+done: http://tech.qq.com/a/20160303/054748.htm
+done: http://tech.qq.com/a/20160224/064478.htm
+done: http://tech.qq.com/a/20151108/023455.htm
+done: http://tech.qq.com/a/20160309/041187.htm
+done: http://tech.qq.com/a/20160307/012862.htm
+done: http://tech.qq.com/a/20160315/055218.htm
+done: http://tech.qq.com/a/20160312/021471.htm
+done: http://tech.qq.com/a/20151225/043930.htm
+done: http://tech.qq.com/a/20160312/016969.htm
+done: http://tech.qq.com/a/20160311/051253.htm
+done: http://tech.qq.com/a/20160316/005595.htm
+done: http://tech.qq.com/a/20160309/055228.htm
+done: http://tech.qq.com/a/20160326/022001.htm#p=1
+done: http://tech.qq.com/a/20160309/003313.htm
+done: http://tech.qq.com/a/20160315/038031.htm
+done: http://tech.qq.com/a/20160314/071431.htm
+done: http://tech.qq.com/a/20160312/009022.htm
+done: http://tech.qq.com/a/20160311/050431.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=983
+done: http://tech.qq.com/a/20160315/014495.htm
+done: http://tech.qq.com/a/20160315/049899.htm
+done: http://tech.qq.com/a/20160319/035634.htm
+done: http://tech.qq.com/a/20160317/054037.htm
+done: http://tech.qq.com/a/20160307/014846.htm
+done: http://tech.qq.com/a/20160315/012901.htm
+done: http://tech.qq.com/a/20160312/006571.htm
+done: http://tech.qq.com/a/20151118/046724.htm
+done: http://tech.qq.com/a/20160315/035589.htm
+done: http://tech.qq.com/a/20160318/052908.htm
+done: http://tech.qq.com/a/20160107/018458.htm
+done: http://tech.qq.com/a/20160327/010864.htm#p=1
+done: http://tech.qq.com/a/20160317/055245.htm
+done: http://tech.qq.com/a/20160320/005932.htm
+done: http://tech.qq.com/a/20160312/024743.htm
+done: http://tech.qq.com/a/20160314/061052.htm
+done: http://tech.qq.com/a/20151222/054388.htm
+done: http://tech.qq.com/a/20160318/055921.htm
+done: http://tech.qq.com/a/20160326/024481.htm
+done: http://tech.qq.com/a/20160316/005998.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=980
+done: http://tech.qq.com/a/20160315/015355.htm
+done: http://tech.qq.com/a/20160327/008877.htm#p=1
+done: http://tech.qq.com/a/20160315/034975.htm
+done: http://tech.qq.com/a/20160320/006372.htm
+done: http://tech.qq.com/a/20160317/009615.htm
+done: http://tech.qq.com/a/20160324/053032.htm
+done: http://tech.qq.com/a/20160314/057745.htm
+done: http://tech.qq.com/a/20160320/012339.htm
+done: http://tech.qq.com/a/20160325/054913.htm
+done: http://tech.qq.com/a/20160326/030993.htm
+done: http://tech.qq.com/a/20160327/013391.htm
+done: http://tech.qq.com/a/20160326/024146.htm
+done: http://tech.qq.com/a/20151224/047425.htm
+done: http://tech.qq.com/a/20160326/024933.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=987
+done: http://tech.qq.com/a/20160318/053279.htm
+done: http://tech.qq.com/a/20160326/025022.htm
+done: http://tech.qq.com/a/20160327/014753.htm
+done: http://tech.qq.com/a/20160327/025994.htm
+done: http://tech.qq.com/a/20160327/016610.htm
+done: http://tech.qq.com/a/20160321/007097.htm
+done: http://tech.qq.com/a/20160318/054873.htm
+done: http://tech.qq.com/a/20160313/011691.htm
+done: http://tech.qq.com/a/20160311/051125.htm
+done: http://tech.qq.com/a/20151108/029146.htm
+done: http://tech.qq.com/a/20160408/008181.htm#p=1
+done: http://tech.qq.com/a/20150909/009339.htm
+done: http://tech.qq.com/a/20160327/019248.htm
+done: http://tech.qq.com/a/20160315/011037.htm
+done: http://tech.qq.com/a/20160327/014984.htm
+done: http://tech.qq.com/a/20160327/018271.htm
+done: http://tech.qq.com/a/20160327/019451.htm
+done: http://tech.qq.com/a/20160327/019087.htm
+done: http://tech.qq.com/a/20160327/017728.htm
+done: http://tech.qq.com/a/20150402/011118.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=981
+done: http://tech.qq.com/a/20160329/012488.htm
+done: http://tech.qq.com/a/20160326/029945.htm
+done: http://tech.qq.com/a/20160326/030185.htm
+done: http://tech.qq.com/a/20160414/055434.htm
+done: http://tech.qq.com/a/20160414/055511.htm
+done: http://tech.qq.com/a/20160415/037618.htm
+done: http://tech.qq.com/a/20160327/012583.htm
+done: http://tech.qq.com/a/20160327/022841.htm
+done: http://tech.qq.com/a/20160326/029907.htm
+done: http://tech.qq.com/a/20160325/052434.htm
+done: http://tech.qq.com/a/20160327/024952.htm
+done: http://tech.qq.com/a/20160415/009083.htm
+done: http://tech.qq.com/a/20160414/054851.htm
+done: http://tech.qq.com/a/20160419/011475.htm
+done: http://tech.qq.com/a/20160311/054978.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=985
+done: http://tech.qq.com/a/20160414/054700.htm
+done: http://tech.qq.com/a/20160327/013450.htm
+done: http://tech.qq.com/a/20160326/031491.htm
+done: http://tech.qq.com/a/20160328/010069.htm
+done: http://tech.qq.com/a/20160409/025940.htm
+done: http://tech.qq.com/a/20160415/058731.htm
+done: http://tech.qq.com/a/20160327/014454.htm
+done: http://tech.qq.com/a/20160415/034827.htm
+done: http://tech.qq.com/a/20160328/018546.htm
+done: http://tech.qq.com/a/20160409/005381.htm
+done: http://tech.qq.com/a/20160419/049428.htm
+done: http://tech.qq.com/a/20160328/007375.htm
+done: http://tech.qq.com/a/20160414/055975.htm
+done: http://tech.qq.com/a/20160414/046622.htm
+done: http://tech.qq.com/a/20160419/011906.htm
+done: http://tech.qq.com/a/20160326/032232.htm
+done: http://tech.qq.com/a/20160420/017290.htm
+done: http://tech.qq.com/a/20160426/010624.htm
+done: http://tech.qq.com/a/20160422/009683.htm
+done: http://tech.qq.com/a/20160415/050404.htm
+done: http://tech.qq.com/a/20160414/057135.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=979
+done: http://tech.qq.com/a/20160414/056344.htm
+done: http://tech.qq.com/a/20160417/021283.htm
+done: http://tech.qq.com/a/20160414/057507.htm
+done: http://tech.qq.com/a/20160420/009348.htm
+done: http://tech.qq.com/a/20160420/055897.htm
+done: http://tech.qq.com/a/20160420/010590.htm
+done: http://tech.qq.com/a/20160420/035354.htm
+done: http://tech.qq.com/a/20160425/056810.htm
+done: http://tech.qq.com/a/20160422/012041.htm
+done: http://tech.qq.com/a/20160401/010358.htm
+done: http://tech.qq.com/a/20160421/013845.htm
+done: http://tech.qq.com/a/20160414/055334.htm
+done: http://tech.qq.com/a/20160418/010612.htm
+done: http://tech.qq.com/a/20160425/056763.htm
+done: http://tech.qq.com/a/20160327/013860.htm
+done: http://tech.qq.com/a/20160415/008953.htm
+done: http://tech.qq.com/a/20160417/006698.htm
+done: http://tech.qq.com/a/20160302/015291.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20160426/008587.htm
+done: http://tech.qq.com/a/20160327/014785.htm
+done: http://tech.qq.com/a/20160509/008458.htm
+done: http://tech.qq.com/a/20160422/012677.htm
+done: http://tech.qq.com/a/20160327/021304.htm
+done: http://tech.qq.com/a/20160421/020989.htm
+done: http://tech.qq.com/a/20160426/008032.htm
+done: http://tech.qq.com/a/20160426/008526.htm
+done: http://tech.qq.com/a/20160424/028303.htm
+done: http://tech.qq.com/a/20160426/007994.htm
+done: http://tech.qq.com/a/20160506/014312.htm
+done: http://tech.qq.com/a/20160429/007717.htm
+done: http://tech.qq.com/a/20160511/015681.htm
+done: http://tech.qq.com/a/20160509/027228.htm
+done: http://tech.qq.com/a/20160516/054651.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=985
+done: http://tech.qq.com/a/20160510/059765.htm
+done: http://tech.qq.com/a/20160517/017697.htm
+done: http://tech.qq.com/a/20160511/011874.htm
+done: http://tech.qq.com/a/20160513/019343.htm
+done: http://tech.qq.com/a/20160509/009042.htm
+done: http://tech.qq.com/a/20160509/013114.htm
+done: http://tech.qq.com/a/20160428/010642.htm
+done: http://tech.qq.com/a/20160509/055472.htm
+done: http://tech.qq.com/a/20160503/040773.htm
+done: http://tech.qq.com/a/20160519/072595.htm
+done: http://tech.qq.com/a/20160429/011643.htm
+done: http://tech.qq.com/a/20160327/024596.htm
+done: http://tech.qq.com/a/20160516/056333.htm
+done: http://tech.qq.com/a/20160520/053725.htm
+done: http://tech.qq.com/a/20160526/025907.htm
+done: http://tech.qq.com/a/20160517/078745.htm
+done: http://tech.qq.com/a/20160523/008521.htm
+done: http://tech.qq.com/a/20160518/067308.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=983
+done: http://tech.qq.com/a/20160512/068821.htm
+done: http://tech.qq.com/a/20160519/072004.htm
+done: http://tech.qq.com/a/20160418/007232.htm
+done: http://tech.qq.com/a/20160420/014412.htm
+done: http://tech.qq.com/a/20160517/052401.htm
+done: http://tech.qq.com/a/20160425/034252.htm
+done: http://tech.qq.com/a/20160516/057902.htm
+failed: http://tech.qq.com/a/20151111/013538.htm
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.ChunkedInputStream.fastRead(ChunkedInputStream.java:244)
+	at sun.net.www.http.ChunkedInputStream.read(ChunkedInputStream.java:689)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3336)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3329)
+	at cn.edu.hfut.dmic.webcollector.net.HttpRequest.response(HttpRequest.java:162)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.getResponse(AutoParseCrawler.java:61)
+	at cn.edu.hfut.dmic.webcollector.crawler.AutoParseCrawler.execute(AutoParseCrawler.java:71)
+	at cn.edu.hfut.dmic.webcollector.fetcher.Fetcher$FetcherThread.run(Fetcher.java:228)
+done: http://tech.qq.com/a/20160528/013404.htm
+done: http://tech.qq.com/a/20160327/021020.htm
+done: http://tech.qq.com/a/20160523/017229.htm
+done: http://tech.qq.com/a/20160527/011008.htm
+done: http://tech.qq.com/a/20160516/012594.htm
+done: http://tech.qq.com/a/20160525/023423.htm
+done: http://tech.qq.com/a/20160602/006271.htm
+done: http://tech.qq.com/a/20160530/043090.htm
+done: http://tech.qq.com/a/20160525/052346.htm
+done: http://tech.qq.com/a/20160519/055597.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20160527/017961.htm
+done: http://tech.qq.com/a/20160519/056967.htm
+done: http://tech.qq.com/a/20160517/031657.htm
+done: http://tech.qq.com/a/20160519/049565.htm
+done: http://tech.qq.com/a/20160616/009423.htm
+done: http://tech.qq.com/a/20160520/047261.htm
+done: http://tech.qq.com/a/20160602/041135.htm
+done: http://tech.qq.com/a/20160529/008722.htm
+done: http://tech.qq.com/a/20160608/054058.htm
+done: http://tech.qq.com/a/20160528/013641.htm
+done: http://tech.qq.com/a/20160528/025128.htm
+done: http://tech.qq.com/a/20160524/032136.htm
+done: http://tech.qq.com/a/20160531/049235.htm
+done: http://tech.qq.com/a/20160620/048238.htm
+done: http://tech.qq.com/a/20160601/038268.htm
+done: http://tech.qq.com/a/20160606/048034.htm
+done: http://tech.qq.com/a/20160612/039655.htm
+done: http://tech.qq.com/a/20160505/031621.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=984
+done: http://tech.qq.com/a/20160530/007387.htm
+done: http://tech.qq.com/a/20160621/006458.htm
+done: http://tech.qq.com/a/20160531/010493.htm
+done: http://tech.qq.com/a/20160607/012141.htm
+done: http://tech.qq.com/a/20160327/014957.htm
+done: http://tech.qq.com/a/20160528/014471.htm
+done: http://tech.qq.com/a/20160531/007796.htm
+done: http://tech.qq.com/a/20160608/007182.htm
+done: http://tech.qq.com/a/20160612/014202.htm
+done: http://tech.qq.com/a/20160615/027828.htm
+done: http://tech.qq.com/a/20160527/058478.htm
+done: http://tech.qq.com/a/20160513/018966.htm
+done: http://tech.qq.com/a/20160526/012196.htm
+done: http://tech.qq.com/a/20160612/041728.htm
+done: http://tech.qq.com/a/20160606/044229.htm
+done: http://tech.qq.com/a/20160617/014190.htm
+done: http://tech.qq.com/a/20160608/026704.htm
+done: http://tech.qq.com/a/20160621/044311.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=978
+done: http://tech.qq.com/a/20160413/064368.htm
+done: http://tech.qq.com/a/20160629/043264.htm
+done: http://tech.qq.com/a/20160616/029304.htm
+done: http://tech.qq.com/a/20160615/048428.htm
+done: http://tech.qq.com/a/20160619/009608.htm
+done: http://tech.qq.com/a/20160517/068400.htm
+done: http://tech.qq.com/a/20160327/018620.htm
+done: http://tech.qq.com/a/20160628/012191.htm
+done: http://tech.qq.com/a/20160603/031085.htm
+done: http://tech.qq.com/a/20160615/024006.htm
+done: http://tech.qq.com/a/20151112/014706.htm
+done: http://tech.qq.com/a/20160622/040929.htm
+done: http://tech.qq.com/a/20160627/008133.htm
+done: http://tech.qq.com/a/20160614/046536.htm
+done: http://tech.qq.com/a/20160613/006616.htm
+done: http://tech.qq.com/a/20160531/039546.htm
+done: http://tech.qq.com/a/20160615/008272.htm
+done: http://tech.qq.com/a/20160527/023637.htm
+done: http://tech.qq.com/a/20160627/008271.htm
+done: http://tech.qq.com/a/20160617/025571.htm
+done: http://tech.qq.com/a/20160607/015289.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=957
+done: http://tech.qq.com/a/20160623/051354.htm
+done: http://tech.qq.com/a/20160629/025697.htm
+done: http://tech.qq.com/a/20160628/042617.htm
+start depth 1
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 1 finish: 
+	total urls:	1
+	total time:	2 seconds
+start depth 2
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20160307/012813.htm#p=1
+done: http://tech.qq.com/a/20170110/027850.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=15
+done: http://tech.qq.com/a/20161115/003171.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#p=1
+done: http://tech.qq.com/a/20160127/009499.htm#p=1
+done: http://tech.qq.com/a/20170111/019226.htm
+done: http://tech.qq.com/a/20170111/003553.htm
+done: http://tech.qq.com/a/20170111/002574.htm
+done: http://tech.qq.com/a/20170110/036051.htm
+done: http://tech.qq.com/a/20170111/004863.htm
+done: http://tech.qq.com/a/20170111/027434.htm
+done: http://tech.qq.com/a/20170112/003774.htm
+done: http://tech.qq.com/a/20170112/003783.htm
+done: http://tech.qq.com/a/20170110/025362.htm
+done: http://tech.qq.com/a/20161220/037485.htm
+done: http://tech.qq.com/a/20170112/003523.htm
+done: http://tech.qq.com/a/20170111/006632.htm
+done: http://tech.qq.com/a/20170112/000211.htm
+done: http://tech.qq.com/a/20170112/004117.htm
+done: http://tech.qq.com/a/20170112/004252.htm
+done: http://tech.qq.com/a/20170110/000337.htm
+done: http://tech.qq.com/a/20170112/004013.htm
+done: http://tech.qq.com/a/20170111/036373.htm
+done: http://tech.qq.com/a/20170111/026229.htm
+done: http://tech.qq.com/a/20170112/005592.htm
+done: http://tech.qq.com/a/20170112/004498.htm
+done: http://tech.qq.com/a/20170112/006714.htm
+done: http://tech.qq.com/a/20170112/000095.htm
+done: http://tech.qq.com/a/20170112/006058.htm
+done: http://tech.qq.com/hzhbxx.htm
+done: http://tech.qq.com/map.htm
+done: http://tech.qq.com/original/sw/i37.html
+done: http://tech.qq.com/a/20170112/003886.htm
+done: http://tech.qq.com/p/topic/20161227029627/index.html
+done: http://tech.qq.com/a/20170112/004624.htm
+done: http://tech.qq.com/original/shenwang/shenwang.htm
+done: http://tech.qq.com/recode.htm
+done: http://tech.qq.com/dzsw.htm
+done: http://tech.qq.com/science.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=9
+done: http://tech.qq.com/a/20170111/025172.htm
+done: http://tech.qq.com/a/20170111/036332.htm
+done: http://tech.qq.com/zt2012/xiaoxiao/index.htm
+done: http://tech.qq.com/a/20170111/004784.htm
+done: http://tech.qq.com/#
+done: http://tech.qq.com/a/20170112/003641.htm
+done: http://tech.qq.com/tnw.htm
+done: http://tech.qq.com/zt2016/2016_bj/index.htm
+done: http://tech.qq.com/zt2015/now_again/index.htm
+done: http://tech.qq.com/zt2016/2016we/index.htm
+done: http://tech.qq.com/a/20170110/023603.htm
+done: http://tech.qq.com/a/20170111/015942.htm
+done: http://tech.qq.com/a/20170111/005112.htm
+done: http://tech.qq.com/web/lCompany.htm
+done: http://tech.qq.com/a/20170111/005933.htm
+done: http://tech.qq.com/a/20170111/018631.htm
+done: http://tech.qq.com/a/20170111/031937.htm
+done: http://tech.qq.com/a/20170111/004361.htm
+done: http://tech.qq.com/a/20170111/028256.htm
+done: http://tech.qq.com/a/20170110/016065.htm
+done: http://tech.qq.com/web/artificial.htm
+done: http://tech.qq.com/web/intelligent.htm
+done: http://tech.qq.com/zt2016/tencentPlus/index.htm
+done: http://tech.qq.com/a/20170111/019983.htm
+done: http://tech.qq.com/a/20170112/003508.htm
+done: http://tech.qq.com/a/20170112/000049.htm
+done: http://tech.qq.com/a/20170110/029044.htm
+done: http://tech.qq.com/a/20170111/038253.htm
+done: http://tech.qq.com/a/20170111/033400.htm
+done: http://tech.qq.com/zthd.htm
+done: http://tech.qq.com/a/20170111/033537.htm
+done: http://tech.qq.com/a/20170111/026591.htm
+done: http://tech.qq.com/a/20170111/036309.htm
+done: http://tech.qq.com/a/20170111/036813.htm
+done: http://tech.qq.com/a/20170111/023968.htm
+done: http://tech.qq.com/a/20170111/029021.htm
+done: http://tech.qq.com/a/20170111/029137.htm
+done: http://tech.qq.com/a/20170111/027582.htm
+done: http://tech.qq.com/a/20170111/005226.htm
+done: http://tech.qq.com/a/20170111/025893.htm
+done: http://tech.qq.com/a/20170111/004071.htm
+done: http://tech.qq.com/a/20170111/005469.htm
+done: http://tech.qq.com/a/20170111/031250.htm
+done: http://tech.qq.com/a/20170111/023726.htm
+done: http://tech.qq.com/web/zmt.htm
+done: http://tech.qq.com/zt2016/hatch/index.htm
+done: http://tech.qq.com/zt2016/alphaGo/index.htm
+done: http://tech.qq.com/web/newWy.htm
+done: http://tech.qq.com/zt2016/2016itlx/index.htm
+done: http://tech.qq.com/a/20170112/005200.htm
+done: http://tech.qq.com/a/20170112/005802.htm
+done: http://tech.qq.com/p/topic/20160918026376/index.html
+done: http://tech.qq.com/anotherway.htm
+done: http://tech.qq.com/a/20170112/005765.htm
+done: http://tech.qq.com/a/20170112/004309.htm
+done: http://tech.qq.com/a/20170112/004804.htm
+done: http://tech.qq.com/a/20170111/003490.htm
+-activeThreads=2, spinWaiting=0, fetchQueue.size=0
+done: http://tech.qq.com/a/20170111/036596.htm
+-activeThreads=1, spinWaiting=0, fetchQueue.size=0
+done: http://tech.qq.com/a/20170111/036358.htm
+-activeThreads=0, spinWaiting=0, fetchQueue.size=0
+clear all activeThread
+close generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+close segmentwriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+depth 2 finish: 
+	total urls:	99
+	total time:	4 seconds
+start depth 3
+start merge
+merge fetch database
+merge link database
+end merge
+remove fetch database
+remove link database
+open generator:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyGenerator
+init segmentWriter:cn.edu.hfut.dmic.webcollector.plugin.berkeley.BerkeleyDBManager
+done: http://tech.qq.com/a/20150331/070701.htm
+done: http://tech.qq.com/a/20151029/009909.htm
+done: http://tech.qq.com/a/20151030/011601.htm
+done: http://tech.qq.com/a/20150331/070508.htm
+done: http://tech.qq.com/a/20151028/010696.htm
+done: http://tech.qq.com/a/20150401/011668.htm
+done: http://tech.qq.com/a/20150408/062759.htm
+done: http://tech.qq.com/a/20150401/008248.htm
+done: http://tech.qq.com/a/20150408/072558.htm
+done: http://tech.qq.com/a/20150403/040482.htm
+done: http://tech.qq.com/a/20151108/023455.htm
+done: http://tech.qq.com/a/20150402/071490.htm
+done: http://tech.qq.com/a/20150402/046363.htm
+done: http://tech.qq.com/a/20150401/064184.htm
+done: http://tech.qq.com/a/20151114/023636.htm
+done: http://tech.qq.com/a/20150405/005789.htm
+done: http://tech.qq.com/a/20150413/068332.htm
+done: http://tech.qq.com/a/20151021/054434.htm
+done: http://tech.qq.com/a/20150408/010129.htm
+done: http://tech.qq.com/a/20151116/009646.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=930
+done: http://tech.qq.com/a/20150403/030725.htm
+done: http://tech.qq.com/a/20150410/022788.htm
+done: http://tech.qq.com/a/20150403/062636.htm
+done: http://tech.qq.com/a/20150407/001486.htm
+done: http://tech.qq.com/a/20151118/010573.htm
+done: http://tech.qq.com/a/20150402/064498.htm
+done: http://tech.qq.com/a/20150403/056593.htm
+done: http://tech.qq.com/a/20151113/011120.htm
+done: http://tech.qq.com/a/20150410/075287.htm
+done: http://tech.qq.com/a/20150408/038061.htm
+done: http://tech.qq.com/a/20151027/057105.htm
+done: http://tech.qq.com/a/20150619/009596.htm
+done: http://tech.qq.com/a/20150402/011118.htm
+done: http://tech.qq.com/a/20150715/004582.htm
+done: http://tech.qq.com/a/20151119/020732.htm
+done: http://tech.qq.com/a/20151113/012900.htm
+done: http://tech.qq.com/a/20151124/010290.htm
+done: http://tech.qq.com/a/20150401/049658.htm
+done: http://tech.qq.com/a/20151118/043184.htm
+done: http://tech.qq.com/a/20151108/030837.htm
+done: http://tech.qq.com/a/20151108/029124.htm
+done: http://tech.qq.com/a/20151108/027554.htm
+done: http://tech.qq.com/a/20151223/007003.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=977
+done: http://tech.qq.com/a/20151119/018466.htm
+done: http://tech.qq.com/a/20151225/008693.htm
+done: http://tech.qq.com/a/20150402/032448.htm
+done: http://tech.qq.com/a/20151224/012151.htm
+done: http://tech.qq.com/a/20151119/045331.htm
+done: http://tech.qq.com/a/20151112/059466.htm
+done: http://tech.qq.com/a/20150407/065563.htm
+done: http://tech.qq.com/a/20150401/055727.htm
+done: http://tech.qq.com/a/20160115/009075.htm
+done: http://tech.qq.com/a/20151111/013538.htm
+done: http://tech.qq.com/a/20160106/011631.htm
+done: http://tech.qq.com/a/20150405/005095.htm
+done: http://tech.qq.com/a/20151119/032079.htm
+done: http://tech.qq.com/a/20160112/008968.htm
+done: http://tech.qq.com/a/20151110/061424.htm
+done: http://tech.qq.com/a/20160128/011568.htm?pgv_ref=aio2015&ptlang=2052#
+done: http://tech.qq.com/a/20160302/038542.htm
+done: http://tech.qq.com/a/20151117/064468.htm
+done: http://tech.qq.com/a/20151108/024644.htm
+done: http://tech.qq.com/a/20151126/049758.htm
+done: http://tech.qq.com/a/20151126/049473.htm
+done: http://tech.qq.com/a/20151023/010371.htm
+done: http://tech.qq.com/a/20151118/049472.htm
+done: http://tech.qq.com/a/20151222/054388.htm
+done: http://tech.qq.com/a/20151222/063740.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=977
+done: http://tech.qq.com/a/20151119/025003.htm
+done: http://tech.qq.com/a/20160307/012813.htm#
+done: http://tech.qq.com/a/20151211/029723.htm
+done: http://tech.qq.com/a/20151120/036595.htm
+done: http://tech.qq.com/a/20151119/018955.htm
+done: http://tech.qq.com/a/20151118/029007.htm
+done: http://tech.qq.com/a/20151119/027319.htm
+done: http://tech.qq.com/a/20151221/053776.htm
+done: http://tech.qq.com/a/20160203/040571.htm
+done: http://tech.qq.com/a/20151119/033099.htm
+done: http://tech.qq.com/a/20151221/062236.htm
+done: http://tech.qq.com/a/20160311/050647.htm
+done: http://tech.qq.com/a/20151225/043930.htm
+done: http://tech.qq.com/a/20151202/038320.htm
+done: http://tech.qq.com/a/20160301/024236.htm
+done: http://tech.qq.com/a/20160127/009499.htm#
+done: http://tech.qq.com/a/20151224/053316.htm
+done: http://tech.qq.com/a/20160309/055228.htm
+done: http://tech.qq.com/a/20151119/053068.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20151120/039088.htm
+done: http://tech.qq.com/a/20150401/044669.htm
+done: http://tech.qq.com/a/20160107/018458.htm
+done: http://tech.qq.com/a/20150909/009339.htm
+done: http://tech.qq.com/a/20160311/054978.htm
+done: http://tech.qq.com/a/20151224/047425.htm
+done: http://tech.qq.com/a/20151112/056264.htm
+done: http://tech.qq.com/a/20151118/003348.htm
+done: http://tech.qq.com/a/20160309/053158.htm
+done: http://tech.qq.com/a/20160315/044079.htm
+done: http://tech.qq.com/a/20160307/014846.htm
+done: http://tech.qq.com/a/20150402/033569.htm
+done: http://tech.qq.com/a/20160314/061052.htm
+done: http://tech.qq.com/a/20160303/054748.htm
+done: http://tech.qq.com/a/20160314/057745.htm
+done: http://tech.qq.com/a/20160311/051253.htm
+done: http://tech.qq.com/a/20160315/035589.htm
+done: http://tech.qq.com/a/20151118/046724.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20160315/014495.htm
+done: http://tech.qq.com/a/20160224/064478.htm
+done: http://tech.qq.com/a/20160311/050990.htm
+done: http://tech.qq.com/a/20160312/024743.htm
+done: http://tech.qq.com/a/20160311/050050.htm
+done: http://tech.qq.com/a/20160309/041187.htm
+done: http://tech.qq.com/a/20160314/071431.htm
+done: http://tech.qq.com/a/20160312/009022.htm
+done: http://tech.qq.com/a/20160302/015291.htm
+done: http://tech.qq.com/a/20160318/053279.htm
+done: http://tech.qq.com/a/20160309/003313.htm
+done: http://tech.qq.com/a/20160316/005595.htm
+done: http://tech.qq.com/a/20160110/008895.htm
+done: http://tech.qq.com/a/20160315/011037.htm
+done: http://tech.qq.com/a/20160312/006571.htm
+done: http://tech.qq.com/a/20160125/060798.htm
+done: http://tech.qq.com/a/20160315/012901.htm
+done: http://tech.qq.com/a/20160311/029160.htm
+done: http://tech.qq.com/a/20151119/031786.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20160320/005932.htm
+done: http://tech.qq.com/a/20160312/016969.htm
+done: http://tech.qq.com/a/20160320/012339.htm
+done: http://tech.qq.com/a/20160319/035634.htm
+done: http://tech.qq.com/a/20160327/010864.htm#p=1
+done: http://tech.qq.com/a/20160318/054873.htm
+done: http://tech.qq.com/a/20160315/055218.htm
+done: http://tech.qq.com/a/20160312/021471.htm
+done: http://tech.qq.com/a/20160327/008877.htm#p=1
+done: http://tech.qq.com/a/20160307/012862.htm
+done: http://tech.qq.com/a/20160325/054913.htm
+done: http://tech.qq.com/a/20160320/006372.htm
+done: http://tech.qq.com/a/20160311/050431.htm
+done: http://tech.qq.com/a/20160308/018666.htm
+done: http://tech.qq.com/a/20160317/054037.htm
+done: http://tech.qq.com/a/20160315/049899.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=985
+done: http://tech.qq.com/a/20160315/015355.htm
+done: http://tech.qq.com/a/20160324/053032.htm
+done: http://tech.qq.com/a/20160326/032232.htm
+done: http://tech.qq.com/a/20160313/011691.htm
+done: http://tech.qq.com/a/20160325/052434.htm
+done: http://tech.qq.com/a/20160326/024481.htm
+done: http://tech.qq.com/a/20160327/016610.htm
+done: http://tech.qq.com/a/20160318/052908.htm
+done: http://tech.qq.com/a/20160321/007097.htm
+done: http://tech.qq.com/a/20160326/029907.htm
+done: http://tech.qq.com/a/20160326/022001.htm#p=1
+done: http://tech.qq.com/a/20160327/017728.htm
+done: http://tech.qq.com/a/20160327/013391.htm
+done: http://tech.qq.com/a/20160318/055921.htm
+done: http://tech.qq.com/a/20160315/038031.htm
+done: http://tech.qq.com/a/20160317/009615.htm
+done: http://tech.qq.com/a/20160317/055245.htm
+done: http://tech.qq.com/a/20160327/014957.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20160326/030993.htm
+done: http://tech.qq.com/a/20160408/008181.htm#p=1
+done: http://tech.qq.com/a/20160311/051125.htm
+done: http://tech.qq.com/a/20160307/068965.htm
+done: http://tech.qq.com/a/20160327/014984.htm
+done: http://tech.qq.com/a/20160327/013860.htm
+done: http://tech.qq.com/a/20160326/024933.htm
+done: http://tech.qq.com/a/20160327/018620.htm
+done: http://tech.qq.com/a/20160327/012583.htm
+done: http://tech.qq.com/a/20160326/029945.htm
+done: http://tech.qq.com/a/20151116/007990.htm
+done: http://tech.qq.com/a/20160409/005381.htm
+done: http://tech.qq.com/a/20160327/014454.htm
+done: http://tech.qq.com/a/20160326/025022.htm
+done: http://tech.qq.com/a/20160414/056344.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=986
+done: http://tech.qq.com/a/20160415/034827.htm
+done: http://tech.qq.com/a/20160327/019087.htm
+done: http://tech.qq.com/a/20151112/014706.htm
+done: http://tech.qq.com/a/20160328/018546.htm
+done: http://tech.qq.com/a/20150402/069701.htm
+done: http://tech.qq.com/a/20160327/019451.htm
+done: http://tech.qq.com/a/20160326/024146.htm
+done: http://tech.qq.com/a/20160327/014753.htm
+done: http://tech.qq.com/a/20160328/007375.htm
+done: http://tech.qq.com/a/20160401/010358.htm
+done: http://tech.qq.com/a/20160414/054700.htm
+done: http://tech.qq.com/a/20160328/010069.htm
+done: http://tech.qq.com/a/20160327/014785.htm
+done: http://tech.qq.com/a/20160415/050404.htm
+done: http://tech.qq.com/a/20160414/054851.htm
+done: http://tech.qq.com/a/20160326/031491.htm
+done: http://tech.qq.com/a/20160414/055334.htm
+done: http://tech.qq.com/a/20160409/025940.htm
+done: http://tech.qq.com/a/20160327/019248.htm
+done: http://tech.qq.com/a/20160327/021020.htm
+done: http://tech.qq.com/a/20160327/025994.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=986
+done: http://tech.qq.com/a/20160327/021304.htm
+done: http://tech.qq.com/a/20160414/057507.htm
+done: http://tech.qq.com/a/20160420/017290.htm
+done: http://tech.qq.com/a/20160327/013450.htm
+done: http://tech.qq.com/a/20151108/025758.htm
+done: http://tech.qq.com/a/20160417/006698.htm
+done: http://tech.qq.com/a/20160414/057135.htm
+done: http://tech.qq.com/a/20160327/024596.htm
+done: http://tech.qq.com/a/20160414/046622.htm
+done: http://tech.qq.com/a/20160426/010624.htm
+done: http://tech.qq.com/a/20160329/012488.htm
+done: http://tech.qq.com/a/20160327/024952.htm
+done: http://tech.qq.com/a/20160327/018271.htm
+done: http://tech.qq.com/a/20160415/009083.htm
+done: http://tech.qq.com/a/20151108/026082.htm
+done: http://tech.qq.com/a/20160414/055434.htm
+done: http://tech.qq.com/a/20160415/008953.htm
+done: http://tech.qq.com/a/20160419/011475.htm
+done: http://tech.qq.com/a/20160422/012041.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20160415/037618.htm
+done: http://tech.qq.com/a/20160418/007232.htm
+done: http://tech.qq.com/a/20160422/010466.htm
+done: http://tech.qq.com/a/20160425/056810.htm
+done: http://tech.qq.com/a/20160420/010590.htm
+done: http://tech.qq.com/a/20160426/008526.htm
+done: http://tech.qq.com/a/20160418/010612.htm
+done: http://tech.qq.com/a/20160415/058731.htm
+done: http://tech.qq.com/a/20160422/012677.htm
+done: http://tech.qq.com/a/20160509/008458.htm
+done: http://tech.qq.com/a/20160420/035354.htm
+done: http://tech.qq.com/a/20151108/029146.htm
+done: http://tech.qq.com/a/20160426/007994.htm
+done: http://tech.qq.com/a/20160429/011643.htm
+done: http://tech.qq.com/a/20160420/055897.htm
+done: http://tech.qq.com/a/20160425/056763.htm
+done: http://tech.qq.com/a/20160426/008032.htm
+done: http://tech.qq.com/a/20151027/057556.htm
+done: http://tech.qq.com/a/20160414/055511.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=982
+done: http://tech.qq.com/a/20160421/013845.htm
+done: http://tech.qq.com/a/20160424/028303.htm
+done: http://tech.qq.com/a/20160414/055975.htm
+done: http://tech.qq.com/a/20160429/011908.htm
+done: http://tech.qq.com/a/20160428/010642.htm
+done: http://tech.qq.com/a/20160510/059765.htm
+done: http://tech.qq.com/a/20160422/009683.htm
+done: http://tech.qq.com/a/20160509/009042.htm
+done: http://tech.qq.com/a/20160419/049428.htm
+done: http://tech.qq.com/a/20160516/057902.htm
+done: http://tech.qq.com/a/20160512/068821.htm
+done: http://tech.qq.com/a/20160503/040773.htm
+done: http://tech.qq.com/a/20160420/014412.htm
+done: http://tech.qq.com/a/20160426/008587.htm
+done: http://tech.qq.com/a/20160425/034252.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=987
+done: http://tech.qq.com/a/20160316/005998.htm
+done: http://tech.qq.com/a/20160508/006435.htm
+done: http://tech.qq.com/a/20160513/019343.htm
+done: http://tech.qq.com/a/20160516/054651.htm
+done: http://tech.qq.com/a/20160517/031657.htm
+done: http://tech.qq.com/a/20160315/034975.htm
+done: http://tech.qq.com/a/20160513/018966.htm
+done: http://tech.qq.com/a/20160327/022841.htm
+done: http://tech.qq.com/a/20160421/020989.htm
+done: http://tech.qq.com/a/20160519/072595.htm
+done: http://tech.qq.com/a/20160516/056333.htm
+done: http://tech.qq.com/a/20160506/014312.htm
+done: http://tech.qq.com/a/20160517/078745.htm
+done: http://tech.qq.com/a/20160519/055597.htm
+done: http://tech.qq.com/a/20160519/056967.htm
+done: http://tech.qq.com/a/20160520/047261.htm
+done: http://tech.qq.com/a/20160526/025907.htm
+done: http://tech.qq.com/a/20160509/055472.htm
+done: http://tech.qq.com/a/20160511/015681.htm
+-activeThreads=50, spinWaiting=0, fetchQueue.size=981
+done: http://tech.qq.com/a/20160525/052346.htm
+done: http://tech.qq.com/a/20160413/064368.htm
+done: http://tech.qq.com/a/20160509/027228.htm
+done: http://tech.qq.com/a/20160429/007717.htm
+done: http://tech.qq.com/a/20160509/013114.htm
+done: http://tech.qq.com/a/20160505/031621.htm

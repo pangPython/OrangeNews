@@ -174,4 +174,16 @@ public class NewsDao extends BaseDao{
 		return num;
 	}
 	
+	//向数据库中插入新闻
+	public int insert(News news) throws SQLException{
+		String sql = "insert into news(title,content,author,type,summary,hits) values('"
+				+ news.getTitle()+"','"
+				+news.getContent()+"','"
+				+news.getAuthor()+"',"
+				+news.getType()+",'"
+				+news.getSummary()+"',"
+				+news.getHits()+")";
+		return this.getStat().executeUpdate(sql);
+	}
+	
 }

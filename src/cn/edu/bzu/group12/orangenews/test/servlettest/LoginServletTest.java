@@ -54,10 +54,11 @@ public class LoginServletTest {
 		
 	}
 	
+	//≤‚ ‘∑Ω∑®
 	@Test
 	public void  loginSuccess() throws ServletException, IOException {
 		EasyMock.expect(mockRequest.getParameter("user_name")).andReturn("admin").times(1);
-		EasyMock.expect(mockRequest.getParameter("user_pwd")).andReturn("1211").times(1);
+		EasyMock.expect(mockRequest.getParameter("user_pwd")).andReturn("111").times(1);
 		EasyMock.expect(mockServletContext.getRequestDispatcher("/error.jsp")).andReturn(mockDispatcher).times(1);
 		mockDispatcher.forward(mockRequest, mockResponse);
 		EasyMock.expectLastCall();
@@ -65,6 +66,12 @@ public class LoginServletTest {
 		loginServlet.service(mockRequest, mockResponse);
 		EasyMock.verify(mockDispatcher);
 	}
+	
+	@Test
+	public void loginFail() {
+		
+	}
+	
 	
 	
 }

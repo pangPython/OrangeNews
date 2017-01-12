@@ -1,9 +1,7 @@
 package cn.edu.bzu.group12.orangenews.servlet;
 
 import java.io.IOException;
-import java.sql.SQLException;
 
-import javax.jms.Session;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -14,16 +12,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import javax.xml.ws.Dispatch;
 
 import org.apache.log4j.Logger;
 
 import cn.edu.bzu.group12.orangenews.bean.User;
-import cn.edu.bzu.group12.orangenews.dao.BaseDao;
 import cn.edu.bzu.group12.orangenews.service.UserService;
 
 /**
- * @author pangPython µÇÂ¼servlet
+ * @author pangPython µÇÂ¼Servlet
  */
 public class LoginServlet extends HttpServlet {
 
@@ -66,9 +62,9 @@ public class LoginServlet extends HttpServlet {
 				// ÉèÖÃ¿Í»§¶Ëcookie
 				((HttpServletResponse) rsp).addCookie(cookie);
 				log.debug("´´½¨cookie³É¹¦£¡");
-				((HttpServletResponse)rsp).sendRedirect("usercenter.jsp");
+				//((HttpServletResponse)rsp).sendRedirect("usercenter.jsp");
 //				req.setAttribute("user", user);
-//				req.getRequestDispatcher("/usercenter").forward(req, rsp);
+				req.getRequestDispatcher("/usercenter").forward(req, rsp);
 			} else {
 				// µÇÂ¼Ê§°Ü
 				req.setAttribute("error_info", "µÇÂ¼Ê§°Ü£¡");
