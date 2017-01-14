@@ -1,22 +1,23 @@
 package cn.edu.bzu.group12.orangenews.servlet;
 
 import java.io.IOException;
-import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 
 import cn.edu.bzu.group12.orangenews.bean.User;
 import cn.edu.bzu.group12.orangenews.service.UserService;
 
+
+
+/**
+ * @author pangPython
+ *		用户注册
+ */
 public class RegisterServlet extends HttpServlet {
 
 	/**
@@ -31,7 +32,6 @@ public class RegisterServlet extends HttpServlet {
 			throws ServletException, IOException {
 		//获取表单数据
 		User user = new User();
-		int user_id = 0;
 		String user_name =  (String) req.getParameter("user_name");
 		int user_sex  = Integer.parseInt(req.getParameter("sex")) ;
 		String pwd = (String) req.getParameter("pwd");
