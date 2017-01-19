@@ -52,6 +52,7 @@ public class TencentTechNewsCrawler extends BreadthCrawler {
 		//类型设置1到6的随机数
 		news.setType((new Random().nextInt()+1)%6);
 		try {
+			//此处先添加到List在最后写入会比每次都写入性能好
 			newsDao.insert(news);
 		} catch (SQLException e) {
 			e.printStackTrace();
